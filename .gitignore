@@ -1,0 +1,28 @@
+# Raw / scraped source data (redistribution terms unclear)
+data/raw/
+data/external/
+
+# Databases
+*.duckdb
+*.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Trained model artifacts
+/models/
+/artifacts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
