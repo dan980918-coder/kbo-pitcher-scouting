@@ -43,6 +43,26 @@ BIRTHDATE_OVERRIDE = {
     "에니 로메로": "1991-01-24",
 }
 
+# Players whose FanGraphs search-based match required manual resolution in
+# the first collection pass (nickname-form registered names the automated
+# name_variants() doesn't generate, e.g. "John Dale Martin" -> "J.D. Martin";
+# or a birth_date in our roster that differs from FanGraphs' by 1 day/1-3
+# years for a handful of players, cross-checked at the time against
+# MLB Stats API's mlbDebutDate for plausibility). Hardcoded here so a re-run
+# resolves them directly instead of repeating the two-pass manual patch.
+FANGRAPHS_ID_OVERRIDE = {
+    "재크 스튜어트": ("7397", "/players/zach-stewart/7397/stats/pitching"),
+    "알렉산드로 마에스트리": ("sa328310", "/players/alessandro-maestri/sa328310/stats/pitching"),
+    "제이콥 터너": ("10185", "/players/jacob-turner/10185/stats/pitching"),
+    "채드 벨": ("10297", "/players/chad-bell/10297/stats/pitching"),
+    "마이크 라이트": ("12586", "/players/mike-wright-jr/12586/stats/pitching"),
+    "조시 스미스": ("10946", "/players/josh-a-smith/10946/stats/pitching"),
+    "토마스 파노니": ("17281", "/players/thomas-pannone/17281/stats/pitching"),
+    "케니 로젠버그": ("20009", "/players/kenny-rosenberg/20009/stats/pitching"),
+    "파커 마켈": ("12106", "/players/parker-markel/12106/stats/pitching"),
+    "에니 로메로": ("4001", "/players/enny-romero/4001/stats/pitching"),
+}
+
 # levels we keep in the season-by-season output; KBO is the project's target
 # variable so it is explicitly excluded even though FanGraphs includes it in
 # the same feed. MiLB is FanGraphs' own combined-level rollup for players who
@@ -50,7 +70,25 @@ BIRTHDATE_OVERRIDE = {
 # is_split_row flag, so we skip it to avoid double counting.
 KEEP_LEVELS = {"MLB", "AAA", "AA", "A+", "A", "A-", "R", "Rookie"}
 
-STAT_FIELDS = ["G", "GS", "IP", "ERA", "K/9", "BB/9", "HR/9", "FIP", "xFIP", "WAR"]
+STAT_FIELDS = ["G", "GS", "IP", "ERA", "K/9", "BB/9", "HR/9", "FIP", "xFIP", "WAR",
+               "ERA-", "FIP-", "xFIP-"]
+
+FIELD_KEY_MAP = {"ERA-": "ERA_minus", "FIP-": "FIP_minus", "xFIP-": "xFIP_minus"}
+
+
+def field_key(f):
+    return FIELD_KEY_MAP.get(f, f.replace("/", "_"))
+
+
+LOW_SAMPLE_IP_THRESHOLD = 30
+
+
+def ip_true_decimal(ip_raw):
+    if ip_raw is None:
+        return None
+    whole = int(ip_raw)
+    frac_digit = round((ip_raw - whole) * 10)
+    return whole + frac_digit / 3.0
 
 
 def api_get(url):
@@ -162,13 +200,15 @@ def parse_rows(raw_rows, kbo_year, kor_name, eng_name, fg_id):
             is_split = 1 if rtype >= 1 else 0
         else:
             is_split = 1 if counts.get((season, level), 1) > 1 else 0
+        ip_true = ip_true_decimal(row.get("IP"))
         out_row = {
             "선수명": kor_name, "english_name": eng_name, "fangraphs_id": fg_id,
             "level": level, "season": season, "team": row.get("ateam", ""),
             "is_split_row": is_split,
+            "low_sample_flag": 1 if (ip_true is not None and ip_true < LOW_SAMPLE_IP_THRESHOLD) else 0,
         }
         for f in STAT_FIELDS:
-            key = f.replace("/", "_")
+            key = field_key(f)
             v = row.get(f, "")
             out_row[key] = v if v is not None else ""
         out.append(out_row)
@@ -197,7 +237,7 @@ def career_pre_kbo_mlb_war(raw_rows, kbo_year):
 
 
 def main():
-    with open(f"{ROOT}/data/rosters/new_import_pitchers_2014_2025_draft_v2.csv", encoding="utf-8") as f:
+    with open(f"{ROOT}/data/raw/new_import_pitchers_2014_2025_draft_v2.csv", encoding="utf-8") as f:
         roster = list(csv.DictReader(f))
 
     all_rows = []
@@ -210,12 +250,16 @@ def main():
         bd = BIRTHDATE_OVERRIDE.get(kor, r["birth_date"].strip())
         kbo_year = int(r["연도"])
 
-        if not eng or not bd:
+        if kor in FANGRAPHS_ID_OVERRIDE:
+            pid, url = FANGRAPHS_ID_OVERRIDE[kor]
+            hit, variant, status = {"id": pid, "url": url, "level": ["minor", "mlb"]}, eng, "id_override_from_prior_manual_resolution"
+        elif not eng or not bd:
             match_log.append({"선수명": kor, "status": "skipped_no_english_name_or_birthdate"})
             print(f"[{i}/167] {kor}: SKIP (no english_name/birth_date)")
             continue
+        else:
+            hit, variant, status = find_player(eng, bd)
 
-        hit, variant, status = find_player(eng, bd)
         if not hit:
             match_log.append({"선수명": kor, "status": "unresolved", "tried": eng})
             print(f"[{i}/167] {kor} ({eng}): UNRESOLVED")
@@ -223,7 +267,7 @@ def main():
 
         match_log.append({
             "선수명": kor, "status": status, "matched_variant": variant,
-            "fangraphs_id": hit["id"], "fangraphs_name": hit.get("name"),
+            "fangraphs_id": hit["id"], "fangraphs_name": hit.get("name", eng),
         })
 
         levels = hit.get("level") or []
@@ -254,26 +298,28 @@ def main():
         time.sleep(REQUEST_DELAY)
 
     out_cols = ["선수명", "english_name", "fangraphs_id", "level", "season", "team", "is_split_row",
-                "G", "GS", "IP", "ERA", "K_9", "BB_9", "HR_9", "FIP", "xFIP", "WAR"]
-    with open(f"{ROOT}/data/rosters/fangraphs_career_stats.csv", "w", encoding="utf-8", newline="") as f:
+                "low_sample_flag", "G", "GS", "IP", "ERA", "K_9", "BB_9", "HR_9", "FIP", "xFIP", "WAR",
+                "ERA_minus", "FIP_minus", "xFIP_minus"]
+    with open(f"{ROOT}/data/raw/fangraphs_career_stats.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=out_cols)
         w.writeheader()
         w.writerows(all_rows)
 
     war_cols = ["선수명", "english_name", "fangraphs_id", "mlb_war_career_pre_kbo", "n_mlb_seasons_pre_kbo"]
-    with open(f"{ROOT}/data/rosters/fangraphs_mlb_war_summary.csv", "w", encoding="utf-8", newline="") as f:
+    with open(f"{ROOT}/data/raw/fangraphs_mlb_war_summary.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=war_cols)
         w.writeheader()
         w.writerows(war_summary)
 
     log_cols = ["선수명", "status", "matched_variant", "fangraphs_id", "fangraphs_name", "tried"]
-    with open(f"{ROOT}/data/rosters/fangraphs_match_log.csv", "w", encoding="utf-8", newline="") as f:
+    with open(f"{ROOT}/docs/fangraphs_match_log.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=log_cols)
         w.writeheader()
         for row in match_log:
             w.writerow({k: row.get(k, "") for k in log_cols})
 
-    print(f"\nDone. {len(all_rows)} season rows -> fangraphs_career_stats.csv")
+    n_low = sum(1 for row in all_rows if row["low_sample_flag"] == 1)
+    print(f"\nDone. {len(all_rows)} season rows -> fangraphs_career_stats.csv ({n_low} low_sample_flag=1, IP<{LOW_SAMPLE_IP_THRESHOLD})")
     print(f"{len(war_summary)} WAR summary rows -> fangraphs_mlb_war_summary.csv")
     print(f"{len(match_log)} match log entries -> fangraphs_match_log.csv")
 
