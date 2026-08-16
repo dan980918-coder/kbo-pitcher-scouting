@@ -34,7 +34,8 @@
 ### 수집 대상
 
 * **MLB/MiLB(AAA 중심)**: MLB Stats API(`statsapi.mlb.com`)로 raw stat(ERA, IP, K, BB, HR, HBP, GS 등)을 수집한다.
-* **파생지표**: FIP, K%, BB%, K-BB%, HR/9 등은 공식으로 직접 계산한다. FanGraphs 유료 구독을 우회하는 스크래핑은 하지 않는다.
+* **파생지표(FIP/xFIP) 및 WAR**: FanGraphs 개별 선수 페이지(`/players/.../stats/pitching`)의 Minor Leagues 탭에서 공식값을 그대로 수집한다. robots.txt로 `/players/...` 경로가 막혀있지 않고, 무명 선수 다수로 확인한 결과 로그인/구독 요구 없이 K/9·BB/9·HR/9·FIP·xFIP가 AAA까지 전부 채워지는 것을 확인했다(WAR만 예외 — §데이터 처리 원칙의 AAA WAR 미제공 항목 참고). 최종 FIP/xFIP 값은 FanGraphs 공식값을 사용하며, MLB Stats API raw stat 기반 자체 계산 FIP는 최종 데이터셋 컬럼에 포함하지 않고 **검증 용도로만** 사용했다.
+* **FIP 검증(raw stat 수집 로직 정합성 확인)**: MLB Stats API의 raw stat(HR/BB/HBP/K/IP)으로 FIP를 직접 계산(FanGraphs 공식 연도별 상수 cFIP 사용)해 FanGraphs 공식 FIP와 대조한 결과(`data/rosters/fip_verification.csv`, n=1,025행) — **MLB 레벨(n=473)은 평균 절대오차 0.0000으로 완전 일치**, raw stat 수집 로직이 정확함을 확인했다. **AAA 레벨(n=552)은 평균 절대오차 0.361, 부호있는 평균차 -0.360으로 거의 같고 552건 중 550건(99.6%)이 전부 같은 방향(자체 계산값이 낮음)으로 치우쳐 있다** — 노이즈가 아니라 사실상 일정한 상수 오프셋이며, MLB용 cFIP를 AAA 이닝에 그대로 적용해 생긴 체계적 차이로 판단한다(raw stat 자체의 문제가 아님, AAA 전용 상수를 다시 추정하는 작업은 진행하지 않음 — 최종 데이터셋은 FanGraphs 공식 FIP를 그대로 쓰므로 불필요).
 * **KBO 첫 시즌 성과**(WAR 등): STATIZ에서 수집한다. 정적 HTML 스크래핑만 사용하고, robots.txt를 확인한 뒤 rate limit을 적용한다.
 * **Baseball-Reference**: 이용약관상 자동 수집 대상에서 제외한다.
 
@@ -44,6 +45,9 @@
 * 2020년 MiLB 기록은 코로나로 시즌이 취소된 구조적 결측이다. 일반 결측과 다르게 처리한다(`milb_2020_cancelled` 플래그 등).
 * **KBO 정규시즌 0경기(가용성 실패) 처리**: 신규 외국인 투수로 계약했지만 부상 등으로 정규시즌에 단 한 경기도 출전하지 못한 선수는 모집단에서 제외하지 않는다(§3의 survivorship bias 방지 원칙과 동일한 이유). 다만 STATIZ는 이런 선수의 개인 페이지 자체를 생성하지 않는 것으로 확인되어(예: 2023 SSG 에니 로메로), WAR 값을 0으로 채우지 않고 `kbo_no_appearance=1` 플래그로 표시한 뒤 **결측(missing)** 으로 처리한다. 메인 WAR 회귀 타깃에서는 제외하고, "가용성(availability) 실패" 사례로 별도 집계한다.
 * **nationality 잠정값**: `nationality` 컬럼은 STATIZ 프로필 박스에 해당 항목이 없어, 대신 영문 위키백과 인포박스에서 166/167명분을 채웠다(`nationality_source=wiki_provisional`). MLB Stats API 수집 단계에서 공식 필드(`birthCountry`)로 재검증 후 덮어쓸 예정이며, 그 전까지는 참고용 잠정값으로 취급한다.
+* **AAA Statcast(구종별 usage%/구속/whiff%/run value) 미수집**: Baseball Savant의 공개 리더보드(`pitch-arsenal-stats`, `pitch-arsenals`)는 `minors=true` 파라미터를 붙여도 MLB 데이터와 완전히 동일한 응답을 반환하며, `statcast_search` raw pitch-level 엔드포인트도 AAA 전용 선수(예: 알렉 감보아, MLB person id 687941)를 조회하면 0건이 나온다. 즉 AAA(Triple-A) 수준의 Statcast/Hawk-Eye 구종 데이터는 공개 소스로 접근할 방법을 찾지 못했다. 구종 데이터는 MLB 레벨에서만 수집하며, AAA는 처음부터 전부 결측으로 처리한다.
+* **MLB Statcast 구종 데이터의 연도 경계**: Baseball Savant 리더보드를 연도별로 직접 조회한 결과, `pitch-arsenal-stats`(usage%/whiff%/run value per 100)는 **2017 시즌부터** 데이터가 존재하고 2015~2016은 완전히 빈 응답이다. `pitch-arsenals`(구종별 평균 구속)는 Statcast 전면 도입 첫해인 **2015 시즌부터** 데이터가 존재한다. 이 때문에 선수의 "KBO 입성 직전 MLB 시즌"이 어느 구간에 속하느냐에 따라 구종 피처의 가용 범위가 다르며, 이는 `statcast_metrics_available` 플래그(`full`=2017+, `velo_only`=2015-2016, `none`=~2014 또는 MLB 기록 자체 없음)로 표시한다.
+* **AAA WAR 미제공**: MLB Stats API·FanGraphs 둘 다 AAA(마이너리그) 레벨에는 WAR을 제공하지 않는다(FanGraphs 개별 선수 페이지의 Minor Leagues 탭에서 무명 선수 다수를 확인한 결과, K/9·BB/9·HR/9·FIP·xFIP는 AAA까지 전부 채워지지만 WAR 컬럼만 모든 마이너리그 행에서 예외 없이 공란이었다 — 페이월/결측이 아니라 애초에 계산·게시되지 않는 지표). 이에 따라 AAA WAR은 하나의 값으로 압축해서 대체하지 않고, 대신 AAA FIP·K-BB%·HR/9·커리어 누적 IP 등 원재료 지표를 모델 입력변수로 그대로 사용한다. 이 대체가 타당했는지는 이후 모델링 단계에서 feature importance로 검증한다.
 
 ---
 

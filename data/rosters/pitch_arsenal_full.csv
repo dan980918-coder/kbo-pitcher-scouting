@@ -1,0 +1,507 @@
+선수명,english_name,mlb_person_id,savant_season,statcast_metrics_available,pitch_type,pitch_name,pitch_usage_pct,avg_velocity,whiff_pct,run_value_per_100,pitches
+콜린 벨레스터,Collin Thomas Balester,444446,2015,velo_only,FF,,,92.5,,,
+콜린 벨레스터,Collin Thomas Balester,444446,2015,velo_only,SI,,,92.9,,,
+콜린 벨레스터,Collin Thomas Balester,444446,2015,velo_only,CH,,,85.2,,,
+콜린 벨레스터,Collin Thomas Balester,444446,2015,velo_only,CU,,,77.8,,,
+앨런 웹스터,Carl Allen Webster,543903,2015,velo_only,FF,,,92,,,
+앨런 웹스터,Carl Allen Webster,543903,2015,velo_only,SI,,,92.1,,,
+앨런 웹스터,Carl Allen Webster,543903,2015,velo_only,SL,,,85.9,,,
+앨런 웹스터,Carl Allen Webster,543903,2015,velo_only,CH,,,84.3,,,
+앨런 웹스터,Carl Allen Webster,543903,2015,velo_only,CU,,,77.4,,,
+아놀드 레온,Arnold Leon,504186,2015,velo_only,FF,,,92.3,,,
+아놀드 레온,Arnold Leon,504186,2015,velo_only,SL,,,85.1,,,
+아놀드 레온,Arnold Leon,504186,2015,velo_only,CH,,,82,,,
+아놀드 레온,Arnold Leon,504186,2015,velo_only,CU,,,73.7,,,
+요한 플란데,Yohan Flande,456071,2015,velo_only,FF,,,91.3,,,
+요한 플란데,Yohan Flande,456071,2015,velo_only,SI,,,91.3,,,
+요한 플란데,Yohan Flande,456071,2015,velo_only,SL,,,85.5,,,
+요한 플란데,Yohan Flande,456071,2015,velo_only,CH,,,85.8,,,
+데이비드 허프,David Gregory Huff,453307,2015,velo_only,FF,,,92.3,,,
+데이비드 허프,David Gregory Huff,453307,2015,velo_only,FC,,,89.8,,,
+데이비드 허프,David Gregory Huff,453307,2015,velo_only,SL,,,80.9,,,
+데이비드 허프,David Gregory Huff,453307,2015,velo_only,CH,,,83.3,,,
+헥터 노에시,Hector Noesi,456051,2015,velo_only,FF,,,93.8,,,
+헥터 노에시,Hector Noesi,456051,2015,velo_only,SI,,,93.8,,,
+헥터 노에시,Hector Noesi,456051,2015,velo_only,SL,,,89.7,,,
+헥터 노에시,Hector Noesi,456051,2015,velo_only,CH,,,87.5,,,
+헥터 노에시,Hector Noesi,456051,2015,velo_only,CU,,,81.6,,,
+에릭 서캠프,Eric M. Surkamp,474668,2015,velo_only,FF,,,88.4,,,
+에릭 서캠프,Eric M. Surkamp,474668,2015,velo_only,SI,,,87.7,,,
+에릭 서캠프,Eric M. Surkamp,474668,2015,velo_only,CH,,,80.5,,,
+에릭 서캠프,Eric M. Surkamp,474668,2015,velo_only,CU,,,78.1,,,
+슈가 마리몬,Sugar Ray Marimon,516970,2015,velo_only,FF,,,91.8,,,
+슈가 마리몬,Sugar Ray Marimon,516970,2015,velo_only,SI,,,92,,,
+슈가 마리몬,Sugar Ray Marimon,516970,2015,velo_only,CH,,,82.6,,,
+슈가 마리몬,Sugar Ray Marimon,516970,2015,velo_only,CU,,,79.9,,,
+요한 피노,Yohan Pino,464416,2015,velo_only,FF,,,89.8,,,
+요한 피노,Yohan Pino,464416,2015,velo_only,SI,,,88.3,,,
+요한 피노,Yohan Pino,464416,2015,velo_only,SL,,,83,,,
+요한 피노,Yohan Pino,464416,2015,velo_only,CH,,,83.1,,,
+요한 피노,Yohan Pino,464416,2015,velo_only,CU,,,74.2,,,
+앤서니 레나도,Anthony Ranaudo,519168,2016,velo_only,FF,,,91.6,,,
+앤서니 레나도,Anthony Ranaudo,519168,2016,velo_only,SL,,,83.8,,,
+앤서니 레나도,Anthony Ranaudo,519168,2016,velo_only,CH,,,85,,,
+앤서니 레나도,Anthony Ranaudo,519168,2016,velo_only,CU,,,80.4,,,
+팻 딘,Patrick Michael Dean,534737,2016,velo_only,FF,,,90.1,,,
+팻 딘,Patrick Michael Dean,534737,2016,velo_only,SL,,,85.8,,,
+팻 딘,Patrick Michael Dean,534737,2016,velo_only,CH,,,85.1,,,
+팻 딘,Patrick Michael Dean,534737,2016,velo_only,CU,,,77.1,,,
+제프 맨쉽,Jeff Manship,453249,2016,velo_only,FF,,,91.4,,,
+제프 맨쉽,Jeff Manship,453249,2016,velo_only,SI,,,91.5,,,
+제프 맨쉽,Jeff Manship,453249,2016,velo_only,CH,,,86.6,,,
+제프 맨쉽,Jeff Manship,453249,2016,velo_only,CU,,,83.6,,,
+돈 로치,Donn Roach,543698,2016,velo_only,SI,,,92.3,,,
+돈 로치,Donn Roach,543698,2016,velo_only,CU,,,78.4,,,
+스캇 다이아몬드,Scott Michael Diamond,539438,2016,velo_only,FF,,,89.1,,,
+스캇 다이아몬드,Scott Michael Diamond,539438,2016,velo_only,CH,,,84.3,,,
+스캇 다이아몬드,Scott Michael Diamond,539438,2016,velo_only,CU,,,77.9,,,
+션 오설리반,Sean Daniel O'Sullivan,457711,2016,velo_only,FF,,,91.4,,,
+션 오설리반,Sean Daniel O'Sullivan,457711,2016,velo_only,SI,,,90.1,,,
+션 오설리반,Sean Daniel O'Sullivan,457711,2016,velo_only,SL,,,81.8,,,
+션 오설리반,Sean Daniel O'Sullivan,457711,2016,velo_only,CH,,,82.8,,,
+션 오설리반,Sean Daniel O'Sullivan,457711,2016,velo_only,CU,,,73.8,,,
+제이크 브리검,Jake Brigham,502010,2015,velo_only,FF,,,92.3,,,
+제이크 브리검,Jake Brigham,502010,2015,velo_only,SI,,,91.6,,,
+제이크 브리검,Jake Brigham,502010,2015,velo_only,SL,,,85.3,,,
+제이크 브리검,Jake Brigham,502010,2015,velo_only,CH,,,85.3,,,
+제이크 브리검,Jake Brigham,502010,2015,velo_only,CU,,,78.1,,,
+세스 프랭코프,Seth Frankoff,571676,2017,full,SI,Sinker,48.6,91.5,16.7,-4.7,18
+세스 프랭코프,Seth Frankoff,571676,2017,full,CU,Curveball,13.5,77.5,0,-7.1,5
+세스 프랭코프,Seth Frankoff,571676,2017,full,SL,Slider,32.4,87.5,33.3,2.2,12
+팀 아델만,Timothy Max Adleman,534947,2017,full,FF,4-Seam Fastball,55.1,90,21.9,-0.9,1146
+팀 아델만,Timothy Max Adleman,534947,2017,full,CH,Changeup,20,84.2,30,0.1,415
+팀 아델만,Timothy Max Adleman,534947,2017,full,SI,Sinker,9.7,90,8,-4.9,201
+팀 아델만,Timothy Max Adleman,534947,2017,full,CU,Curveball,15.2,74.1,40.5,0.2,316
+리살베르토 보니야,Lisalverto Bonilla,570810,2017,full,FF,4-Seam Fastball,35.6,92.3,11.7,-2.4,231
+리살베르토 보니야,Lisalverto Bonilla,570810,2017,full,CH,Changeup,27.1,84.4,34.1,-1.1,176
+리살베르토 보니야,Lisalverto Bonilla,570810,2017,full,CU,Curveball,23.3,79.6,36.8,-1.7,151
+리살베르토 보니야,Lisalverto Bonilla,570810,2017,full,SI,Sinker,14,91.6,25.8,-1,91
+타일러 윌슨,Tylor Wilson,592869,2017,full,FF,4-Seam Fastball,49.2,90.8,19.2,2.4,130
+타일러 윌슨,Tylor Wilson,592869,2017,full,CU,Curveball,21.2,81.6,25,-4.1,56
+타일러 윌슨,Tylor Wilson,592869,2017,full,SI,Sinker,18.9,90.1,14.3,-10.1,50
+타일러 윌슨,Tylor Wilson,592869,2017,full,CH,Changeup,6.8,82.7,20,-0.2,18
+타일러 윌슨,Tylor Wilson,592869,2017,full,FC,Cutter,3.8,92.1,20,-3.2,10
+펠릭스 듀브론트,Felix Antonio Doubront,467094,2015,velo_only,FF,,,91.3,,,
+펠릭스 듀브론트,Felix Antonio Doubront,467094,2015,velo_only,SI,,,91.4,,,
+펠릭스 듀브론트,Felix Antonio Doubront,467094,2015,velo_only,FC,,,87.5,,,
+펠릭스 듀브론트,Felix Antonio Doubront,467094,2015,velo_only,CH,,,84.5,,,
+펠릭스 듀브론트,Felix Antonio Doubront,467094,2015,velo_only,CU,,,76.2,,,
+키버스 샘슨,Keyvius Sampson,572102,2016,velo_only,FF,,,93.7,,,
+키버스 샘슨,Keyvius Sampson,572102,2016,velo_only,SL,,,86.9,,,
+키버스 샘슨,Keyvius Sampson,572102,2016,velo_only,CH,,,85.5,,,
+키버스 샘슨,Keyvius Sampson,572102,2016,velo_only,CU,,,76.9,,,
+제이슨 휠러,Jason Wheeler,605528,2017,full,FF,4-Seam Fastball,30.4,88.5,12.5,-6.9,17
+제이슨 휠러,Jason Wheeler,605528,2017,full,SL,Slider,21.4,82,0,-1.6,12
+제이슨 휠러,Jason Wheeler,605528,2017,full,SI,Sinker,28.6,88.1,0,-2.5,16
+제이슨 휠러,Jason Wheeler,605528,2017,full,CH,Changeup,19.6,81,33.3,-9.1,11
+데이비드 헤일,David E. Hale,571735,2016,velo_only,FF,,,90.3,,,
+데이비드 헤일,David E. Hale,571735,2016,velo_only,SI,,,90.3,,,
+데이비드 헤일,David E. Hale,571735,2016,velo_only,CH,,,80.6,,,
+데이비드 헤일,David E. Hale,571735,2016,velo_only,CU,,,80.3,,,
+로건 베렛,Scott Logan Verrett,548337,2017,full,SL,Slider,34,85.2,40,-1.4,53
+로건 베렛,Scott Logan Verrett,548337,2017,full,SI,Sinker,19.9,90.5,17.6,-3.9,31
+로건 베렛,Scott Logan Verrett,548337,2017,full,FF,4-Seam Fastball,30.8,90.7,22.7,-1.3,48
+로건 베렛,Scott Logan Verrett,548337,2017,full,CH,Changeup,10.3,85.5,44.4,4,16
+로건 베렛,Scott Logan Verrett,548337,2017,full,CU,Curveball,5.1,80.1,0,0.3,8
+왕웨이중,Wei-Chung Wang,623913,2017,full,SL,Slider,53.1,86.2,50,1.4,17
+왕웨이중,Wei-Chung Wang,623913,2017,full,FF,4-Seam Fastball,28.1,93.7,16.7,-17.8,9
+왕웨이중,Wei-Chung Wang,623913,2017,full,CU,Curveball,6.3,85.1,0,-19.5,2
+왕웨이중,Wei-Chung Wang,623913,2017,full,SI,Sinker,9.4,95.5,0,-15.7,3
+앙헬 산체스,Angel Luis Sanchez,605795,2017,full,FF,4-Seam Fastball,48.6,96,9.4,-0.2,101
+앙헬 산체스,Angel Luis Sanchez,605795,2017,full,FC,Cutter,21.6,91.4,34.8,-4.9,45
+앙헬 산체스,Angel Luis Sanchez,605795,2017,full,CH,Changeup,15.9,90.1,55,-6,33
+앙헬 산체스,Angel Luis Sanchez,605795,2017,full,CU,Curveball,13.9,82,36.4,2.1,29
+덱 맥과이어,William Deck McGuire,592547,2018,full,FF,4-Seam Fastball,56.1,93.3,19,-1.7,401
+덱 맥과이어,William Deck McGuire,592547,2018,full,SL,Slider,21.4,83.8,29.5,-4.5,153
+덱 맥과이어,William Deck McGuire,592547,2018,full,CU,Curveball,12.4,76.7,30,-2.2,89
+덱 맥과이어,William Deck McGuire,592547,2018,full,CH,Changeup,9.8,87,17.1,0.7,70
+덱 맥과이어,William Deck McGuire,592547,2018,full,SI,Sinker,0.3,93,,-1.3,2
+저스틴 헤일리,Justin Case Haley,595234,2018,full,FF,4-Seam Fastball,56.6,91.9,5.6,0.3,73
+저스틴 헤일리,Justin Case Haley,595234,2018,full,SL,Slider,23.3,87.4,22.2,0.7,30
+저스틴 헤일리,Justin Case Haley,595234,2018,full,CU,Curveball,14,78.1,0,-15.5,18
+저스틴 헤일리,Justin Case Haley,595234,2018,full,CH,Changeup,4.7,82.7,0,-14.7,6
+벤 라이블리,Bennett Lively,594902,2018,full,FF,4-Seam Fastball,46.2,91.2,16.7,-0.7,250
+벤 라이블리,Bennett Lively,594902,2018,full,CU,Curveball,26.2,75.5,23.3,-1.2,142
+벤 라이블리,Bennett Lively,594902,2018,full,SL,Slider,12.4,83.6,37.1,-2.4,67
+벤 라이블리,Bennett Lively,594902,2018,full,SI,Sinker,14.4,91.6,10.3,-0.9,78
+벤 라이블리,Bennett Lively,594902,2018,full,CH,Changeup,0.7,85.7,0,-21,4
+케이시 켈리,Casey Patrick Kelly,543391,2018,full,FF,4-Seam Fastball,37.4,91.5,20.9,-0.7,132
+케이시 켈리,Casey Patrick Kelly,543391,2018,full,CU,Curveball,24.9,81.6,24.4,1.3,88
+케이시 켈리,Casey Patrick Kelly,543391,2018,full,SI,Sinker,16.1,91.1,3.1,-2.6,57
+케이시 켈리,Casey Patrick Kelly,543391,2018,full,CH,Changeup,10.8,86.2,32,-5.1,38
+케이시 켈리,Casey Patrick Kelly,543391,2018,full,SL,Slider,10.8,86.5,45,1.1,38
+제이콥 터너,Jacob Turner,545363,2018,full,SI,Sinker,60.5,93.5,10.4,-5.1,98
+제이콥 터너,Jacob Turner,545363,2018,full,SL,Slider,20.4,85.2,18.8,-6.8,33
+제이콥 터너,Jacob Turner,545363,2018,full,CU,Curveball,16.7,80.3,30,-5.1,27
+제이콥 터너,Jacob Turner,545363,2018,full,CH,Changeup,1.2,89.7,0,11,2
+조 윌랜드,Joseph Andrew Wieland,543921,2016,velo_only,FF,,,91.4,,,
+조 윌랜드,Joseph Andrew Wieland,543921,2016,velo_only,CH,,,85.9,,,
+조 윌랜드,Joseph Andrew Wieland,543921,2016,velo_only,CU,,,76.3,,,
+제이크 톰슨,Jake Thompson,622097,2018,full,FF,4-Seam Fastball,24.3,90.6,9.4,-1.7,69
+제이크 톰슨,Jake Thompson,622097,2018,full,CH,Changeup,28.5,85.9,29.5,1.3,81
+제이크 톰슨,Jake Thompson,622097,2018,full,SL,Slider,25.7,83.6,16,-0.2,73
+제이크 톰슨,Jake Thompson,622097,2018,full,SI,Sinker,21.5,90.8,19.2,0.1,61
+워릭 서폴드,Warwick Anthony Saupold,599683,2018,full,FF,4-Seam Fastball,42.3,91.6,3.5,-1.4,262
+워릭 서폴드,Warwick Anthony Saupold,599683,2018,full,SL,Slider,34.2,88.1,22.3,0.9,212
+워릭 서폴드,Warwick Anthony Saupold,599683,2018,full,CU,Curveball,17.6,80,24.3,-2.7,109
+워릭 서폴드,Warwick Anthony Saupold,599683,2018,full,CH,Changeup,5.8,85.3,15.8,-2.7,36
+채드 벨,Chadwick Micah Bell,518445,2018,full,SL,Slider,30.1,81.3,26.7,-1.5,37
+채드 벨,Chadwick Micah Bell,518445,2018,full,FF,4-Seam Fastball,34.1,93,12.5,-3.6,42
+채드 벨,Chadwick Micah Bell,518445,2018,full,FC,Cutter,21.1,85.6,37.5,-0.8,26
+채드 벨,Chadwick Micah Bell,518445,2018,full,SI,Sinker,10.6,92.4,28.6,8.7,13
+채드 벨,Chadwick Micah Bell,518445,2018,full,CH,Changeup,4.1,86,0,-32.1,5
+드류 루친스키,Andrew James Rucinski,607968,2018,full,FC,Cutter,35.5,90.1,22.4,2.4,199
+드류 루친스키,Andrew James Rucinski,607968,2018,full,FF,4-Seam Fastball,31,93.6,21.3,0.5,174
+드류 루친스키,Andrew James Rucinski,607968,2018,full,SI,Sinker,17.6,93.5,15.7,-1.9,99
+드류 루친스키,Andrew James Rucinski,607968,2018,full,CH,Changeup,7.5,85.6,38.1,-2,42
+드류 루친스키,Andrew James Rucinski,607968,2018,full,SL,Slider,4.5,85,50,5.1,25
+드류 루친스키,Andrew James Rucinski,607968,2018,full,CU,Curveball,3.9,80.3,37.5,-0.7,22
+에디 버틀러,Timothy Edward Butler,572750,2018,full,FF,4-Seam Fastball,34.1,93.6,14.7,-3.6,287
+에디 버틀러,Timothy Edward Butler,572750,2018,full,SI,Sinker,29.6,93.5,10.8,0.7,249
+에디 버틀러,Timothy Edward Butler,572750,2018,full,CH,Changeup,12.4,88.4,18,-0.8,104
+에디 버틀러,Timothy Edward Butler,572750,2018,full,FC,Cutter,12.4,89.5,20,-5.5,104
+에디 버틀러,Timothy Edward Butler,572750,2018,full,CU,Curveball,11.5,84,21.9,-0.1,97
+크리스천 프리드릭,Christian Louis Patrick Friedrich,543184,2016,velo_only,FF,,,89.9,,,
+크리스천 프리드릭,Christian Louis Patrick Friedrich,543184,2016,velo_only,SI,,,90,,,
+크리스천 프리드릭,Christian Louis Patrick Friedrich,543184,2016,velo_only,SL,,,82.8,,,
+크리스천 프리드릭,Christian Louis Patrick Friedrich,543184,2016,velo_only,CH,,,84.8,,,
+크리스천 프리드릭,Christian Louis Patrick Friedrich,543184,2016,velo_only,CU,,,76.9,,,
+윌리엄 쿠에바스,William Cuevas,571035,2018,full,FF,4-Seam Fastball,29.3,90.8,23.1,-1.4,102
+윌리엄 쿠에바스,William Cuevas,571035,2018,full,SL,Slider,28.4,85.2,37,0.5,99
+윌리엄 쿠에바스,William Cuevas,571035,2018,full,CH,Changeup,19.8,82.7,34.5,-6.3,69
+윌리엄 쿠에바스,William Cuevas,571035,2018,full,CU,Curveball,14.9,79.4,38.9,-5.4,52
+윌리엄 쿠에바스,William Cuevas,571035,2018,full,SI,Sinker,7.5,90.1,30,4.3,26
+라울 알칸타라,Raul Alcántara,593417,2017,full,FF,4-Seam Fastball,37.2,95.2,13.1,-2.2,165
+라울 알칸타라,Raul Alcántara,593417,2017,full,SI,Sinker,24.8,94.8,9.4,0.3,110
+라울 알칸타라,Raul Alcántara,593417,2017,full,CH,Changeup,18.7,86.1,27,-0.8,83
+라울 알칸타라,Raul Alcántara,593417,2017,full,SL,Slider,17.2,88.6,39.3,-0.4,76
+라울 알칸타라,Raul Alcántara,593417,2017,full,CU,Curveball,2,83.5,0,3.4,9
+크리스 플렉센,Chris Flexen,623167,2019,full,FF,4-Seam Fastball,60.6,94.3,11.8,0.3,166
+크리스 플렉센,Chris Flexen,623167,2019,full,FC,Cutter,21.9,88.1,30.8,-4.1,60
+크리스 플렉센,Chris Flexen,623167,2019,full,CH,Changeup,12.8,83.6,33.3,3.1,35
+크리스 플렉센,Chris Flexen,623167,2019,full,CU,Curveball,3.6,78.1,33.3,-13.2,10
+크리스 플렉센,Chris Flexen,623167,2019,full,SI,Sinker,1.1,94.8,,-7.8,3
+데이비드 뷰캐넌,David Andrew Buchanan,571527,2015,velo_only,FF,,,89.8,,,
+데이비드 뷰캐넌,David Andrew Buchanan,571527,2015,velo_only,SI,,,90.2,,,
+데이비드 뷰캐넌,David Andrew Buchanan,571527,2015,velo_only,FC,,,89,,,
+데이비드 뷰캐넌,David Andrew Buchanan,571527,2015,velo_only,CH,,,82,,,
+데이비드 뷰캐넌,David Andrew Buchanan,571527,2015,velo_only,CU,,,78.9,,,
+애런 브룩스,Aaron Lee Brooks,605156,2019,full,SI,Sinker,28,91.8,8.8,0.3,531
+애런 브룩스,Aaron Lee Brooks,605156,2019,full,SL,Slider,22.4,85.6,33.3,0.3,426
+애런 브룩스,Aaron Lee Brooks,605156,2019,full,CH,Changeup,20.6,84.7,23,-0.5,391
+애런 브룩스,Aaron Lee Brooks,605156,2019,full,FF,4-Seam Fastball,25.7,92,15,-2,487
+애런 브룩스,Aaron Lee Brooks,605156,2019,full,CU,Curveball,3.3,78.6,25,-1.6,63
+드류 가뇽,Andrew M. Drew Gagnon,543193,2019,full,FF,4-Seam Fastball,54.4,92.1,14.4,-5.8,218
+드류 가뇽,Andrew M. Drew Gagnon,543193,2019,full,CH,Changeup,32.2,82.1,41.9,-0.6,129
+드류 가뇽,Andrew M. Drew Gagnon,543193,2019,full,CU,Curveball,9.7,79.1,8.3,-8.2,39
+드류 가뇽,Andrew M. Drew Gagnon,543193,2019,full,SL,Slider,3.7,84.4,0,2.1,15
+댄 스트레일리,Dan Straily,573185,2019,full,FF,4-Seam Fastball,52.2,90.2,19,-3,504
+댄 스트레일리,Dan Straily,573185,2019,full,SL,Slider,20,83.6,14.4,-7.2,193
+댄 스트레일리,Dan Straily,573185,2019,full,CH,Changeup,24.1,84,20.5,-1,233
+댄 스트레일리,Dan Straily,573185,2019,full,CU,Curveball,3.5,76.1,14.3,-5.7,34
+댄 스트레일리,Dan Straily,573185,2019,full,SI,Sinker,0.2,91.4,0,24.3,2
+애드리안 샘슨,Adrian Sampson,592716,2019,full,SI,Sinker,54.2,92.5,11.7,-2.3,1114
+애드리안 샘슨,Adrian Sampson,592716,2019,full,SL,Slider,33.2,83.9,35.5,-0.4,682
+애드리안 샘슨,Adrian Sampson,592716,2019,full,CH,Changeup,12.5,87.4,21.8,-1.1,258
+마이크 라이트,Mike Wright,605541,2019,full,SL,Slider,35.5,88.7,28.2,-4.5,205
+마이크 라이트,Mike Wright,605541,2019,full,FF,4-Seam Fastball,34.5,93.3,23.7,-0.6,199
+마이크 라이트,Mike Wright,605541,2019,full,SI,Sinker,23.9,92.3,15.9,0,138
+마이크 라이트,Mike Wright,605541,2019,full,CH,Changeup,4.9,83.9,22.2,-11.2,28
+마이크 라이트,Mike Wright,605541,2019,full,CU,Curveball,1.2,82.9,25,4.3,7
+오드리사머 데스파이네,Odrisamer Despaigne,628333,2019,full,FF,4-Seam Fastball,38.8,93,5.4,-0.2,99
+오드리사머 데스파이네,Odrisamer Despaigne,628333,2019,full,SI,Sinker,15.3,92.5,5.3,-12.6,39
+오드리사머 데스파이네,Odrisamer Despaigne,628333,2019,full,FC,Cutter,20,86.9,31.8,-2.3,51
+오드리사머 데스파이네,Odrisamer Despaigne,628333,2019,full,SL,Slider,11.8,80.9,6.7,3.5,30
+오드리사머 데스파이네,Odrisamer Despaigne,628333,2019,full,CU,Curveball,7.5,73.1,40,-4.9,19
+오드리사머 데스파이네,Odrisamer Despaigne,628333,2019,full,CH,Changeup,6.3,78.5,0,-14.6,16
+닉 킹엄,Nick Kingham,592468,2019,full,FF,4-Seam Fastball,39.2,91.9,13.7,-1.9,403
+닉 킹엄,Nick Kingham,592468,2019,full,CU,Curveball,19.3,80.1,24.2,-0.9,198
+닉 킹엄,Nick Kingham,592468,2019,full,CH,Changeup,16.7,85.1,27.1,-1.2,172
+닉 킹엄,Nick Kingham,592468,2019,full,FC,Cutter,13,90.6,16.9,-1.4,134
+닉 킹엄,Nick Kingham,592468,2019,full,SI,Sinker,10.4,90,24.4,-1.3,107
+닉 킹엄,Nick Kingham,592468,2019,full,SL,Slider,1.3,82,16.7,-9.3,13
+리카르도 핀토,Ricardo Pinto,620982,2019,full,SI,Sinker,66.7,94.7,20,-3.9,30
+리카르도 핀토,Ricardo Pinto,620982,2019,full,CH,Changeup,33.3,86.4,11.1,-3.9,15
+아리엘 미란다,Ariel Miranda,664641,2018,full,FF,4-Seam Fastball,58.7,90.7,21.7,3.3,54
+아리엘 미란다,Ariel Miranda,664641,2018,full,SL,Slider,26.1,81.6,45.5,-0.9,24
+아리엘 미란다,Ariel Miranda,664641,2018,full,FS,Split-Finger,10.9,80.3,20,-16.3,10
+아리엘 미란다,Ariel Miranda,664641,2018,full,CU,Curveball,4.3,78.4,0,-4.6,4
+워커 로켓,Andrew Walker Lockett,621141,2020,full,SI,Sinker,32.6,93.2,18.2,-4.4,75
+워커 로켓,Andrew Walker Lockett,621141,2020,full,CU,Curveball,22.2,80.9,27.6,2.2,51
+워커 로켓,Andrew Walker Lockett,621141,2020,full,CH,Changeup,20.4,86.9,10,-1.3,47
+워커 로켓,Andrew Walker Lockett,621141,2020,full,FC,Cutter,20.4,90,20,0.1,47
+워커 로켓,Andrew Walker Lockett,621141,2020,full,FF,4-Seam Fastball,4.3,92.8,66.7,4,10
+앤드류 수아레즈,Andrew Jose Suarez,605498,2020,full,FF,4-Seam Fastball,34.1,91.9,19,1.4,58
+앤드류 수아레즈,Andrew Jose Suarez,605498,2020,full,CH,Changeup,23.5,85.7,20.8,0.3,40
+앤드류 수아레즈,Andrew Jose Suarez,605498,2020,full,SL,Slider,29.4,83.6,10,0.5,50
+앤드류 수아레즈,Andrew Jose Suarez,605498,2020,full,SI,Sinker,12.9,91.1,10,-3.5,22
+대니얼 멩덴,Daniel Joseph Mengden,596043,2020,full,FF,4-Seam Fastball,50.2,90,14.6,-1.5,116
+대니얼 멩덴,Daniel Joseph Mengden,596043,2020,full,FC,Cutter,26.8,83.7,29,0.6,62
+대니얼 멩덴,Daniel Joseph Mengden,596043,2020,full,CH,Changeup,12.6,82.8,6.7,3.9,29
+대니얼 멩덴,Daniel Joseph Mengden,596043,2020,full,CU,Curveball,9.1,73,37.5,-7.6,21
+앤더슨 프랑코,Enderson Daniel Franco,575070,2019,full,CH,Changeup,30.7,86,21.1,-10.5,27
+앤더슨 프랑코,Enderson Daniel Franco,575070,2019,full,FF,4-Seam Fastball,45.5,96.1,17.4,4.6,40
+앤더슨 프랑코,Enderson Daniel Franco,575070,2019,full,SL,Slider,13.6,87,40,4.7,12
+앤더슨 프랑코,Enderson Daniel Franco,575070,2019,full,SI,Sinker,10.2,94.2,50,4.1,9
+라이언 카펜터,Ryan Nicholas Carpenter,543001,2019,full,SL,Slider,28.3,81.5,22.5,1.9,194
+라이언 카펜터,Ryan Nicholas Carpenter,543001,2019,full,SI,Sinker,22.3,89.8,10.7,-3.9,153
+라이언 카펜터,Ryan Nicholas Carpenter,543001,2019,full,FF,4-Seam Fastball,22.8,90,10.1,-3.9,156
+라이언 카펜터,Ryan Nicholas Carpenter,543001,2019,full,CH,Changeup,14.6,83.3,17,-5.6,100
+라이언 카펜터,Ryan Nicholas Carpenter,543001,2019,full,CU,Curveball,12,76.1,20,-2.8,82
+웨스 파슨스,Wes Parsons,641149,2019,full,SL,Slider,36.3,85.9,30.4,-0.6,231
+웨스 파슨스,Wes Parsons,641149,2019,full,SI,Sinker,36.6,93.3,14.9,-2.3,233
+웨스 파슨스,Wes Parsons,641149,2019,full,FF,4-Seam Fastball,20.9,94.1,17.2,0.5,133
+웨스 파슨스,Wes Parsons,641149,2019,full,CH,Changeup,6.3,87.1,17.6,-4.8,40
+윌머 폰트,Wilmer Font,521655,2020,full,FF,4-Seam Fastball,54.1,95,20.4,-2.2,199
+윌머 폰트,Wilmer Font,521655,2020,full,SI,Sinker,16.3,94.3,25,3.2,60
+윌머 폰트,Wilmer Font,521655,2020,full,CU,Curveball,8.7,76.5,9.1,-7.3,32
+윌머 폰트,Wilmer Font,521655,2020,full,SL,Slider,15.2,86,0,0,56
+윌머 폰트,Wilmer Font,521655,2020,full,FS,Split-Finger,5.7,84.6,27.3,-0.5,21
+아티 르위키,Artie Michael Lewicki,592499,2020,full,SL,Slider,49.1,86.4,40,5.2,28
+아티 르위키,Artie Michael Lewicki,592499,2020,full,FF,4-Seam Fastball,33.3,93.4,20,-15,19
+아티 르위키,Artie Michael Lewicki,592499,2020,full,CU,Curveball,10.5,79.9,25,-10.8,6
+샘 가빌리오,Samuel Joseph Gaviglio,543208,2020,full,SI,Sinker,49.3,88,12.5,-1,33
+샘 가빌리오,Samuel Joseph Gaviglio,543208,2020,full,SL,Slider,23.9,82.5,0,1,16
+샘 가빌리오,Samuel Joseph Gaviglio,543208,2020,full,CU,Curveball,20.9,81.5,0,-0.6,14
+샘 가빌리오,Samuel Joseph Gaviglio,543208,2020,full,CH,Changeup,4.5,83.3,0,-41.4,3
+조시 스미스,Josh A. Smith,595001,2020,full,CU,Curveball,28.2,77.6,20,-3.5,120
+조시 스미스,Josh A. Smith,595001,2020,full,SL,Slider,34.5,86.6,25.6,-0.9,147
+조시 스미스,Josh A. Smith,595001,2020,full,SI,Sinker,15.7,90.1,23.3,-0.6,67
+조시 스미스,Josh A. Smith,595001,2020,full,FF,4-Seam Fastball,19,90.4,20,4.7,81
+조시 스미스,Josh A. Smith,595001,2020,full,CH,Changeup,2.6,82.7,16.7,-4.9,11
+로버트 스탁,Robert Anthony Stock,476594,2021,full,FF,4-Seam Fastball,61.3,96.2,20.5,-3.9,103
+로버트 스탁,Robert Anthony Stock,476594,2021,full,CH,Changeup,11.9,82.9,50,-8.1,20
+로버트 스탁,Robert Anthony Stock,476594,2021,full,FC,Cutter,13.1,85.1,30,7.6,22
+로버트 스탁,Robert Anthony Stock,476594,2021,full,SL,Slider,11.9,82.4,30,0.6,20
+브랜던 워델,Brandon David Waddell,663399,2021,full,SL,Slider,41.8,85.8,35,-3.9,89
+브랜던 워델,Brandon David Waddell,663399,2021,full,FF,4-Seam Fastball,46.9,92.5,17.9,-2.4,100
+브랜던 워델,Brandon David Waddell,663399,2021,full,SI,Sinker,4.7,92.6,0,3.8,10
+브랜던 워델,Brandon David Waddell,663399,2021,full,CH,Changeup,6.6,86,40,0.1,14
+앨버트 수아레즈,Albert Joe Suárez,544150,2017,full,FF,4-Seam Fastball,36.2,93.5,13.9,0.5,199
+앨버트 수아레즈,Albert Joe Suárez,544150,2017,full,CU,Curveball,25.7,75.9,31.7,0.9,141
+앨버트 수아레즈,Albert Joe Suárez,544150,2017,full,SL,Slider,16.6,82.5,58.3,-1,91
+앨버트 수아레즈,Albert Joe Suárez,544150,2017,full,SI,Sinker,12.9,93.5,15.6,0.8,71
+앨버트 수아레즈,Albert Joe Suárez,544150,2017,full,CH,Changeup,8.6,85.1,30.4,0.3,47
+션 놀린,Sean Patrick Nolin,543594,2021,full,FF,4-Seam Fastball,46.1,90.7,18.2,-2.2,230
+션 놀린,Sean Patrick Nolin,543594,2021,full,FC,Cutter,23.4,82.3,22,0.4,117
+션 놀린,Sean Patrick Nolin,543594,2021,full,CH,Changeup,15.6,79.9,27.8,0.6,78
+션 놀린,Sean Patrick Nolin,543594,2021,full,CU,Curveball,14,73.6,19.2,-0.9,70
+션 놀린,Sean Patrick Nolin,543594,2021,full,SL,Slider,0.2,80.5,0,-45,1
+토마스 파노니,Thomas Pannone,623381,2019,full,FF,4-Seam Fastball,61.7,89.7,25.5,-0.9,774
+토마스 파노니,Thomas Pannone,623381,2019,full,CU,Curveball,22.9,73.7,29.5,-0.5,287
+토마스 파노니,Thomas Pannone,623381,2019,full,CH,Changeup,15.4,83.4,21.8,1,193
+토마스 파노니,Thomas Pannone,623381,2019,full,SL,Slider,0.1,84.4,0,-49.9,1
+찰리 반스,Charlie Barnes,656212,2021,full,CH,Changeup,29.2,79.3,16.5,-1.8,191
+찰리 반스,Charlie Barnes,656212,2021,full,SI,Sinker,43.2,89.8,9.5,-1.2,283
+찰리 반스,Charlie Barnes,656212,2021,full,SL,Slider,24.3,81.8,25.9,0.5,159
+찰리 반스,Charlie Barnes,656212,2021,full,FF,4-Seam Fastball,0.9,89.4,0,-11.9,6
+글렌 스파크맨,Glenn Sparkman,642098,2020,full,SL,Slider,46.7,85.7,38.5,-3.4,42
+글렌 스파크맨,Glenn Sparkman,642098,2020,full,FF,4-Seam Fastball,44.4,93.2,5,-3.7,40
+글렌 스파크맨,Glenn Sparkman,642098,2020,full,CH,Changeup,3.3,84.7,0,18.9,3
+예프리 라미레즈,Yefry Ramirez,606162,2021,full,CH,Changeup,26.1,86.6,60,9.8,6
+예프리 라미레즈,Yefry Ramirez,606162,2021,full,FF,4-Seam Fastball,39.1,93,20,1.3,9
+예프리 라미레즈,Yefry Ramirez,606162,2021,full,SL,Slider,26.1,87.5,25,5.6,6
+펠릭스 페냐,Félix Ricardo Peña,570240,2021,full,SL,Slider,38.5,84.5,40,-6.3,25
+펠릭스 페냐,Félix Ricardo Peña,570240,2021,full,FF,4-Seam Fastball,20,92.4,33.3,-4.7,13
+펠릭스 페냐,Félix Ricardo Peña,570240,2021,full,SI,Sinker,23.1,92.5,28.6,-5.5,15
+펠릭스 페냐,Félix Ricardo Peña,570240,2021,full,CH,Changeup,18.5,85.4,60,-6.7,12
+맷 더모디,Matt Dermody,571616,2020,full,SI,Sinker,44.4,,33.3,17,4
+맷 더모디,Matt Dermody,571616,2020,full,CH,Changeup,33.3,,0,8.9,3
+웨스 벤자민,Wes Benjamin,605138,2021,full,FF,4-Seam Fastball,43.8,91.3,19.1,-2,202
+웨스 벤자민,Wes Benjamin,605138,2021,full,FC,Cutter,28.2,85.3,28.1,-1.9,130
+웨스 벤자민,Wes Benjamin,605138,2021,full,CU,Curveball,14.8,78.2,11.5,-1.8,68
+웨스 벤자민,Wes Benjamin,605138,2021,full,CH,Changeup,12.6,84.1,21.2,-2,58
+웨스 벤자민,Wes Benjamin,605138,2021,full,SL,Slider,0.7,79.8,0,-87.5,3
+이반 노바,Iván Nova,467100,2020,full,SI,Sinker,40.1,92.1,10.3,-2,114
+이반 노바,Iván Nova,467100,2020,full,FF,4-Seam Fastball,19,92.3,0,-8,54
+이반 노바,Iván Nova,467100,2020,full,CU,Curveball,25.4,79.6,47.4,2.6,72
+이반 노바,Iván Nova,467100,2020,full,CH,Changeup,15.5,86.4,16.7,2.5,44
+숀 모리만도,Shawn Morimando,596049,2021,full,FF,4-Seam Fastball,32.7,91.1,12.5,-2.8,65
+숀 모리만도,Shawn Morimando,596049,2021,full,FC,Cutter,30.2,87.2,20,-2.7,60
+숀 모리만도,Shawn Morimando,596049,2021,full,CU,Curveball,25.1,74.8,23.8,0.8,50
+숀 모리만도,Shawn Morimando,596049,2021,full,SI,Sinker,9.5,90.8,23.1,-7.1,19
+테일러 와이드너,Taylor Browning Widener,642203,2022,full,FF,4-Seam Fastball,67.9,94,15.4,-0.1,222
+테일러 와이드너,Taylor Browning Widener,642203,2022,full,CH,Changeup,10.4,84.8,30,0.3,34
+테일러 와이드너,Taylor Browning Widener,642203,2022,full,SL,Slider,20.2,85,34.5,-4,66
+테일러 와이드너,Taylor Browning Widener,642203,2022,full,CU,Curveball,1.2,80.1,0,-24,4
+아도니스 메디나,Adonis Medina,658431,2022,full,SI,Sinker,31.2,93.4,12.5,0.6,129
+아도니스 메디나,Adonis Medina,658431,2022,full,SL,Slider,28,86.4,24.1,-1.5,116
+아도니스 메디나,Adonis Medina,658431,2022,full,CH,Changeup,16.7,87.1,17.9,-3.6,69
+아도니스 메디나,Adonis Medina,658431,2022,full,FF,4-Seam Fastball,16.7,93.2,28,0.8,69
+아도니스 메디나,Adonis Medina,658431,2022,full,CU,Curveball,7.5,80.4,18.2,-3.5,31
+숀 앤더슨,Shaun Anderson,641312,2022,full,SL,Slider,47.6,87,14.3,-17.3,10
+숀 앤더슨,Shaun Anderson,641312,2022,full,FF,4-Seam Fastball,14.3,92.7,0,10,3
+숀 앤더슨,Shaun Anderson,641312,2022,full,ST,Sweeper,38.1,82.7,0,0.3,8
+애런 윌커슨,Aaron Wilkerson,658792,2019,full,FF,4-Seam Fastball,50.5,89.8,22.1,-4.1,168
+애런 윌커슨,Aaron Wilkerson,658792,2019,full,SL,Slider,17.4,82.7,13.6,1.2,58
+애런 윌커슨,Aaron Wilkerson,658792,2019,full,CU,Curveball,17.1,74.5,18.2,1,57
+애런 윌커슨,Aaron Wilkerson,658792,2019,full,CH,Changeup,15,83.2,25,-6.2,50
+버치 스미스,Burch Taylor Smith,572143,2021,full,FF,4-Seam Fastball,68.9,93.4,21.4,0.1,467
+버치 스미스,Burch Taylor Smith,572143,2021,full,CU,Curveball,15.6,78.7,10.9,1,106
+버치 스미스,Burch Taylor Smith,572143,2021,full,CH,Changeup,13.6,82.1,25.7,-2.1,92
+버치 스미스,Burch Taylor Smith,572143,2021,full,SL,Slider,1.8,83.5,14.3,9.4,12
+버치 스미스,Burch Taylor Smith,572143,2021,full,FC,Cutter,0.1,84.1,0,-76.1,1
+리카르도 산체스,Ricardo Jose Sánchez,645307,2020,full,FF,4-Seam Fastball,47.9,91.6,13.8,-5.9,56
+리카르도 산체스,Ricardo Jose Sánchez,645307,2020,full,CH,Changeup,17.9,85.3,20,-1.5,21
+리카르도 산체스,Ricardo Jose Sánchez,645307,2020,full,SL,Slider,15.4,83.4,36.4,3.7,18
+리카르도 산체스,Ricardo Jose Sánchez,645307,2020,full,CU,Curveball,17.1,78.5,50,1.1,20
+리카르도 산체스,Ricardo Jose Sánchez,645307,2020,full,SI,Sinker,1.7,91.8,,-4.2,2
+에릭 페디,Erick James Fedde,607200,2022,full,SI,Sinker,39.8,92.6,14.4,-0.5,964
+에릭 페디,Erick James Fedde,607200,2022,full,FC,Cutter,27.6,89.2,17.5,-0.5,669
+에릭 페디,Erick James Fedde,607200,2022,full,CU,Curveball,27.6,78.4,25.1,-1.7,667
+에릭 페디,Erick James Fedde,607200,2022,full,CH,Changeup,3.6,86,6.3,-3.7,87
+에릭 페디,Erick James Fedde,607200,2022,full,ST,Sweeper,1.3,78.4,50,3.6,31
+태너 털리,Tanner Paul Tully,668684,2022,full,FF,4-Seam Fastball,59.5,90.9,25,-2.3,69
+태너 털리,Tanner Paul Tully,668684,2022,full,SL,Slider,27.6,81.3,12.5,0,32
+태너 털리,Tanner Paul Tully,668684,2022,full,CH,Changeup,10.3,84.7,0,-15.5,12
+태너 털리,Tanner Paul Tully,668684,2022,full,CU,Curveball,2.6,75.2,50,7.8,3
+보 슐서,Beau Grayson Sulser,676641,2022,full,FF,4-Seam Fastball,37.2,92.8,16.7,-0.3,134
+보 슐서,Beau Grayson Sulser,676641,2022,full,CH,Changeup,31.7,83.7,22.7,-3.3,114
+보 슐서,Beau Grayson Sulser,676641,2022,full,FC,Cutter,22.8,88.1,21.4,0.1,82
+보 슐서,Beau Grayson Sulser,676641,2022,full,CU,Curveball,8.3,80.3,28.6,-4.2,30
+커크 맥카티,Kirkland Kirk McCarty,668948,2022,full,FC,Cutter,40.3,88.5,19.4,1.8,231
+커크 맥카티,Kirkland Kirk McCarty,668948,2022,full,FF,4-Seam Fastball,38.6,92.5,30.7,-2.3,221
+커크 맥카티,Kirkland Kirk McCarty,668948,2022,full,CH,Changeup,7.7,84.7,5.9,-6.8,44
+커크 맥카티,Kirkland Kirk McCarty,668948,2022,full,CU,Curveball,10.1,77.1,34.8,-2.2,58
+커크 맥카티,Kirkland Kirk McCarty,668948,2022,full,SL,Slider,3.3,82.7,7.7,-2.3,19
+에니 로메로,Enny Romero,544836,2018,full,FF,4-Seam Fastball,68.8,95.1,13.8,-6.6,143
+에니 로메로,Enny Romero,544836,2018,full,SL,Slider,24,85.6,50,-2.8,50
+에니 로메로,Enny Romero,544836,2018,full,CU,Curveball,7.2,81.9,60,2.3,15
+로에니스 엘리아스,Roenis Elías,606273,2022,full,FF,4-Seam Fastball,41.2,93.5,3.8,0.4,47
+로에니스 엘리아스,Roenis Elías,606273,2022,full,CH,Changeup,34.2,85.8,32,1.9,39
+로에니스 엘리아스,Roenis Elías,606273,2022,full,CU,Curveball,22.8,77.3,30,0.3,26
+로에니스 엘리아스,Roenis Elías,606273,2022,full,SI,Sinker,1.8,91.8,0,-9.3,2
+아리엘 후라도,Ariel Jurado,642558,2020,full,FF,4-Seam Fastball,22.6,92,0,-7.4,19
+아리엘 후라도,Ariel Jurado,642558,2020,full,SI,Sinker,27.4,90.7,9.1,-6.5,23
+아리엘 후라도,Ariel Jurado,642558,2020,full,CH,Changeup,15.5,85.1,14.3,4.1,13
+아리엘 후라도,Ariel Jurado,642558,2020,full,SL,Slider,31,82.4,46.7,2.8,26
+조던 발라조빅,Jordan Balazovic,666364,2023,full,FF,4-Seam Fastball,47.4,95.1,15.1,-0.3,186
+조던 발라조빅,Jordan Balazovic,666364,2023,full,CU,Curveball,24,81.7,16.3,-3.2,94
+조던 발라조빅,Jordan Balazovic,666364,2023,full,SL,Slider,19.6,86.3,25.7,1.4,77
+조던 발라조빅,Jordan Balazovic,666364,2023,full,CH,Changeup,8.9,88.6,27.3,-0.7,35
+코너 시볼드,Connor Seabold,657756,2023,full,FF,4-Seam Fastball,53.7,92.6,18.8,-1.6,839
+코너 시볼드,Connor Seabold,657756,2023,full,SL,Slider,30.5,85.3,26.2,-2.6,476
+코너 시볼드,Connor Seabold,657756,2023,full,CH,Changeup,13.3,80.6,22.7,0.2,208
+코너 시볼드,Connor Seabold,657756,2023,full,CU,Curveball,1.8,78.7,23.1,-5.8,28
+코너 시볼드,Connor Seabold,657756,2023,full,SI,Sinker,0.7,91.1,0,-4.7,11
+데니 레예스,Denyi Reyes,660593,2023,full,FF,4-Seam Fastball,31.6,91.8,20.8,1.8,115
+데니 레예스,Denyi Reyes,660593,2023,full,SL,Slider,22.5,78.5,40,0,82
+데니 레예스,Denyi Reyes,660593,2023,full,CH,Changeup,15.1,84.8,32.4,-6.1,55
+데니 레예스,Denyi Reyes,660593,2023,full,FC,Cutter,20.3,86.6,16.3,-0.6,74
+데니 레예스,Denyi Reyes,660593,2023,full,SI,Sinker,10.4,91,7.4,-1.8,38
+디트릭 엔스,Dietrich Arthur Enns,608650,2021,full,FF,4-Seam Fastball,58.6,94.2,25.4,0.1,211
+디트릭 엔스,Dietrich Arthur Enns,608650,2021,full,FC,Cutter,36.9,85.8,22.1,3.1,133
+디트릭 엔스,Dietrich Arthur Enns,608650,2021,full,CH,Changeup,2.5,84.7,16.7,5.3,9
+디트릭 엔스,Dietrich Arthur Enns,608650,2021,full,CU,Curveball,1.9,75,25,-8.5,7
+엘리에이저 에르난데스,Elieser Hernández,622694,2022,full,FF,4-Seam Fastball,44,91.6,18.1,-2.5,482
+엘리에이저 에르난데스,Elieser Hernández,622694,2022,full,SL,Slider,36.1,80.1,32.6,-1.7,395
+엘리에이저 에르난데스,Elieser Hernández,622694,2022,full,CH,Changeup,13.5,84.6,21.3,-1.3,148
+엘리에이저 에르난데스,Elieser Hernández,622694,2022,full,SI,Sinker,6.4,91.9,24.1,-1.4,70
+윌 크로우,William Chandler Crowe,640444,2023,full,SL,Slider,35.8,87.9,22.6,-2,64
+윌 크로우,William Chandler Crowe,640444,2023,full,CH,Changeup,24,85.9,22.7,-0.2,43
+윌 크로우,William Chandler Crowe,640444,2023,full,FF,4-Seam Fastball,27.4,93.6,8.3,-1.9,49
+윌 크로우,William Chandler Crowe,640444,2023,full,ST,Sweeper,12.8,86.5,46.2,1.8,23
+캠 알드레드,Cam Alldred,682027,2022,full,SL,Slider,37.5,79.3,20,5,6
+에릭 스타우트,Eric Stout,657770,2022,full,ST,Sweeper,47.3,80.1,27.2,-1.6,213
+에릭 스타우트,Eric Stout,657770,2022,full,FF,4-Seam Fastball,34.9,92.1,27.3,-1.3,157
+에릭 스타우트,Eric Stout,657770,2022,full,CH,Changeup,12.2,87.4,30,-0.8,55
+에릭 스타우트,Eric Stout,657770,2022,full,CU,Curveball,5.6,77.8,20,1.2,25
+에릭 라우어,Eric Lauer,641778,2023,full,FC,Cutter,35.4,86.7,21.2,-2.6,299
+에릭 라우어,Eric Lauer,641778,2023,full,FF,4-Seam Fastball,43.1,90.8,25.8,-1.4,364
+에릭 라우어,Eric Lauer,641778,2023,full,CU,Curveball,12.4,75.3,13.8,-7.1,105
+에릭 라우어,Eric Lauer,641778,2023,full,SL,Slider,8.2,82.6,11.1,0.8,69
+에릭 라우어,Eric Lauer,641778,2023,full,CH,Changeup,0.7,82.8,0,-11.1,6
+제임스 네일,James Aubrey Naile,664942,2023,full,SI,Sinker,55.2,91.7,12.2,-2.2,170
+제임스 네일,James Aubrey Naile,664942,2023,full,CU,Curveball,38.6,83.1,18.4,-1,119
+제임스 네일,James Aubrey Naile,664942,2023,full,CH,Changeup,3.6,86.3,16.7,-1.4,11
+제임스 네일,James Aubrey Naile,664942,2023,full,FC,Cutter,1.6,86.9,0,-11.5,5
+제임스 네일,James Aubrey Naile,664942,2023,full,FF,4-Seam Fastball,1,92.6,0,8.8,3
+다니엘 카스타노,Daniel Alexander Castano,641447,2023,full,FC,Cutter,39.1,87.2,23.1,0,27
+다니엘 카스타노,Daniel Alexander Castano,641447,2023,full,SL,Slider,26.1,83,0,-19.8,18
+다니엘 카스타노,Daniel Alexander Castano,641447,2023,full,SI,Sinker,15.9,89.1,0,-10.2,11
+다니엘 카스타노,Daniel Alexander Castano,641447,2023,full,CH,Changeup,10.1,83.3,50,0.4,7
+카일 하트,Kyle Patrick Hart,606996,2020,full,SL,Slider,35.4,82.9,35,-2.8,92
+카일 하트,Kyle Patrick Hart,606996,2020,full,SI,Sinker,13.5,89.9,7.7,-5.8,35
+카일 하트,Kyle Patrick Hart,606996,2020,full,CH,Changeup,18.5,79.7,36,-5.1,48
+카일 하트,Kyle Patrick Hart,606996,2020,full,FF,4-Seam Fastball,28.1,88.7,9.1,-4.9,73
+카일 하트,Kyle Patrick Hart,606996,2020,full,CU,Curveball,4.6,73.3,33.3,-2,12
+하이메 바리아,Jaime Barria,642545,2023,full,SL,Slider,50.7,85.9,26,-0.2,684
+하이메 바리아,Jaime Barria,642545,2023,full,FF,4-Seam Fastball,30.2,93,14.9,-2,408
+하이메 바리아,Jaime Barria,642545,2023,full,CH,Changeup,14.1,84.6,34.9,0.6,190
+하이메 바리아,Jaime Barria,642545,2023,full,SI,Sinker,5,92.3,10.3,-7.6,68
+로버트 더거,Robert Lee Dugger,667498,2022,full,FF,4-Seam Fastball,24.6,89.6,33.3,1.9,70
+로버트 더거,Robert Lee Dugger,667498,2022,full,SI,Sinker,18.7,89.7,12,-2.2,53
+로버트 더거,Robert Lee Dugger,667498,2022,full,CU,Curveball,18.7,72.6,26.1,1.1,53
+로버트 더거,Robert Lee Dugger,667498,2022,full,CH,Changeup,18.7,81.3,37.5,-6.7,53
+로버트 더거,Robert Lee Dugger,667498,2022,full,SL,Slider,19.4,77.6,32.1,-1.6,55
+드류 앤더슨,Andrew James Anderson,623454,2021,full,FF,4-Seam Fastball,49.4,92.5,22.5,1.1,174
+드류 앤더슨,Andrew James Anderson,623454,2021,full,SL,Slider,20.2,83.9,12.1,-0.2,71
+드류 앤더슨,Andrew James Anderson,623454,2021,full,CH,Changeup,14.2,86.6,19,2.1,50
+드류 앤더슨,Andrew James Anderson,623454,2021,full,CU,Curveball,16.2,77.2,15.8,2.2,57
+엔마누엘 데 헤이수스,Enmanuel De Jesus,646241,2023,full,FF,4-Seam Fastball,34.6,93.5,21.1,-3.2,47
+엔마누엘 데 헤이수스,Enmanuel De Jesus,646241,2023,full,SL,Slider,20.6,79.4,36.4,-2.1,28
+엔마누엘 데 헤이수스,Enmanuel De Jesus,646241,2023,full,SI,Sinker,14.7,93.8,10,1.2,20
+엔마누엘 데 헤이수스,Enmanuel De Jesus,646241,2023,full,CH,Changeup,28.7,86.5,38.1,0.9,39
+엔마누엘 데 헤이수스,Enmanuel De Jesus,646241,2023,full,FC,Cutter,1.5,82.9,0,-42.4,2
+콜 어빈,Cole Irvin,608344,2024,full,SI,Sinker,23.5,91.7,9.4,-1.8,415
+콜 어빈,Cole Irvin,608344,2024,full,FF,4-Seam Fastball,22.9,91.8,16.9,-0.4,405
+콜 어빈,Cole Irvin,608344,2024,full,SV,Slurve,25.3,77.4,18.3,-0.4,447
+콜 어빈,Cole Irvin,608344,2024,full,CH,Changeup,13.4,84.9,24.4,-1.4,236
+콜 어빈,Cole Irvin,608344,2024,full,FC,Cutter,11,85.8,18.8,-0.4,195
+콜 어빈,Cole Irvin,608344,2024,full,CU,Curveball,3.9,77.8,20.5,-3.8,69
+잭 로그,Zach Logue,656657,2024,full,FF,4-Seam Fastball,74.4,91.7,40,-1.2,32
+잭 로그,Zach Logue,656657,2024,full,CU,Curveball,11.6,78.8,33.3,-9.3,5
+잭 로그,Zach Logue,656657,2024,full,SI,Sinker,4.7,90.3,0,-36.7,2
+잭 로그,Zach Logue,656657,2024,full,CH,Changeup,4.7,82.8,0,-21.8,2
+잭 로그,Zach Logue,656657,2024,full,FC,Cutter,4.7,87.6,0,-24.9,2
+헤르손 가라비토,Gerson Yeris Garabito,642520,2024,full,CU,Curveball,33.9,82.1,29.7,1.6,167
+헤르손 가라비토,Gerson Yeris Garabito,642520,2024,full,FF,4-Seam Fastball,38.4,93.4,17,-2.8,189
+헤르손 가라비토,Gerson Yeris Garabito,642520,2024,full,CH,Changeup,11.6,86.6,22.2,-4.4,57
+헤르손 가라비토,Gerson Yeris Garabito,642520,2024,full,SI,Sinker,11.2,92.1,8.7,1,55
+헤르손 가라비토,Gerson Yeris Garabito,642520,2024,full,SL,Slider,4.9,88.7,11.1,-3.3,24
+요니 치리노스,Yonny Chirinos,630023,2024,full,SI,Sinker,29.7,92.7,12.7,-6.9,153
+요니 치리노스,Yonny Chirinos,630023,2024,full,SL,Slider,39,85.2,24.4,0.8,201
+요니 치리노스,Yonny Chirinos,630023,2024,full,FF,4-Seam Fastball,16.5,93,28.9,-5.4,85
+요니 치리노스,Yonny Chirinos,630023,2024,full,FS,Split-Finger,14.8,85.7,20.5,-0.5,76
+애덤 올러,Adam Oller,670124,2024,full,FF,4-Seam Fastball,42,93.8,15.6,-3.2,298
+애덤 올러,Adam Oller,670124,2024,full,SV,Slurve,25.8,85.5,32.9,2.1,183
+애덤 올러,Adam Oller,670124,2024,full,CU,Curveball,14.9,81.5,17.6,0.3,106
+애덤 올러,Adam Oller,670124,2024,full,SI,Sinker,9.4,93.4,14.7,-0.4,67
+애덤 올러,Adam Oller,670124,2024,full,CH,Changeup,7,86.9,31.8,-4.5,50
+애덤 올러,Adam Oller,670124,2024,full,SL,Slider,0.8,86.2,33.3,8.7,6
+터커 데이비드슨,Tucker Davidson,656353,2024,full,FS,Split-Finger,17.9,80.2,22.2,5.3,12
+터커 데이비드슨,Tucker Davidson,656353,2024,full,SL,Slider,34.3,86.8,25,-0.7,23
+터커 데이비드슨,Tucker Davidson,656353,2024,full,CU,Curveball,11.9,76.3,16.7,1.3,8
+터커 데이비드슨,Tucker Davidson,656353,2024,full,SI,Sinker,16.4,90.8,25,3.7,11
+터커 데이비드슨,Tucker Davidson,656353,2024,full,FF,4-Seam Fastball,14.9,91.2,16.7,0,10
+빈스 벨라스케즈,Vincent John Velasquez,592826,2023,full,SL,Slider,44.6,83.2,31.9,2.3,290
+빈스 벨라스케즈,Vincent John Velasquez,592826,2023,full,FF,4-Seam Fastball,41.5,93.2,22.2,-1.7,270
+빈스 벨라스케즈,Vincent John Velasquez,592826,2023,full,CH,Changeup,12.5,88.6,25.7,-2.6,81
+빈스 벨라스케즈,Vincent John Velasquez,592826,2023,full,SI,Sinker,1.1,92.9,50,6.5,7
+코디 폰세,Cody Ponce,664074,2021,full,FF,4-Seam Fastball,42.1,93.2,13.3,-0.9,300
+코디 폰세,Cody Ponce,664074,2021,full,CU,Curveball,16.6,79.5,29.9,-4.1,118
+코디 폰세,Cody Ponce,664074,2021,full,FC,Cutter,18.8,89.4,25,-3,134
+코디 폰세,Cody Ponce,664074,2021,full,SL,Slider,14.2,84,29.4,-5.4,101
+코디 폰세,Cody Ponce,664074,2021,full,CH,Changeup,8.3,86.1,24.2,-4.6,59
+로건 앨런,Logan Allen,663531,2024,full,FS,Split-Finger,20.9,79.6,24.5,2.1,98
+로건 앨런,Logan Allen,663531,2024,full,ST,Sweeper,21.1,81.7,27.3,1,99
+로건 앨런,Logan Allen,663531,2024,full,SI,Sinker,16.8,90.1,5.3,-2.2,79
+로건 앨런,Logan Allen,663531,2024,full,FC,Cutter,21.9,87.1,24,0.7,103
+로건 앨런,Logan Allen,663531,2024,full,FF,4-Seam Fastball,18.3,91.3,13.2,-5.6,86
+로건 앨런,Logan Allen,663531,2024,full,CU,Curveball,1.1,77.9,0,7.1,5
+패트릭 머피,Patrick Murphy,641907,2022,full,FF,4-Seam Fastball,42.3,96.1,14.7,-2.6,60
+패트릭 머피,Patrick Murphy,641907,2022,full,CU,Curveball,31,82.7,33.3,-1.7,44
+패트릭 머피,Patrick Murphy,641907,2022,full,SI,Sinker,26.8,95,11.1,-0.5,38
+미치 화이트,Mitch White,669952,2024,full,ST,Sweeper,22.5,84.1,19.2,-1.1,93
+미치 화이트,Mitch White,669952,2024,full,FF,4-Seam Fastball,35.1,94.1,15.6,-0.3,145
+미치 화이트,Mitch White,669952,2024,full,SI,Sinker,17.4,93.7,21.1,-0.2,72
+미치 화이트,Mitch White,669952,2024,full,SL,Slider,11.4,87.1,8.7,-9.9,47
+미치 화이트,Mitch White,669952,2024,full,CU,Curveball,13.6,81,9.1,-0.3,56
+케니 로젠버그,Kenny Rosenberg,670046,2024,full,FF,4-Seam Fastball,48.6,90.2,19,-1.6,196
+케니 로젠버그,Kenny Rosenberg,670046,2024,full,CH,Changeup,32.8,81.1,29,0.5,132
+케니 로젠버그,Kenny Rosenberg,670046,2024,full,FC,Cutter,13.6,83.6,17.2,-2.2,55
+케니 로젠버그,Kenny Rosenberg,670046,2024,full,CU,Curveball,5,76.3,14.3,-2.8,20
+라클란 웰스,Lachlan Robert Wells,649144,2022,full,FF,4-Seam Fastball,42.4,88.4,33.3,-7.3,28
+라클란 웰스,Lachlan Robert Wells,649144,2022,full,CU,Curveball,27.3,72.3,18.2,-8.4,18
+라클란 웰스,Lachlan Robert Wells,649144,2022,full,SL,Slider,10.6,82.5,40,0.8,7
+라클란 웰스,Lachlan Robert Wells,649144,2022,full,CH,Changeup,19.7,82.4,14.3,-1.2,13
