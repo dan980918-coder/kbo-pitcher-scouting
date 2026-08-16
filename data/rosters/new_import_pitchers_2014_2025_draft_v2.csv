@@ -1,168 +1,168 @@
-연도,팀,선수명,대체영입여부,실전출전여부,비고,출처유형,verified_statiz,kbo_no_appearance,english_name,birth_date,throws,nationality,kbo_first_year_WAR,kbo_first_year_IP,kbo_first_year_GS,kbo_first_year_ERA,kbo_first_year_FIP,kbo_first_year_WHIP,kbo_first_year_K9,kbo_first_year_BB9,asia_league_experience,asia_league_detail,nationality_source
-2014,두산,크리스 볼스테드,N,Y,STATIZ 신인지명 2014 두산과 일치,STATIZ 확인,1,0,Christopher Kenneth Volstad,1986-09-23,R,United States,-0.05,87.0,17,6.21,6.00,1.76,3.31,3.83,N,,wiki_provisional
-2014,두산,유네스키 마야,Y,Y,STATIZ 신인지명 2014 두산과 일치,STATIZ 확인,1,0,Yunieski Maya,1981-08-28,R,Cuba,1.31,63.0,11,4.86,4.62,1.44,7.71,3.43,N,,wiki_provisional
-2014,삼성,J.D. 마틴,N,Y,STATIZ 활약연도 2014 삼성과 일치,STATIZ 확인,1,0,John Dale Martin,1983-01-02,R,United States,3.46,128.0,22,4.78,4.46,1.4,5.91,2.18,N,,wiki_provisional
-2014,LG,코리 리오단,N,Y,STATIZ 신인지명 2014 LG와 일치,STATIZ 확인,1,0,Cory S. Riordan,1986-05-25,R,United States,4.31,168.0,28,3.96,4.88,1.27,4.12,1.98,N,,wiki_provisional
-2014,LG,에버렛 티포드,N,Y,STATIZ 신인지명 2014 LG와 일치,STATIZ 확인,1,0,Everett James Teaford,1984-05-15,L,United States,1.42,99.2,19,5.24,4.91,1.57,7.68,4.61,N,,wiki_provisional
-2014,KIA,하이로 어센시오,N,Y,STATIZ 신인지명 2014 KIA와 일치,STATIZ 확인,1,0,Jairo Manuel Asencio,1983-05-30,R,Dominican Republic,0.85,46.2,0,4.05,3.59,1.35,10.8,2.7,N,,wiki_provisional
-2014,KIA,저스틴 토마스,N,Y,STATIZ 활약연도 2014 KIA와 일치,STATIZ 확인,1,0,Justin Joseph Thomas,1984-01-18,L,United States,0.98,46.2,9,4.44,3.55,1.59,9.84,3.66,Y,NPB Nippon-Ham Fighters 2013 (KBO 입단 이전),wiki_provisional
-2014,한화,케일럽 클레이,N,Y,STATIZ 신인지명 2014 한화와 일치,STATIZ 확인,1,0,Caleb Russell Clay,1988-02-15,R,United States,-0.13,40.0,10,8.32,7.55,2.17,4.5,5.62,N,,wiki_provisional
-2014,한화,앤드루 앨버스,N,Y,STATIZ 신인지명 2014 한화와 일치,STATIZ 확인,1,0,Andrew ALBERS,1985-10-06,L,Canada,2.15,151.1,28,5.89,4.80,1.59,6.36,2.38,N,,wiki_provisional
-2014,한화,라이언 타투스코,N,Y,STATIZ 신인지명 2014 한화와 일치,STATIZ 확인,1,0,Ryan Tatusko,1985-03-27,R,United States,0.66,63.2,12,7.07,6.12,1.71,6.93,6.36,N,,wiki_provisional
-2014,NC,테드 웨버,N,Y,STATIZ 신인지명 2014 NC와 일치,STATIZ 확인,1,0,Thad G. Weber,1984-09-28,R,United States,2.57,118.0,23,4.58,4.95,1.47,6.48,3.2,N,,wiki_provisional
-2014,SK,트레비스 밴와트,N,Y,"STATIZ 신인지명 2014 SK와 일치, 2016-01-01 SK→KT 트레이드 확인(kt 2016 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Travis Banwart,1986-02-14,R,United States,2.28,66.2,11,3.1,4.67,1.23,7.56,3.51,N,,wiki_provisional
-2014,SK,로스 울프,N,Y,STATIZ 신인지명 2014 SK와 일치,STATIZ 확인,1,0,Ross Wolf,1982-10-18,R,United States,2.23,85.1,13,4.85,5.65,1.35,4.32,2.85,N,,wiki_provisional
-2015,두산,앤서니 스와잭,Y,Y,STATIZ 신인지명 2015 두산과 일치,STATIZ 확인,1,0,Anthony Swarzak,1985-09-10,R,United States,0.91,92.1,17,5.26,4.41,1.52,7.02,2.92,N,,wiki_provisional
-2015,삼성,타일러 클로이드,N,Y,STATIZ 신인지명 2015 삼성과 일치,STATIZ 확인,1,0,Tyler Cloyd,1987-05-16,R,United States,1.91,159.2,28,5.19,4.93,1.43,6.93,2.14,N,,wiki_provisional
-2015,삼성,알프레도 피가로,N,Y,STATIZ 신인지명 2015 삼성과 일치,STATIZ 확인,1,0,Alfredo Figaro,1984-07-07,R,Dominican Republic,5.32,165.0,25,3.38,4.56,1.24,6.38,2.78,Y,NPB Orix Buffaloes 2011-2012 (KBO 입단 이전),wiki_provisional
-2015,LG,루카스 하렐,N,Y,"STATIZ에는 '루카스'로 등록. 신인지명 2015 LG와 일치, G=33 (뉴스 확인 내용과 일치)",STATIZ 확인,1,0,Lucas Harrell,1985-06-03,R,United States,2.67,171.2,30,4.93,4.84,1.65,7.92,5.66,N,,wiki_provisional
-2015,KIA,조쉬 스틴슨,N,Y,STATIZ 신인지명 2015 KIA와 일치,STATIZ 확인,1,0,Joshua Randall Stinson,1988-03-14,R,United States,2.57,167.0,30,4.96,5.22,1.52,5.01,3.45,N,,wiki_provisional
-2015,KIA,에반 믹,N,Y,STATIZ에는 '에반'으로 등록. 신인지명 2015 KIA와 일치,STATIZ 확인,1,0,Evan David Meek,1983-05-12,R,United States,0.25,26.1,1,4.44,3.37,1.63,8.54,4.44,N,,wiki_provisional
-2015,롯데,브룩스 레일리,N,Y,STATIZ 활약연도 2015-2019 롯데와 일치,STATIZ 확인,1,0,Brooks Raley,1988-06-29,L,United States,4.61,179.1,30,3.91,4.78,1.33,6.72,2.86,N,,wiki_provisional
-2015,롯데,조쉬 린드블럼,N,Y,"STATIZ 신인지명 2015 롯데와 일치, 2018-02-01 롯데→두산 트레이드 확인(두산 2018 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Joshua William Josh Lindblom,1987-06-15,R,United States,7.35,210.0,32,3.56,4.48,1.18,7.71,2.23,N,,wiki_provisional
-2015,한화,에스밀 로저스,N,Y,"STATIZ 신인지명 2015 한화와 일치, 2018-01-01 넥센 트레이드 확인(넥센 2018 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Esmil Rogers,1985-08-14,R,Dominican Republic,3.07,75.2,10,2.97,3.41,1.08,7.14,2.38,N,,wiki_provisional
-2015,NC,재크 스튜어트,N,Y,STATIZ 신인지명 2015 NC와 일치,STATIZ 확인,1,0,Zachary Robert Stewart,1986-09-28,R,United States,4.67,117.2,19,2.68,3.33,1.21,8.34,1.99,N,,wiki_provisional
-2015,kt,앤드루 시스코,N,Y,"STATIZ 신인지명=2014년(kt), 활약연도/실전기록=2015년만 존재. PROJECT_GUIDELINES.md의 'KBO 첫 시즌=실전 출전 연도' 규칙에 따라 2015년으로 확정",STATIZ 확인,1,0,Andrew Sisco,1983-01-13,L,United States,-0.04,39.0,5,6.23,5.23,1.74,9.69,5.77,Y,CPBL EDA Rhinos 2013-2014 (KBO 입단 이전),wiki_provisional
-2015,kt,필 어윈,N,Y,STATIZ 신인지명 2015 kt와 일치,STATIZ 확인,1,0,Phil Irwin,1987-02-25,R,United States,-0.29,56.0,12,8.68,5.66,1.98,6.59,3.38,N,,wiki_provisional
-2015,SK,메릴 켈리,N,Y,STATIZ 신인지명 2015 SK와 일치,STATIZ 확인,1,0,Merrill Kelly,1988-10-14,R,United States,4.56,181.0,29,4.13,4.22,1.34,6.91,2.69,N,,wiki_provisional
-2016,삼성,콜린 벨레스터,N,Y,"STATIZ 신인지명 2016 삼성과 일치, G=3 (실전출전 확정)",STATIZ 확인,1,0,Collin Thomas Balester,1986-06-06,R,United States,-0.22,12.1,3,8.03,7.21,2.59,3.65,8.76,N,,wiki_provisional
-2016,삼성,앨런 웹스터,N,Y,"STATIZ 신인지명 2016 삼성과 일치, G=12 (실전출전 확정)",STATIZ 확인,1,0,Carl Allen Webster,1990-02-10,R,United States,1.17,71.0,12,5.7,6.02,1.68,7.48,5.96,N,,wiki_provisional
-2016,삼성,아놀드 레온,N,Y,STATIZ 신인지명 2016 삼성과 일치,STATIZ 확인,1,0,Arnold Leon,1988-09-06,R,Mexico,-0.14,8.0,2,11.25,5.80,2.12,7.88,1.12,N,,wiki_provisional
-2016,삼성,요한 플란데,N,Y,STATIZ 신인지명 2016 삼성과 일치(G=13),STATIZ 확인,1,0,Yohan Flande,1986-01-27,L,Dominican Republic,-0.16,68.2,13,7.6,5.99,1.82,7.34,4.33,N,,wiki_provisional
-2016,LG,데이비드 허프,N,Y,STATIZ 신인지명 2016 LG와 일치,STATIZ 확인,1,0,David Gregory Huff,1984-08-22,L,United States,2.11,74.2,11,3.13,3.43,1.08,5.54,1.08,N,,wiki_provisional
-2016,KIA,헥터 노에시,N,Y,STATIZ 신인지명 2016 KIA와 일치(G=31),STATIZ 확인,1,0,Hector Noesi,1987-01-26,R,Dominican Republic,6.57,206.2,31,3.4,3.82,1.27,6.05,2.22,N,,wiki_provisional
-2016,KIA,지크 스프루일,N,Y,STATIZ 신인지명 2016 KIA와 일치,STATIZ 확인,1,0,Ezekiel Stephen Zeke Spruill,1989-09-11,R,United States,1.73,152.0,29,5.27,4.93,1.68,7.4,4.03,N,,wiki_provisional
-2016,한화,알렉산드로 마에스트리,N,Y,STATIZ 신인지명 2016 한화와 일치(G=9),STATIZ 확인,1,0,Alessandro Maestri,1985-07-01,R,Italy,-0.71,28.2,8,9.42,7.68,2.48,7.22,10.67,Y,NPB Orix Buffaloes 2012-2015 (KBO 입단 이전),wiki_provisional
-2016,한화,파비오 카스티요,N,Y,STATIZ 신인지명 2016 한화와 일치,STATIZ 확인,1,0,Fabio Castillo,1989-02-19,R,Dominican Republic,0.74,84.0,15,6.43,5.29,1.74,6.43,4.29,N,,wiki_provisional
-2016,한화,에릭 서캠프,N,Y,STATIZ 신인지명 2016 한화와 일치,STATIZ 확인,1,0,Eric M. Surkamp,1987-07-16,L,United States,0.17,41.1,8,6.31,5.15,1.72,7.84,3.7,N,,wiki_provisional
-2016,kt,슈가 마리몬,N,Y,"STATIZ 신인지명 2016 kt와 일치, G=12",STATIZ 확인,1,0,Sugar Ray Marimon,1988-09-30,R,Colombia,0.97,62.0,12,5.23,4.75,1.44,6.53,4.21,N,,wiki_provisional
-2016,kt,요한 피노,N,Y,STATIZ 신인지명 2016 kt와 일치,STATIZ 확인,1,0,Yohan Pino,1983-12-26,R,Venezuela,-0.13,39.0,8,7.15,5.50,1.97,5.31,3.46,N,,wiki_provisional
-2016,kt,조쉬 로위,N,Y,STATIZ 신인지명 2016 kt와 일치,STATIZ 확인,1,0,Josh Lowey,1984-12-26,R,United States,0.11,60.0,13,6.3,4.87,1.88,10.2,5.85,N,,wiki_provisional
-2016,SK,브라울리오 라라,N,Y,STATIZ 신인지명 2016 SK와 일치,STATIZ 확인,1,0,Braulio Lara,1988-12-20,L,Dominican Republic,-0.27,48.1,9,6.7,5.39,1.99,7.45,5.59,N,,wiki_provisional
-2016,넥센,로버트 코엘로,N,Y,STATIZ 신인지명 2016 넥센과 일치,STATIZ 확인,1,0,Robert Coello,1984-11-23,R,United States,1.92,62.0,12,3.77,5.74,1.48,6.68,6.1,N,,wiki_provisional
-2016,넥센,스콧 맥그레거,Y,Y,STATIZ 신인지명 2016 넥센과 일치,STATIZ 확인,1,0,Scott McGregor,1986-12-19,R,United States,1.74,90.0,14,5.2,4.89,1.42,6.1,2.0,N,,wiki_provisional
-2017,삼성,재크 페트릭,N,Y,STATIZ 신인지명 2017 삼성과 일치,STATIZ 확인,1,0,Zachary Bernard Petrick,1989-07-29,R,United States,1.24,134.0,24,6.18,5.50,1.69,5.84,3.49,Y,NPB Yokohama DeNA BayStars 2016 (KBO 입단 이전),wiki_provisional
-2017,삼성,앤서니 레나도,N,Y,STATIZ 신인지명 2017 삼성과 일치,STATIZ 확인,1,0,Anthony Ranaudo,1989-09-09,R,United States,-0.22,49.0,11,6.8,7.54,1.98,5.14,4.96,N,,wiki_provisional
-2017,KIA,팻 딘,N,Y,STATIZ에는 '팻딘'(공백없음)으로 등록. 신인지명 2017 KIA와 일치,STATIZ 확인,1,0,Patrick Michael Dean,1989-05-25,L,United States,4.36,176.0,29,4.14,4.61,1.42,7.31,1.99,N,,wiki_provisional
-2017,롯데,파커 마켈,N,N,"STATIZ 신인지명 2017 롯데 기록은 있으나 주요기록표에 경기 기록 전무('조회된 데이터가 없습니다') — 개인사정 계약해지로 실전 미출전 확정, 에니 로메로와 같은 0경기 케이스",STATIZ 확인,1,1,Parker Markel,1990-09-15,R,United States,,,,,,,,,N,,wiki_provisional
-2017,롯데,닉 애디튼,Y,Y,"이름 정정(위키 표기 '닉 에디튼'은 오기, 정확한 표기는 '애디튼'/Nick Additon). 3/29 파커 마켈 대체 영입, STATIZ 신인지명 2017 롯데 일치, G=15(2승7패), 7/12 방출",STATIZ 확인 + 뉴스,1,0,Nick Additon,1987-12-16,L,United States,0.58,70.0,13,5.91,4.58,1.57,7.71,3.21,Y,CPBL Chinatrust Brothers 2016 (KBO 입단 이전),wiki_provisional
-2017,NC,제프 맨쉽,N,Y,STATIZ 신인지명 2017 NC와 일치,STATIZ 확인,1,0,Jeff Manship,1985-01-16,R,United States,3.37,112.2,21,3.67,4.14,1.29,6.87,2.64,N,,wiki_provisional
-2017,kt,돈 로치,N,Y,STATIZ 신인지명 2017 kt와 일치,STATIZ 확인,1,0,Donn Roach,1989-12-14,R,United States,2.35,165.0,28,4.69,5.38,1.58,5.4,3.27,N,,wiki_provisional
-2017,SK,스캇 다이아몬드,N,Y,STATIZ 신인지명 2017 SK와 일치,STATIZ 확인,1,0,Scott Michael Diamond,1986-07-30,L,Canada,3.25,134.1,24,4.42,5.10,1.47,3.95,2.34,N,,wiki_provisional
-2017,넥센,션 오설리반,N,Y,STATIZ 신인지명 2017 넥센과 일치,STATIZ 확인,1,0,Sean Daniel O'Sullivan,1987-09-01,R,United States,-0.54,8.0,2,15.75,6.47,2.38,6.75,2.25,N,,wiki_provisional
-2017,넥센,제이크 브리검,Y,Y,STATIZ 신인지명 2017 넥센과 일치,STATIZ 확인,1,0,Jake Brigham,1988-02-10,R,United States,3.23,144.0,24,4.38,4.75,1.33,6.12,1.62,Y,NPB Tohoku Rakuten Golden Eagles 2016 (KBO 입단 이전),wiki_provisional
-2018,두산,세스 프랭코프,N,Y,STATIZ에는 '후랭코프'로 등록. 활약연도 2018-2019 두산과 일치,STATIZ 확인,1,0,Seth Frankoff,1988-08-27,R,United States,4.72,149.1,28,3.74,4.66,1.16,8.08,3.31,N,,wiki_provisional
-2018,삼성,팀 아델만,N,Y,STATIZ 신인지명 2018 삼성과 일치,STATIZ 확인,1,0,Timothy Max Adleman,1987-11-13,R,United States,3.5,171.0,31,5.05,4.91,1.5,7.21,2.84,N,,wiki_provisional
-2018,삼성,리살베르토 보니야,N,Y,STATIZ 신인지명 2018 삼성과 일치,STATIZ 확인,1,0,Lisalverto Bonilla,1990-06-18,R,Dominican Republic,3.08,168.0,29,5.3,5.11,1.52,8.09,3.38,N,,wiki_provisional
-2018,LG,타일러 윌슨,N,Y,STATIZ 활약연도 2018-2021 LG와 일치,STATIZ 확인,1,0,Tylor Wilson,1989-09-25,R,United States,6.28,170.0,26,3.07,3.66,1.14,7.89,1.85,N,,wiki_provisional
-2018,롯데,펠릭스 듀브론트,N,Y,STATIZ 신인지명 2018 롯데와 일치,STATIZ 확인,1,0,Felix Antonio Doubront,1987-10-23,L,Venezuela,2.7,137.1,25,4.92,5.05,1.63,7.14,4.06,N,,wiki_provisional
-2018,한화,키버스 샘슨,N,Y,STATIZ 활약연도 2018 한화와 일치,STATIZ 확인,1,0,Keyvius Sampson,1991-01-06,R,United States,3.07,161.2,29,4.68,4.19,1.38,10.86,4.4,N,,wiki_provisional
-2018,한화,제이슨 휠러,N,Y,STATIZ 신인지명 2018 한화와 일치(G=19),STATIZ 확인,1,0,Jason Wheeler,1990-10-27,L,United States,1.72,101.2,19,5.13,4.78,1.59,8.32,3.01,N,,wiki_provisional
-2018,한화,데이비드 헤일,N,Y,STATIZ 신인지명 2018 한화와 일치(G=12),STATIZ 확인,1,0,David E. Hale,1987-09-27,R,United States,1.66,66.1,12,4.34,4.69,1.28,7.46,2.31,N,,wiki_provisional
-2018,NC,로건 베렛,N,Y,STATIZ 신인지명 2018 NC와 일치,STATIZ 확인,1,0,Scott Logan Verrett,1990-06-19,R,United States,2.54,155.0,29,5.28,5.23,1.53,8.36,3.43,N,,wiki_provisional
-2018,NC,왕웨이중,N,Y,STATIZ 신인지명 2018 NC와 일치,STATIZ 확인,1,0,Wei-Chung Wang,1992-04-25,L,Taiwan,2.58,141.2,25,4.26,4.68,1.48,6.86,2.54,N,,wiki_provisional
-2018,SK,앙헬 산체스,N,Y,STATIZ 활약연도 2018-2021 SK와 일치,STATIZ 확인,1,0,Angel Luis Sanchez,1989-11-28,R,Dominican Republic,2.43,145.1,26,4.89,5.30,1.38,7.68,2.42,N,,wiki_provisional
-2019,삼성,덱 맥과이어,N,Y,STATIZ 신인지명 2019 삼성과 일치,STATIZ 확인,1,0,William Deck McGuire,1989-06-23,R,United States,1.22,112.1,21,5.05,4.84,1.65,8.01,5.29,N,,wiki_provisional
-2019,삼성,저스틴 헤일리,N,Y,STATIZ 신인지명 2019 삼성과 일치(G=19); 7월 방출,STATIZ 확인,1,0,Justin Case Haley,1991-06-16,R,United States,0.4,87.2,19,5.75,3.51,1.47,8.62,3.49,N,,wiki_provisional
-2019,삼성,벤 라이블리,N,Y,"STATIZ 신인지명 2019 삼성과 일치, 활약연도 2019-2021",STATIZ 확인,1,0,Bennett Lively,1992-03-05,R,United States,1.36,57.0,9,3.95,3.08,1.12,9.16,2.05,N,,wiki_provisional
-2019,LG,케이시 켈리,N,Y,STATIZ 활약연도 2019-2024 LG와 일치,STATIZ 확인,1,0,Casey Patrick Kelly,1989-10-04,R,United States,4.22,180.1,29,2.55,3.50,1.14,6.29,2.05,N,,wiki_provisional
-2019,KIA,제이콥 터너,N,Y,STATIZ 신인지명 2019 KIA와 일치,STATIZ 확인,1,0,Jacob Edward Turner,1992-05-21,R,United States,0.06,153.1,28,5.46,4.28,1.55,7.1,3.4,N,,wiki_provisional
-2019,KIA,조 윌랜드,N,Y,STATIZ 신인지명 2019 KIA와 일치,STATIZ 확인,1,0,Joseph Andrew Wieland,1990-01-21,R,United States,1.86,165.0,28,4.75,4.14,1.52,7.47,3.22,Y,NPB Yokohama DeNA BayStars 2017-2018 (KBO 입단 이전),wiki_provisional
-2019,롯데,제이크 톰슨,N,Y,STATIZ 활약연도 2019 롯데와 일치,STATIZ 확인,1,0,Jake Thompson,1994-01-31,R,United States,0.64,62.2,11,4.74,3.56,1.23,8.62,3.3,N,,wiki_provisional
-2019,SK,브록 다익손,N,Y,"STATIZ 확인 결과 원래 SK가 2019년 신인지명(19 SK 자유선발), 2019-06-10 SK→롯데 트레이드 — 위키 기반 v1에서 롯데로 잘못 기재되어 있었음, SK로 정정",STATIZ 확인,1,0,Brock D. Dykxhoorn,1994-07-02,R,Canada,2.26,149.1,28,4.34,4.0,1.37,7.05,2.41,N,,wiki_provisional
-2019,한화,워릭 서폴드,N,Y,STATIZ 신인지명 2019 한화와 일치,STATIZ 확인,1,0,Warwick Anthony Saupold,1990-01-16,R,Australia,4.21,192.1,31,3.51,3.53,1.27,6.32,2.53,N,,wiki_provisional
-2019,한화,채드 벨,N,Y,STATIZ에는 '채드벨'(공백없음)로 등록. 신인지명 2019 한화와 일치,STATIZ 확인,1,0,Chadwick Micah Bell,1989-02-28,L,United States,4.29,177.1,29,3.5,4.14,1.31,6.8,3.2,N,,wiki_provisional
-2019,NC,드류 루친스키,N,Y,"STATIZ 신인지명 2019 NC와 일치, 활약연도 2019-2022",STATIZ 확인,1,0,Andrew James Rucinski,1988-12-30,R,United States,5.31,177.1,30,3.05,3.98,1.18,6.04,2.28,N,,wiki_provisional
-2019,NC,에디 버틀러,N,Y,STATIZ 신인지명 2019 NC와 일치,STATIZ 확인,1,0,Timothy Edward Butler,1991-03-13,R,United States,0.75,73.2,13,4.76,4.34,1.44,5.99,3.42,N,,wiki_provisional
-2019,NC,크리스천 프리드릭,Y,Y,STATIZ 신인지명 2019 NC와 일치,STATIZ 확인,1,0,Christian Louis Patrick Friedrich,1987-07-08,L,United States,2.66,72.0,12,2.75,3.56,1.18,7.0,2.75,N,,wiki_provisional
-2019,kt,윌리엄 쿠에바스,N,Y,"STATIZ 신인지명 2019 kt와 일치, 활약연도 2019-2025 전부 kt(팀이동 기록 없음)",STATIZ 확인,1,0,William Enrique Cuevas Osorio,1990-10-14,R,Venezuela,4.27,184.0,30,3.62,4.40,1.17,6.6,3.08,N,,wiki_provisional
-2019,kt,라울 알칸타라,N,Y,"STATIZ 신인지명 2019 kt와 일치, 2020 두산·2025 키움 트레이드 확인(두산/키움 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Raul Alcántara,1992-12-04,R,Dominican Republic,3.84,172.2,27,4.01,4.02,1.25,5.21,1.41,N,,wiki_provisional
-2019,키움,에릭 요키시,N,Y,"STATIZ 신인지명 2019 넥센과 일치, 2024-08-08 NC 트레이드 확인(NC 2024 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Eric Spenser Jokisch,1989-07-29,L,United States,4.67,181.1,30,3.13,3.31,1.13,7.0,1.94,N,,wiki_provisional
-2020,두산,크리스 플렉센,N,Y,STATIZ 신인지명 2020 두산과 일치,STATIZ 확인,1,0,Chris Flexen,1994-07-01,R,United States,3.53,116.2,21,3.01,2.58,1.09,10.18,2.31,N,,wiki_provisional
-2020,삼성,데이비드 뷰캐넌,N,Y,"STATIZ 신인지명 2020 삼성과 일치, 활약연도 2020-2023",STATIZ 확인,1,0,David Andrew Buchanan,1989-05-11,R,United States,5.98,174.2,27,3.45,4.36,1.27,6.23,2.58,Y,NPB Tokyo Yakult Swallows 2017-2019 (KBO 입단 이전),wiki_provisional
-2020,KIA,애런 브룩스,N,Y,STATIZ 활약연도 2020-2021 KIA와 일치,STATIZ 확인,1,0,Aaron Lee Brooks,1990-04-27,R,United States,6.48,151.1,23,2.5,2.72,1.02,7.73,1.43,N,,wiki_provisional
-2020,KIA,드류 가뇽,N,Y,STATIZ 신인지명 2020 KIA와 일치,STATIZ 확인,1,0,Andrew M. Drew Gagnon,1990-06-26,R,United States,3.31,159.2,28,4.34,3.73,1.42,7.95,3.61,N,,wiki_provisional
-2020,롯데,댄 스트레일리,N,Y,STATIZ 활약연도 2020-2023 롯데와 일치,STATIZ 확인,1,0,Dan Straily,1988-12-01,R,United States,8.12,194.2,31,2.5,2.90,1.02,9.48,2.36,N,,wiki_provisional
-2020,롯데,애드리안 샘슨,N,Y,STATIZ 활약연도 2020 롯데와 일치,STATIZ 확인,1,0,Adrian Sampson,1991-10-07,R,United States,1.7,130.0,25,5.4,4.61,1.56,6.02,2.49,N,,wiki_provisional
-2020,NC,마이크 라이트,N,Y,STATIZ 활약연도 2020-2021 NC와 일치,STATIZ 확인,1,0,Dennis Michael Mike Wright Jr.,1990-01-03,R,United States,3.4,157.2,29,4.68,4.35,1.44,7.14,3.6,N,,wiki_provisional
-2020,kt,오드리사머 데스파이네,N,Y,"STATIZ 신인지명 2020 kt와 일치, 활약연도 2020-2022",STATIZ 확인,1,0,Odrisamer Despaigne,1987-04-04,R,Cuba,4.88,207.2,34,4.33,4.33,1.45,6.59,2.95,N,,wiki_provisional
-2020,SK,닉 킹엄,N,Y,"STATIZ에는 '킹험'으로 등록. 신인지명 2020 SK와 일치, 2021-02-01 한화 이적 확인(한화 2021 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Nick Kingham,1991-11-08,R,United States,-0.23,10.2,2,6.75,4.87,1.88,5.06,3.38,N,,wiki_provisional
-2020,SK,리카르도 핀토,N,Y,STATIZ 신인지명 2020 SK와 일치,STATIZ 확인,1,0,Ricardo Pinto,1994-01-20,R,Venezuela,0.43,162.0,30,6.17,5.58,1.78,6.22,5.0,N,,wiki_provisional
-2021,두산,아리엘 미란다,N,Y,STATIZ 신인지명 2021 두산과 일치,STATIZ 확인,1,0,Ariel Miranda,1989-01-10,L,Cuba,6.73,173.2,28,2.33,2.42,1.14,11.66,3.26,Y,NPB Fukuoka SoftBank Hawks 2018-2019; CPBL Chinatrust Brothers 2020 (모두 KBO 입단 이전),wiki_provisional
-2021,두산,워커 로켓,N,Y,STATIZ 신인지명 2021 두산과 일치,STATIZ 확인,1,0,Andrew Walker Lockett,1994-05-03,R,United States,3.93,124.0,21,2.98,3.34,1.4,8.13,3.05,N,,wiki_provisional
-2021,LG,앤드류 수아레즈,N,Y,STATIZ 활약연도 2021 LG와 일치,STATIZ 확인,1,0,Andrew Jose Suarez,1992-09-11,L,United States,4.23,115.1,22,2.18,2.66,1.14,9.83,3.2,N,,wiki_provisional
-2021,KIA,대니얼 멩덴,N,Y,STATIZ 신인지명 2021 KIA와 일치,STATIZ 확인,1,0,Daniel Joseph Mengden,1993-02-19,R,United States,2.86,120.0,21,3.6,3.90,1.2,7.8,2.62,N,,wiki_provisional
-2021,KIA,보 다카하시,Y,Y,STATIZ 신인지명 2021 KIA와 일치,STATIZ 확인,1,0,Rodrigo Hitoshi Bo Takahashi,1997-01-23,R,Brazil,0.35,36.2,7,4.91,3.28,1.58,11.29,2.95,N,,wiki_provisional
-2021,롯데,앤더슨 프랑코,N,Y,STATIZ 활약연도 2021 롯데와 일치,STATIZ 확인,1,0,Enderson Daniel Franco,1992-12-29,R,Venezuela,1.7,150.0,27,5.4,5.25,1.48,7.44,4.5,N,,wiki_provisional
-2021,한화,라이언 카펜터,N,Y,STATIZ 활약연도 2021-2022 한화와 일치,STATIZ 확인,1,0,Ryan Nicholas Carpenter,1990-08-22,L,United States,2.74,170.0,30,3.97,3.91,1.31,9.48,3.81,Y,CPBL Rakuten Monkeys 2020 (KBO 입단 이전),wiki_provisional
-2021,NC,웨스 파슨스,N,Y,"STATIZ 신인지명 2021 NC와 일치, 활약연도 2021-2022 전부 NC(위키 원문의 '퇴출' 표기는 오류로 최종 확정)",STATIZ 확인,1,0,Wes Parsons,1992-09-06,R,United States,3.81,133.0,24,3.72,3.51,1.29,10.02,4.26,N,,wiki_provisional
-2021,SSG,윌머 폰트,N,Y,STATIZ 신인지명 2021 SK(→SSG)와 일치,STATIZ 확인,1,0,Wilmer Font Gomez,1990-05-24,R,Venezuela,3.5,145.2,25,3.46,3.12,1.09,9.7,2.78,N,,wiki_provisional
-2021,SSG,아티 르위키,N,Y,STATIZ 신인지명 2021 SK/SSG와 일치,STATIZ 확인,1,0,Artie Michael Lewicki,1992-04-08,R,United States,0.4,14.1,4,3.77,4.29,1.19,5.65,1.26,N,,wiki_provisional
-2021,SSG,샘 가빌리오,Y,Y,STATIZ 신인지명 2021 SSG와 일치,STATIZ 확인,1,0,Samuel Joseph Gaviglio,1990-05-22,R,United States,0.67,81.1,15,5.86,3.97,1.45,7.75,3.32,N,,wiki_provisional
-2021,키움,조시 스미스,N,Y,STATIZ 활약연도 2021 키움과 일치,STATIZ 확인,1,0,Joshua Allen Smith,1987-08-07,R,United States,0.0,10.0,2,6.3,5.26,1.4,4.5,4.5,N,,wiki_provisional
-2022,두산,로버트 스탁,N,Y,STATIZ 신인지명 2022 두산과 일치,STATIZ 확인,1,0,Robert Anthony Stock,1989-11-21,R,United States,2.07,165.0,29,3.6,4.09,1.48,7.53,4.53,N,,wiki_provisional
-2022,두산,브랜던 워델,Y,Y,"STATIZ에는 '브랜든'(이름, 성 아님)으로 등록. 활약연도 2022-2024 두산과 일치. 뉴스 확인 결과 2022-07-13 아리엘 미란다 부상 대체 영입이었음 — 대체영입여부 N에서 Y로 정정",STATIZ 확인 + 뉴스,1,0,Brandon David Waddell,1994-06-03,L,United States,1.29,65.0,11,3.6,4.35,1.23,5.54,3.32,N,,wiki_provisional
-2022,삼성,앨버트 수아레즈,N,Y,STATIZ 활약연도 2022-2023 삼성과 일치,STATIZ 확인,1,0,Albert Joe Suárez,1989-10-08,R,Venezuela,5.54,173.2,29,2.49,2.94,1.16,8.24,2.59,Y,NPB Tokyo Yakult Swallows 2019-2021 (KBO 입단 이전),wiki_provisional
-2022,KIA,로니 윌리엄스,N,Y,STATIZ에는 '로니'로 등록. 2022 KIA 신인지명과 일치,STATIZ 확인,1,0,Ronnie Ellis Williams,1996-01-06,R,United States,-0.12,44.1,9,5.89,6.03,1.69,6.5,5.68,N,,wiki_provisional
-2022,KIA,션 놀린,N,Y,"STATIZ 신인지명 2022 KIA와 일치, G=21",STATIZ 확인,1,0,Sean Patrick Nolin,1989-12-26,L,United States,4.11,124.0,21,2.47,3.05,1.12,7.84,1.74,Y,NPB Saitama Seibu Lions 2020 (KBO 입단 이전),wiki_provisional
-2022,KIA,토마스 파노니,Y,Y,"STATIZ 신인지명 2022 KIA와 일치(대체영입 사유는 STATIZ 미표기, 뉴스로 확인됨)",STATIZ 확인,1,0,Thomas Edward Pannone Jr,1994-04-28,L,United States,2.44,82.2,14,2.72,3.27,1.23,7.95,2.61,N,,wiki_provisional
-2022,롯데,찰리 반스,N,Y,STATIZ에는 '반즈'로 등록. 활약연도 2022-2025 롯데와 일치,STATIZ 확인,1,0,Charlie Barnes,1995-10-01,L,United States,4.46,186.1,31,3.62,3.21,1.2,7.73,2.27,N,,wiki_provisional
-2022,롯데,글렌 스파크맨,N,Y,STATIZ 신인지명 2022 롯데와 일치,STATIZ 확인,1,0,Glenn Sparkman,1992-05-11,R,United States,0.71,84.2,19,5.31,3.68,1.65,9.46,4.57,Y,NPB Orix Buffaloes 2021 (KBO 입단 이전),wiki_provisional
-2022,한화,예프리 라미레즈,Y,Y,STATIZ 활약연도 2022 한화와 일치,STATIZ 확인,1,0,Yefry Ramírez Alcala,1993-11-28,R,Dominican Republic,1.13,65.1,13,4.13,4.80,1.36,6.47,5.1,N,,wiki_provisional
-2022,한화,펠릭스 페냐,Y,Y,STATIZ 활약연도 2022-2024 한화와 일치,STATIZ 확인,1,0,Félix Ricardo Peña,1990-02-25,R,Dominican Republic,1.31,67.2,13,3.72,3.39,1.37,9.58,3.99,N,,wiki_provisional
-2022,NC,맷 더모디,Y,Y,STATIZ 신인지명 2022 NC와 일치,STATIZ 확인,1,0,Matt Dermody,1990-07-04,L,United States,0.13,39.2,8,4.54,3.92,1.39,8.39,2.95,Y,NPB Saitama Seibu Lions 2021 (KBO 입단 이전),wiki_provisional
-2022,kt,웨스 벤자민,N,Y,STATIZ 활약연도 2022 kt 시작으로 일치,STATIZ 확인,1,0,Wes Benjamin,1993-07-26,L,United States,3.1,96.2,17,2.7,4.04,1.02,7.17,2.23,N,,wiki_provisional
-2022,SSG,이반 노바,N,Y,STATIZ 신인지명 2022 SSG와 일치,STATIZ 확인,1,0,Iván Nova,1987-01-12,R,Dominican Republic,-0.37,63.2,12,6.5,4.92,1.62,4.52,3.53,N,,wiki_provisional
-2022,SSG,숀 모리만도,Y,Y,STATIZ 신인지명 2022 SSG와 일치,STATIZ 확인,1,0,Shawn Morimando,1992-11-20,L,United States,3.09,75.1,12,1.67,2.99,1.06,8.0,2.75,Y,CPBL CTBC Brothers 2021-2022 (KBO 입단 이전),wiki_provisional
-2022,키움,타일러 애플러,N,Y,STATIZ 신인지명 2022 키움과 일치(G=33); 타 팀 이력 없음,STATIZ 확인,1,0,Tyler Austin Eppler,1993-01-05,R,United States,2.14,140.1,25,4.3,4.37,1.51,5.52,2.57,Y,NPB Orix Buffaloes 2019 (KBO 입단 이전),wiki_provisional
-2023,두산,딜런 파일,N,Y,STATIZ에는 '딜런'으로 등록. 신인지명 2023 두산과 일치,STATIZ 확인,1,0,Dylan Michael File,1996-06-04,R,United States,-0.05,9.0,2,8.0,7.66,1.67,2.0,5.0,N,,wiki_provisional
-2023,NC,테일러 와이드너,N,Y,"STATIZ로 충돌 해결: 신인지명 '23 NC 자유선발', 2023-08-10 NC→삼성 트레이드. NC가 정답 확정(삼성은 시즌 중 이적처일 뿐 별도 신규 아님)",STATIZ 확인,1,0,Taylor Browning Widener,1994-10-24,R,United States,1.53,115.0,20,4.54,3.66,1.32,7.75,3.13,N,,wiki_provisional
-2023,KIA,아도니스 메디나,N,Y,"STATIZ 신인지명 2023 KIA와 일치, G=12",STATIZ 확인,1,0,Adonis Medina,1996-12-18,R,Dominican Republic,0.06,58.0,12,6.05,5.56,1.6,5.59,4.5,N,,wiki_provisional
-2023,KIA,숀 앤더슨,N,Y,STATIZ 활약연도 2023 KIA와 일치,STATIZ 확인,1,0,Shaun Anderson,1994-10-29,R,United States,1.33,79.0,14,3.76,3.83,1.29,7.29,2.96,N,,wiki_provisional
-2023,KIA,마리오 산체스,N,Y,STATIZ 활약연도 2023 KIA와 일치,STATIZ 확인,1,0,Mario Sanchez,1994-10-31,R,Venezuela,0.13,63.2,11,5.94,3.77,1.48,8.34,2.12,Y,CPBL Uni-President 7-Eleven Lions 2023 (KBO 입단 이전),wiki_provisional
-2023,롯데,애런 윌커슨,N,Y,STATIZ 신인지명 2023 롯데와 일치(계약/팀이동 이력에 2023년 한 건만 존재),STATIZ 확인,1,0,Aaron Wilkerson,1989-05-24,R,United States,2.6,79.2,13,2.26,2.61,1.09,9.15,2.26,Y,NPB Hanshin Tigers 2022 (KBO 입단 이전),wiki_provisional
-2023,한화,버치 스미스,N,Y,"STATIZ 신인지명 2023 한화와 일치, G=1(2.2이닝)",STATIZ 확인,1,0,Burch Taylor Smith,1990-04-12,R,United States,0.09,2.2,1,6.75,3.14,1.12,6.75,0.0,Y,NPB Saitama Seibu Lions 2022 (KBO 입단 이전),wiki_provisional
-2023,한화,리카르도 산체스,Y,Y,STATIZ 활약연도 2023-2024 한화와 일치,STATIZ 확인,1,0,Ricardo Jose Sánchez,1997-04-11,L,Venezuela,2.2,126.0,24,3.79,3.92,1.3,7.07,2.0,N,,wiki_provisional
-2023,NC,에릭 페디,N,Y,STATIZ 신인지명 2023 NC와 일치 (정규시즌 MVP),STATIZ 확인,1,0,Erick James Fedde,1993-02-25,R,United States,7.63,180.1,30,2.0,2.22,0.95,10.43,1.75,N,,wiki_provisional
-2023,NC,태너 털리,Y,Y,STATIZ에는 '태너'로 등록. 신인지명 2023 NC와 일치,STATIZ 확인,1,0,Tanner Paul Tully,1994-11-30,L,United States,1.81,64.2,11,2.92,3.81,1.1,6.54,1.81,N,,wiki_provisional
-2023,kt,보 슐서,N,Y,STATIZ 신인지명 2023 kt와 일치,STATIZ 확인,1,0,Beau Grayson Sulser,1994-05-05,R,United States,0.35,49.2,9,5.62,4.34,1.61,6.34,2.54,N,,wiki_provisional
-2023,SSG,커크 맥카티,N,Y,STATIZ 신인지명 2023 SSG와 일치,STATIZ 확인,1,0,Kirkland Kirk McCarty,1995-10-12,L,United States,2.87,130.0,24,3.39,3.63,1.3,8.03,3.12,N,,wiki_provisional
-2023,SSG,에니 로메로,N,N,STATIZ 확인: 검색해도 선수 페이지 자체가 없음(동명이인 타자만 검색됨) — 0경기라 STATIZ가 페이지를 아예 안 만든 것으로 추정. WAR은 0이 아니라 데이터 자체가 존재하지 않음,STATIZ 확인(페이지 없음),1,1,Enny Romero,1991-01-24,L,Dominican Republic,,,,,,,,,Y,"NPB Chunichi Dragons 2019-2020, Chiba Lotte Marines 2021-2022 (KBO 입단 이전) — 단 STATIZ 생년월일 부재로 생년월일 교차검증 불가, 팀/연도/부상 스토리 정황 근거만으로 확정",wiki_provisional
-2023,SSG,로에니스 엘리아스,Y,Y,"STATIZ 신인지명 2023 SSG와 일치, 활약연도 2023-2024",STATIZ 확인,1,0,Roenis Elías,1988-08-01,L,Cuba,2.92,131.1,21,3.7,4.09,1.32,6.37,2.26,N,,wiki_provisional
-2023,키움,아리엘 후라도,N,Y,"STATIZ 신인지명 2023 키움과 일치, 2025-01-01 삼성 트레이드 확인(삼성 2025 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Ariel Bolívar Jurado Agrazal,1996-01-30,R,Panama,5.88,183.2,30,2.65,3.15,1.12,7.2,2.01,N,,wiki_provisional
-2023,키움,이안 맥키니,Y,Y,STATIZ 신인지명 2023 키움과 일치,STATIZ 확인,1,0,Ian McKinney,1994-11-18,L,,-0.27,59.1,12,6.52,6.14,1.63,5.92,5.46,,,
-2024,SSG,시라카와 케이쇼,Y,Y,"STATIZ로 충돌 해결: 신인지명 '24 SSG 부상 대체 선수', 2024-07-10 SSG→두산 트레이드. SSG가 정답 확정(두산 표기는 조사 오류였음)",STATIZ 확인,1,0,Keisho Shirakawa,2001-06-04,R,Japan,0.6,57.1,12,5.65,5.48,1.6,7.22,5.18,Y,시코쿠 아일랜드리그 플러스(독립리그) Tokushima Indigo Socks 2020 (KBO 입단 이전) — 단 NPB 자체 경력은 없음(위키에 'KBO 일본인 선수 중 유일하게 NPB 미경력자'로 명시),wiki_provisional
-2024,두산,조던 발라조빅,N,Y,STATIZ 신인지명 2024 두산과 일치,STATIZ 확인,1,0,Jordan Balazovic,1998-09-17,R,Canada,1.25,57.0,11,4.26,3.31,1.44,10.89,4.42,N,,wiki_provisional
-2024,삼성,코너 시볼드,N,Y,STATIZ에는 '코너'로 등록. 신인지명 2024 삼성과 일치,STATIZ 확인,1,0,Connor Seabold,1996-01-24,R,United States,5.27,160.0,28,3.43,4.50,1.09,8.89,2.25,N,,wiki_provisional
-2024,삼성,데니 레예스,N,Y,"STATIZ 신인지명 2024 삼성과 일치, G=26 (실전출전 확정); 2025년까지 재계약 활동",STATIZ 확인,1,0,Denyi Reyes,1996-11-02,R,Dominican Republic,4.47,144.0,26,3.81,4.31,1.31,7.12,1.88,N,,wiki_provisional
-2024,LG,디트릭 엔스,N,Y,STATIZ 신인지명 2024 LG와 일치,STATIZ 확인,1,0,Dietrich Arthur Enns,1991-05-16,L,United States,3.77,167.2,30,4.19,4.10,1.31,8.43,2.68,Y,NPB Saitama Seibu Lions 2022-2023 (KBO 입단 이전),wiki_provisional
-2024,LG,엘리에이저 에르난데스,N,Y,STATIZ 활약연도 2024-2025 LG와 일치,STATIZ 확인,1,0,Elieser Hernández,1995-05-03,R,Venezuela,1.39,47.0,9,4.02,3.80,1.21,10.53,3.06,N,,wiki_provisional
-2024,KIA,윌 크로우,N,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,William Chandler Crowe,1994-09-09,R,United States,1.09,40.1,8,3.57,3.11,1.31,9.6,2.68,N,,wiki_provisional
-2024,KIA,캠 알드레드,Y,Y,"STATIZ 신인지명 '24 KIA 부상 대체 외국인선수'로 명시, 일치",STATIZ 확인,1,0,Cam Alldred,1996-07-25,L,United States,1.2,43.2,9,4.53,3.74,1.26,10.72,3.5,N,,wiki_provisional
-2024,KIA,에릭 스타우트,Y,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,Eric Stout,1993-03-27,L,United States,0.28,16.0,4,5.06,4.19,1.38,11.25,2.81,Y,CPBL CTBC Brothers 2023 (KBO 입단 이전),wiki_provisional
-2024,KIA,에릭 라우어,N,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,Eric Lauer,1995-06-03,L,United States,0.76,34.2,7,4.93,3.98,1.36,9.61,3.12,N,,wiki_provisional
-2024,KIA,제임스 네일,N,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,James Aubrey Naile,1993-02-08,R,United States,4.31,149.1,26,2.53,3.74,1.27,8.32,2.11,N,,wiki_provisional
-2024,NC,다니엘 카스타노,N,Y,STATIZ 신인지명 2024 NC와 일치,STATIZ 확인,1,0,Daniel Alexander Castano,1994-09-17,L,United States,1.89,111.2,19,4.35,4.33,1.27,7.17,2.01,N,,wiki_provisional
-2024,NC,카일 하트,N,Y,STATIZ 신인지명 2024 NC와 일치,STATIZ 확인,1,0,Kyle Patrick Hart,1992-11-23,L,United States,6.15,157.0,26,2.69,3.17,1.03,10.43,2.18,N,,wiki_provisional
-2024,한화,라이언 와이스,Y,Y,STATIZ 신인지명 '24 한화 부상 대체 선수'로 일치; 리카르도 산체스 대체 6/17 입단,STATIZ 확인,1,0,Ryan Weiss,1996-12-10,R,United States,2.57,91.2,16,3.73,3.71,1.16,9.62,2.85,Y,CPBL Fubon Guardians 2023 (KBO 입단 이전),wiki_provisional
-2024,한화,하이메 바리아,N,Y,STATIZ 신인지명 2024 한화와 일치,STATIZ 확인,1,0,Jaime Barria,1996-07-18,R,Panama,1.41,92.2,19,5.15,3.90,1.42,8.06,1.75,N,,wiki_provisional
-2024,SSG,로버트 더거,N,Y,STATIZ 신인지명 2024 SSG와 일치(G=6 IP=22.2 ERA12.71); 부진으로 시즌 중 교체,STATIZ 확인,1,0,Robert Lee Dugger,1995-07-03,R,United States,-0.84,22.2,6,12.71,5.13,2.07,7.15,3.97,N,,wiki_provisional
-2024,SSG,드류 앤더슨,Y,Y,STATIZ 활약연도 2024~2025 SSG와 일치; 더거 대체 5/3 입국(STATIZ 계약구분란엔 '자유선발'로만 표기),STATIZ 확인,1,0,Andrew James Anderson,1994-03-22,R,United States,3.45,115.2,23,3.89,3.64,1.31,12.29,4.12,Y,NPB Hiroshima Toyo Carp 2022-2023 (KBO 입단 이전),wiki_provisional
-2024,키움,엔마누엘 데 헤이수스,N,Y,STATIZ 신인지명 2024 키움과 일치(G=30 IP=171.1),STATIZ 확인,1,0,Enmanuel Jose De Jesus,1996-12-10,L,Venezuela,4.39,171.1,30,3.68,4.18,1.25,9.35,2.31,N,,wiki_provisional
-2025,두산,콜 어빈,N,Y,STATIZ에는 '콜어빈'으로 등록. 신인지명 2025 두산과 일치,STATIZ 확인,1,0,Cole Irvin,1994-01-31,L,United States,2.57,144.2,28,4.48,4.59,1.53,7.96,4.91,N,,wiki_provisional
-2025,두산,잭 로그,N,Y,STATIZ에는 '잭로그'로 등록. 신인지명 2025 두산과 일치,STATIZ 확인,1,0,Zach Logue,1996-04-23,L,United States,5.34,176.0,29,2.81,3.26,1.05,7.98,1.99,N,,wiki_provisional
-2025,삼성,헤르손 가라비토,N,Y,STATIZ 신인지명 2025 삼성과 일치,STATIZ 확인,1,0,Gerson Yeris Garabito,1995-08-19,R,Dominican Republic,2.54,78.1,15,2.64,3.91,1.19,9.65,4.25,N,,wiki_provisional
-2025,LG,요니 치리노스,N,Y,STATIZ 신인지명 2025 LG와 일치,STATIZ 확인,1,0,Yonny Chirinos,1993-12-26,R,Venezuela,5.21,177.0,30,3.31,3.13,1.18,6.97,1.83,N,,wiki_provisional
-2025,LG,앤더스 톨허스트,N,Y,STATIZ 신인지명 2025 LG와 일치,STATIZ 확인,1,0,Anders William Tolhurst,1999-09-13,R,United States,1.31,44.0,8,2.86,3.21,1.25,9.2,3.27,N,,wiki_provisional
-2025,KIA,애덤 올러,N,Y,STATIZ 신인지명 2025 KIA와 일치,STATIZ 확인,1,0,Adam Oller,1994-10-17,R,United States,3.61,149.0,26,3.62,2.90,1.15,10.21,2.84,N,,wiki_provisional
-2025,롯데,터커 데이비드슨,N,Y,STATIZ에는 '데이비슨'으로 등록. 신인지명 2025 롯데와 일치,STATIZ 확인,1,0,Tucker Davidson,1996-03-25,L,United States,3.38,123.1,22,3.65,3.85,1.39,8.68,3.5,N,,wiki_provisional
-2025,롯데,빈스 벨라스케즈,Y,Y,STATIZ 신인지명 2025 롯데와 일치,STATIZ 확인,1,0,Vincent John Velasquez,1992-06-07,R,United States,-0.31,35.0,7,8.23,6.22,1.86,7.2,4.63,N,,wiki_provisional
-2025,롯데,알렉 감보아,Y,Y,STATIZ 신인지명 2025 롯데와 일치,STATIZ 확인,1,0,Alec Gamboa,1997-01-17,L,United States,2.35,108.0,19,3.58,3.44,1.35,9.75,4.08,N,,wiki_provisional
-2025,한화,코디 폰세,N,Y,STATIZ 신인지명 2025 한화와 일치 (2025 정규시즌 MVP),STATIZ 확인,1,0,Cody Ponce,1994-04-25,R,United States,8.38,180.2,29,1.89,1.92,0.94,12.55,2.04,Y,"NPB Nippon-Ham Fighters 2022-2023, Rakuten Golden Eagles 2024 (KBO 입단 이전)",wiki_provisional
-2025,NC,로건 앨런,N,Y,"STATIZ 신인지명 2025 NC와 일치, 2026-06-18 kt 트레이드 확인",STATIZ 확인,1,0,Logan Allen,1997-05-23,L,United States,2.41,173.0,31,4.53,4.39,1.43,7.75,3.49,N,,wiki_provisional
-2025,NC,라일리 톰프슨,N,Y,STATIZ 활약연도 2025-2026 NC와 일치,STATIZ 확인,1,0,Riley Thompson,1996-07-09,R,United States,4.34,172.0,30,3.45,3.12,1.12,11.3,2.93,N,,wiki_provisional
-2025,kt,패트릭 머피,Y,Y,STATIZ에는 '패트릭'으로 등록. 신인지명 2025 kt와 일치,STATIZ 확인,1,0,Patrick Murphy,1995-06-10,R,United States,1.33,60.2,9,3.12,3.67,1.38,6.68,3.12,Y,NPB Hokkaido Nippon-Ham Fighters 2024 (KBO 입단 이전),wiki_provisional
-2025,SSG,미치 화이트,N,Y,STATIZ 활약연도 2025-2026 SSG와 일치,STATIZ 확인,1,0,Mitch White,1994-12-28,R,United States,4.24,134.2,24,2.87,3.38,1.15,9.16,2.94,N,,wiki_provisional
-2025,키움,케니 로젠버그,N,Y,STATIZ 신인지명 2025 키움과 일치,STATIZ 확인,1,0,Kenny Rosenberg,1998-07-09,L,United States,1.79,75.1,13,3.23,3.29,1.17,9.56,2.99,N,,wiki_provisional
-2025,키움,라클란 웰스,Y,Y,"STATIZ 신인지명 '25 키움 부상 대체 외국인선수'로 명시, 일치",STATIZ 확인,1,0,Lachlan Robert Wells,1997-02-27,L,Australia,0.38,20.0,4,3.15,3.04,1.2,7.2,2.7,N,,wiki_provisional
-2025,키움,C.C 메르세데스,Y,Y,STATIZ 신인지명 2025 키움과 일치,STATIZ 확인,1,0,Cristopher Crisostomo Mercedes,1994-03-08,L,Dominican Republic,0.67,46.1,8,4.47,3.61,1.36,7.96,1.75,Y,"NPB Yomiuri Giants 2017-2022, Chiba Lotte Marines 2023-2024; CPBL Uni-President Lions 2025 (모두 KBO 입단 이전)",wiki_provisional
+연도,팀,선수명,대체영입여부,실전출전여부,비고,출처유형,verified_statiz,kbo_no_appearance,english_name,birth_date,birth_date_source,throws,nationality,kbo_first_year_WAR,kbo_first_year_IP,kbo_first_year_GS,kbo_first_year_ERA,kbo_first_year_FIP,kbo_first_year_WHIP,kbo_first_year_K9,kbo_first_year_BB9,asia_league_experience,asia_league_detail,nationality_source
+2014,두산,크리스 볼스테드,N,Y,STATIZ 신인지명 2014 두산과 일치,STATIZ 확인,1,0,Christopher Kenneth Volstad,1986-09-23,statiz,R,United States,-0.05,87.0,17,6.21,6.00,1.76,3.31,3.83,N,,wiki_provisional
+2014,두산,유네스키 마야,Y,Y,STATIZ 신인지명 2014 두산과 일치,STATIZ 확인,1,0,Yunieski Maya,1981-08-28,statiz,R,Cuba,1.31,63.0,11,4.86,4.62,1.44,7.71,3.43,N,,wiki_provisional
+2014,삼성,J.D. 마틴,N,Y,STATIZ 활약연도 2014 삼성과 일치,STATIZ 확인,1,0,John Dale Martin,1983-01-02,statiz,R,United States,3.46,128.0,22,4.78,4.46,1.4,5.91,2.18,N,,wiki_provisional
+2014,LG,코리 리오단,N,Y,STATIZ 신인지명 2014 LG와 일치,STATIZ 확인,1,0,Cory S. Riordan,1986-05-25,statiz,R,United States,4.31,168.0,28,3.96,4.88,1.27,4.12,1.98,N,,wiki_provisional
+2014,LG,에버렛 티포드,N,Y,STATIZ 신인지명 2014 LG와 일치,STATIZ 확인,1,0,Everett James Teaford,1984-05-15,statiz,L,United States,1.42,99.2,19,5.24,4.91,1.57,7.68,4.61,N,,wiki_provisional
+2014,KIA,하이로 어센시오,N,Y,STATIZ 신인지명 2014 KIA와 일치,STATIZ 확인,1,0,Jairo Manuel Asencio,1983-05-30,statiz,R,Dominican Republic,0.85,46.2,0,4.05,3.59,1.35,10.8,2.7,N,,wiki_provisional
+2014,KIA,저스틴 토마스,N,Y,STATIZ 활약연도 2014 KIA와 일치,STATIZ 확인,1,0,Justin Joseph Thomas,1984-01-18,statiz,L,United States,0.98,46.2,9,4.44,3.55,1.59,9.84,3.66,Y,NPB Nippon-Ham Fighters 2013 (KBO 입단 이전),wiki_provisional
+2014,한화,케일럽 클레이,N,Y,STATIZ 신인지명 2014 한화와 일치,STATIZ 확인,1,0,Caleb Russell Clay,1988-02-15,statiz,R,United States,-0.13,40.0,10,8.32,7.55,2.17,4.5,5.62,N,,wiki_provisional
+2014,한화,앤드루 앨버스,N,Y,STATIZ 신인지명 2014 한화와 일치,STATIZ 확인,1,0,Andrew ALBERS,1985-10-06,statiz,L,Canada,2.15,151.1,28,5.89,4.80,1.59,6.36,2.38,N,,wiki_provisional
+2014,한화,라이언 타투스코,N,Y,STATIZ 신인지명 2014 한화와 일치,STATIZ 확인,1,0,Ryan Tatusko,1985-03-27,statiz,R,United States,0.66,63.2,12,7.07,6.12,1.71,6.93,6.36,N,,wiki_provisional
+2014,NC,테드 웨버,N,Y,STATIZ 신인지명 2014 NC와 일치,STATIZ 확인,1,0,Thad G. Weber,1984-09-28,statiz,R,United States,2.57,118.0,23,4.58,4.95,1.47,6.48,3.2,N,,wiki_provisional
+2014,SK,트레비스 밴와트,N,Y,"STATIZ 신인지명 2014 SK와 일치, 2016-01-01 SK→KT 트레이드 확인(kt 2016 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Travis Banwart,1986-02-14,statiz,R,United States,2.28,66.2,11,3.1,4.67,1.23,7.56,3.51,N,,wiki_provisional
+2014,SK,로스 울프,N,Y,STATIZ 신인지명 2014 SK와 일치,STATIZ 확인,1,0,Ross Wolf,1982-10-18,statiz,R,United States,2.23,85.1,13,4.85,5.65,1.35,4.32,2.85,N,,wiki_provisional
+2015,두산,앤서니 스와잭,Y,Y,STATIZ 신인지명 2015 두산과 일치,STATIZ 확인,1,0,Anthony Swarzak,1985-09-10,statiz,R,United States,0.91,92.1,17,5.26,4.41,1.52,7.02,2.92,N,,wiki_provisional
+2015,삼성,타일러 클로이드,N,Y,STATIZ 신인지명 2015 삼성과 일치,STATIZ 확인,1,0,Tyler Cloyd,1987-05-16,statiz,R,United States,1.91,159.2,28,5.19,4.93,1.43,6.93,2.14,N,,wiki_provisional
+2015,삼성,알프레도 피가로,N,Y,STATIZ 신인지명 2015 삼성과 일치,STATIZ 확인,1,0,Alfredo Figaro,1984-07-07,statiz,R,Dominican Republic,5.32,165.0,25,3.38,4.56,1.24,6.38,2.78,Y,NPB Orix Buffaloes 2011-2012 (KBO 입단 이전),wiki_provisional
+2015,LG,루카스 하렐,N,Y,"STATIZ에는 '루카스'로 등록. 신인지명 2015 LG와 일치, G=33 (뉴스 확인 내용과 일치)",STATIZ 확인,1,0,Lucas Harrell,1985-06-03,statiz,R,United States,2.67,171.2,30,4.93,4.84,1.65,7.92,5.66,N,,wiki_provisional
+2015,KIA,조쉬 스틴슨,N,Y,STATIZ 신인지명 2015 KIA와 일치,STATIZ 확인,1,0,Joshua Randall Stinson,1988-03-14,statiz,R,United States,2.57,167.0,30,4.96,5.22,1.52,5.01,3.45,N,,wiki_provisional
+2015,KIA,에반 믹,N,Y,STATIZ에는 '에반'으로 등록. 신인지명 2015 KIA와 일치,STATIZ 확인,1,0,Evan David Meek,1983-05-12,statiz,R,United States,0.25,26.1,1,4.44,3.37,1.63,8.54,4.44,N,,wiki_provisional
+2015,롯데,브룩스 레일리,N,Y,STATIZ 활약연도 2015-2019 롯데와 일치,STATIZ 확인,1,0,Brooks Raley,1988-06-29,statiz,L,United States,4.61,179.1,30,3.91,4.78,1.33,6.72,2.86,N,,wiki_provisional
+2015,롯데,조쉬 린드블럼,N,Y,"STATIZ 신인지명 2015 롯데와 일치, 2018-02-01 롯데→두산 트레이드 확인(두산 2018 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Joshua William Josh Lindblom,1987-06-15,statiz,R,United States,7.35,210.0,32,3.56,4.48,1.18,7.71,2.23,N,,wiki_provisional
+2015,한화,에스밀 로저스,N,Y,"STATIZ 신인지명 2015 한화와 일치, 2018-01-01 넥센 트레이드 확인(넥센 2018 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Esmil Rogers,1985-08-14,statiz,R,Dominican Republic,3.07,75.2,10,2.97,3.41,1.08,7.14,2.38,N,,wiki_provisional
+2015,NC,재크 스튜어트,N,Y,STATIZ 신인지명 2015 NC와 일치,STATIZ 확인,1,0,Zachary Robert Stewart,1986-09-28,statiz,R,United States,4.67,117.2,19,2.68,3.33,1.21,8.34,1.99,N,,wiki_provisional
+2015,kt,앤드루 시스코,N,Y,"STATIZ 신인지명=2014년(kt), 활약연도/실전기록=2015년만 존재. PROJECT_GUIDELINES.md의 'KBO 첫 시즌=실전 출전 연도' 규칙에 따라 2015년으로 확정",STATIZ 확인,1,0,Andrew Sisco,1983-01-13,statiz,L,United States,-0.04,39.0,5,6.23,5.23,1.74,9.69,5.77,Y,CPBL EDA Rhinos 2013-2014 (KBO 입단 이전),wiki_provisional
+2015,kt,필 어윈,N,Y,STATIZ 신인지명 2015 kt와 일치,STATIZ 확인,1,0,Phil Irwin,1987-02-25,statiz,R,United States,-0.29,56.0,12,8.68,5.66,1.98,6.59,3.38,N,,wiki_provisional
+2015,SK,메릴 켈리,N,Y,STATIZ 신인지명 2015 SK와 일치,STATIZ 확인,1,0,Merrill Kelly,1988-10-14,statiz,R,United States,4.56,181.0,29,4.13,4.22,1.34,6.91,2.69,N,,wiki_provisional
+2016,삼성,콜린 벨레스터,N,Y,"STATIZ 신인지명 2016 삼성과 일치, G=3 (실전출전 확정)",STATIZ 확인,1,0,Collin Thomas Balester,1986-06-06,statiz,R,United States,-0.22,12.1,3,8.03,7.21,2.59,3.65,8.76,N,,wiki_provisional
+2016,삼성,앨런 웹스터,N,Y,"STATIZ 신인지명 2016 삼성과 일치, G=12 (실전출전 확정)",STATIZ 확인,1,0,Carl Allen Webster,1990-02-10,statiz,R,United States,1.17,71.0,12,5.7,6.02,1.68,7.48,5.96,N,,wiki_provisional
+2016,삼성,아놀드 레온,N,Y,STATIZ 신인지명 2016 삼성과 일치,STATIZ 확인,1,0,Arnold Leon,1988-09-06,statiz,R,Mexico,-0.14,8.0,2,11.25,5.80,2.12,7.88,1.12,N,,wiki_provisional
+2016,삼성,요한 플란데,N,Y,STATIZ 신인지명 2016 삼성과 일치(G=13),STATIZ 확인,1,0,Yohan Flande,1986-01-27,statiz,L,Dominican Republic,-0.16,68.2,13,7.6,5.99,1.82,7.34,4.33,N,,wiki_provisional
+2016,LG,데이비드 허프,N,Y,STATIZ 신인지명 2016 LG와 일치,STATIZ 확인,1,0,David Gregory Huff,1984-08-22,statiz,L,United States,2.11,74.2,11,3.13,3.43,1.08,5.54,1.08,N,,wiki_provisional
+2016,KIA,헥터 노에시,N,Y,STATIZ 신인지명 2016 KIA와 일치(G=31),STATIZ 확인,1,0,Hector Noesi,1987-01-26,statiz,R,Dominican Republic,6.57,206.2,31,3.4,3.82,1.27,6.05,2.22,N,,wiki_provisional
+2016,KIA,지크 스프루일,N,Y,STATIZ 신인지명 2016 KIA와 일치,STATIZ 확인,1,0,Ezekiel Stephen Zeke Spruill,1989-09-11,statiz,R,United States,1.73,152.0,29,5.27,4.93,1.68,7.4,4.03,N,,wiki_provisional
+2016,한화,알렉산드로 마에스트리,N,Y,STATIZ 신인지명 2016 한화와 일치(G=9),STATIZ 확인,1,0,Alessandro Maestri,1985-07-01,statiz,R,Italy,-0.71,28.2,8,9.42,7.68,2.48,7.22,10.67,Y,NPB Orix Buffaloes 2012-2015 (KBO 입단 이전),wiki_provisional
+2016,한화,파비오 카스티요,N,Y,STATIZ 신인지명 2016 한화와 일치,STATIZ 확인,1,0,Fabio Castillo,1989-02-19,statiz,R,Dominican Republic,0.74,84.0,15,6.43,5.29,1.74,6.43,4.29,N,,wiki_provisional
+2016,한화,에릭 서캠프,N,Y,STATIZ 신인지명 2016 한화와 일치,STATIZ 확인,1,0,Eric M. Surkamp,1987-07-16,statiz,L,United States,0.17,41.1,8,6.31,5.15,1.72,7.84,3.7,N,,wiki_provisional
+2016,kt,슈가 마리몬,N,Y,"STATIZ 신인지명 2016 kt와 일치, G=12",STATIZ 확인,1,0,Sugar Ray Marimon,1988-09-30,statiz,R,Colombia,0.97,62.0,12,5.23,4.75,1.44,6.53,4.21,N,,wiki_provisional
+2016,kt,요한 피노,N,Y,STATIZ 신인지명 2016 kt와 일치,STATIZ 확인,1,0,Yohan Pino,1983-12-26,statiz,R,Venezuela,-0.13,39.0,8,7.15,5.50,1.97,5.31,3.46,N,,wiki_provisional
+2016,kt,조쉬 로위,N,Y,STATIZ 신인지명 2016 kt와 일치,STATIZ 확인,1,0,Josh Lowey,1984-12-26,statiz,R,United States,0.11,60.0,13,6.3,4.87,1.88,10.2,5.85,N,,wiki_provisional
+2016,SK,브라울리오 라라,N,Y,STATIZ 신인지명 2016 SK와 일치,STATIZ 확인,1,0,Braulio Lara,1988-12-20,statiz,L,Dominican Republic,-0.27,48.1,9,6.7,5.39,1.99,7.45,5.59,N,,wiki_provisional
+2016,넥센,로버트 코엘로,N,Y,STATIZ 신인지명 2016 넥센과 일치,STATIZ 확인,1,0,Robert Coello,1984-11-23,statiz,R,United States,1.92,62.0,12,3.77,5.74,1.48,6.68,6.1,N,,wiki_provisional
+2016,넥센,스콧 맥그레거,Y,Y,STATIZ 신인지명 2016 넥센과 일치,STATIZ 확인,1,0,Scott McGregor,1986-12-19,statiz,R,United States,1.74,90.0,14,5.2,4.89,1.42,6.1,2.0,N,,wiki_provisional
+2017,삼성,재크 페트릭,N,Y,STATIZ 신인지명 2017 삼성과 일치,STATIZ 확인,1,0,Zachary Bernard Petrick,1989-07-29,statiz,R,United States,1.24,134.0,24,6.18,5.50,1.69,5.84,3.49,Y,NPB Yokohama DeNA BayStars 2016 (KBO 입단 이전),wiki_provisional
+2017,삼성,앤서니 레나도,N,Y,STATIZ 신인지명 2017 삼성과 일치,STATIZ 확인,1,0,Anthony Ranaudo,1989-09-09,statiz,R,United States,-0.22,49.0,11,6.8,7.54,1.98,5.14,4.96,N,,wiki_provisional
+2017,KIA,팻 딘,N,Y,STATIZ에는 '팻딘'(공백없음)으로 등록. 신인지명 2017 KIA와 일치,STATIZ 확인,1,0,Patrick Michael Dean,1989-05-25,statiz,L,United States,4.36,176.0,29,4.14,4.61,1.42,7.31,1.99,N,,wiki_provisional
+2017,롯데,파커 마켈,N,N,"STATIZ 신인지명 2017 롯데 기록은 있으나 주요기록표에 경기 기록 전무('조회된 데이터가 없습니다') — 개인사정 계약해지로 실전 미출전 확정, 에니 로메로와 같은 0경기 케이스",STATIZ 확인,1,1,Parker Markel,1990-09-15,mlb_stats_api,R,United States,,,,,,,,,N,,wiki_provisional
+2017,롯데,닉 애디튼,Y,Y,"이름 정정(위키 표기 '닉 에디튼'은 오기, 정확한 표기는 '애디튼'/Nick Additon). 3/29 파커 마켈 대체 영입, STATIZ 신인지명 2017 롯데 일치, G=15(2승7패), 7/12 방출",STATIZ 확인 + 뉴스,1,0,Nick Additon,1987-12-16,statiz,L,United States,0.58,70.0,13,5.91,4.58,1.57,7.71,3.21,Y,CPBL Chinatrust Brothers 2016 (KBO 입단 이전),wiki_provisional
+2017,NC,제프 맨쉽,N,Y,STATIZ 신인지명 2017 NC와 일치,STATIZ 확인,1,0,Jeff Manship,1985-01-16,statiz,R,United States,3.37,112.2,21,3.67,4.14,1.29,6.87,2.64,N,,wiki_provisional
+2017,kt,돈 로치,N,Y,STATIZ 신인지명 2017 kt와 일치,STATIZ 확인,1,0,Donn Roach,1989-12-14,statiz,R,United States,2.35,165.0,28,4.69,5.38,1.58,5.4,3.27,N,,wiki_provisional
+2017,SK,스캇 다이아몬드,N,Y,STATIZ 신인지명 2017 SK와 일치,STATIZ 확인,1,0,Scott Michael Diamond,1986-07-30,statiz,L,Canada,3.25,134.1,24,4.42,5.10,1.47,3.95,2.34,N,,wiki_provisional
+2017,넥센,션 오설리반,N,Y,STATIZ 신인지명 2017 넥센과 일치,STATIZ 확인,1,0,Sean Daniel O'Sullivan,1987-09-01,statiz,R,United States,-0.54,8.0,2,15.75,6.47,2.38,6.75,2.25,N,,wiki_provisional
+2017,넥센,제이크 브리검,Y,Y,STATIZ 신인지명 2017 넥센과 일치,STATIZ 확인,1,0,Jake Brigham,1988-02-10,statiz,R,United States,3.23,144.0,24,4.38,4.75,1.33,6.12,1.62,Y,NPB Tohoku Rakuten Golden Eagles 2016 (KBO 입단 이전),wiki_provisional
+2018,두산,세스 프랭코프,N,Y,STATIZ에는 '후랭코프'로 등록. 활약연도 2018-2019 두산과 일치,STATIZ 확인,1,0,Seth Frankoff,1988-08-27,statiz,R,United States,4.72,149.1,28,3.74,4.66,1.16,8.08,3.31,N,,wiki_provisional
+2018,삼성,팀 아델만,N,Y,STATIZ 신인지명 2018 삼성과 일치,STATIZ 확인,1,0,Timothy Max Adleman,1987-11-13,statiz,R,United States,3.5,171.0,31,5.05,4.91,1.5,7.21,2.84,N,,wiki_provisional
+2018,삼성,리살베르토 보니야,N,Y,STATIZ 신인지명 2018 삼성과 일치,STATIZ 확인,1,0,Lisalverto Bonilla,1990-06-18,statiz,R,Dominican Republic,3.08,168.0,29,5.3,5.11,1.52,8.09,3.38,N,,wiki_provisional
+2018,LG,타일러 윌슨,N,Y,STATIZ 활약연도 2018-2021 LG와 일치,STATIZ 확인,1,0,Tylor Wilson,1989-09-25,statiz,R,United States,6.28,170.0,26,3.07,3.66,1.14,7.89,1.85,N,,wiki_provisional
+2018,롯데,펠릭스 듀브론트,N,Y,STATIZ 신인지명 2018 롯데와 일치,STATIZ 확인,1,0,Felix Antonio Doubront,1987-10-23,statiz,L,Venezuela,2.7,137.1,25,4.92,5.05,1.63,7.14,4.06,N,,wiki_provisional
+2018,한화,키버스 샘슨,N,Y,STATIZ 활약연도 2018 한화와 일치,STATIZ 확인,1,0,Keyvius Sampson,1991-01-06,statiz,R,United States,3.07,161.2,29,4.68,4.19,1.38,10.86,4.4,N,,wiki_provisional
+2018,한화,제이슨 휠러,N,Y,STATIZ 신인지명 2018 한화와 일치(G=19),STATIZ 확인,1,0,Jason Wheeler,1990-10-27,statiz,L,United States,1.72,101.2,19,5.13,4.78,1.59,8.32,3.01,N,,wiki_provisional
+2018,한화,데이비드 헤일,N,Y,STATIZ 신인지명 2018 한화와 일치(G=12),STATIZ 확인,1,0,David E. Hale,1987-09-27,statiz,R,United States,1.66,66.1,12,4.34,4.69,1.28,7.46,2.31,N,,wiki_provisional
+2018,NC,로건 베렛,N,Y,STATIZ 신인지명 2018 NC와 일치,STATIZ 확인,1,0,Scott Logan Verrett,1990-06-19,statiz,R,United States,2.54,155.0,29,5.28,5.23,1.53,8.36,3.43,N,,wiki_provisional
+2018,NC,왕웨이중,N,Y,STATIZ 신인지명 2018 NC와 일치,STATIZ 확인,1,0,Wei-Chung Wang,1992-04-25,statiz,L,Taiwan,2.58,141.2,25,4.26,4.68,1.48,6.86,2.54,N,,wiki_provisional
+2018,SK,앙헬 산체스,N,Y,STATIZ 활약연도 2018-2021 SK와 일치,STATIZ 확인,1,0,Angel Luis Sanchez,1989-11-28,statiz,R,Dominican Republic,2.43,145.1,26,4.89,5.30,1.38,7.68,2.42,N,,wiki_provisional
+2019,삼성,덱 맥과이어,N,Y,STATIZ 신인지명 2019 삼성과 일치,STATIZ 확인,1,0,William Deck McGuire,1989-06-23,statiz,R,United States,1.22,112.1,21,5.05,4.84,1.65,8.01,5.29,N,,wiki_provisional
+2019,삼성,저스틴 헤일리,N,Y,STATIZ 신인지명 2019 삼성과 일치(G=19); 7월 방출,STATIZ 확인,1,0,Justin Case Haley,1991-06-16,statiz,R,United States,0.4,87.2,19,5.75,3.51,1.47,8.62,3.49,N,,wiki_provisional
+2019,삼성,벤 라이블리,N,Y,"STATIZ 신인지명 2019 삼성과 일치, 활약연도 2019-2021",STATIZ 확인,1,0,Bennett Lively,1992-03-05,statiz,R,United States,1.36,57.0,9,3.95,3.08,1.12,9.16,2.05,N,,wiki_provisional
+2019,LG,케이시 켈리,N,Y,STATIZ 활약연도 2019-2024 LG와 일치,STATIZ 확인,1,0,Casey Patrick Kelly,1989-10-04,statiz,R,United States,4.22,180.1,29,2.55,3.50,1.14,6.29,2.05,N,,wiki_provisional
+2019,KIA,제이콥 터너,N,Y,STATIZ 신인지명 2019 KIA와 일치,STATIZ 확인,1,0,Jacob Edward Turner,1992-05-21,statiz,R,United States,0.06,153.1,28,5.46,4.28,1.55,7.1,3.4,N,,wiki_provisional
+2019,KIA,조 윌랜드,N,Y,STATIZ 신인지명 2019 KIA와 일치,STATIZ 확인,1,0,Joseph Andrew Wieland,1990-01-21,statiz,R,United States,1.86,165.0,28,4.75,4.14,1.52,7.47,3.22,Y,NPB Yokohama DeNA BayStars 2017-2018 (KBO 입단 이전),wiki_provisional
+2019,롯데,제이크 톰슨,N,Y,STATIZ 활약연도 2019 롯데와 일치,STATIZ 확인,1,0,Jake Thompson,1994-01-31,statiz,R,United States,0.64,62.2,11,4.74,3.56,1.23,8.62,3.3,N,,wiki_provisional
+2019,SK,브록 다익손,N,Y,"STATIZ 확인 결과 원래 SK가 2019년 신인지명(19 SK 자유선발), 2019-06-10 SK→롯데 트레이드 — 위키 기반 v1에서 롯데로 잘못 기재되어 있었음, SK로 정정",STATIZ 확인,1,0,Brock D. Dykxhoorn,1994-07-02,statiz,R,Canada,2.26,149.1,28,4.34,4.0,1.37,7.05,2.41,N,,wiki_provisional
+2019,한화,워릭 서폴드,N,Y,STATIZ 신인지명 2019 한화와 일치,STATIZ 확인,1,0,Warwick Anthony Saupold,1990-01-16,statiz,R,Australia,4.21,192.1,31,3.51,3.53,1.27,6.32,2.53,N,,wiki_provisional
+2019,한화,채드 벨,N,Y,STATIZ에는 '채드벨'(공백없음)로 등록. 신인지명 2019 한화와 일치,STATIZ 확인,1,0,Chadwick Micah Bell,1989-02-28,statiz,L,United States,4.29,177.1,29,3.5,4.14,1.31,6.8,3.2,N,,wiki_provisional
+2019,NC,드류 루친스키,N,Y,"STATIZ 신인지명 2019 NC와 일치, 활약연도 2019-2022",STATIZ 확인,1,0,Andrew James Rucinski,1988-12-30,statiz,R,United States,5.31,177.1,30,3.05,3.98,1.18,6.04,2.28,N,,wiki_provisional
+2019,NC,에디 버틀러,N,Y,STATIZ 신인지명 2019 NC와 일치,STATIZ 확인,1,0,Timothy Edward Butler,1991-03-13,statiz,R,United States,0.75,73.2,13,4.76,4.34,1.44,5.99,3.42,N,,wiki_provisional
+2019,NC,크리스천 프리드릭,Y,Y,STATIZ 신인지명 2019 NC와 일치,STATIZ 확인,1,0,Christian Louis Patrick Friedrich,1987-07-08,statiz,L,United States,2.66,72.0,12,2.75,3.56,1.18,7.0,2.75,N,,wiki_provisional
+2019,kt,윌리엄 쿠에바스,N,Y,"STATIZ 신인지명 2019 kt와 일치, 활약연도 2019-2025 전부 kt(팀이동 기록 없음)",STATIZ 확인,1,0,William Enrique Cuevas Osorio,1990-10-14,statiz,R,Venezuela,4.27,184.0,30,3.62,4.40,1.17,6.6,3.08,N,,wiki_provisional
+2019,kt,라울 알칸타라,N,Y,"STATIZ 신인지명 2019 kt와 일치, 2020 두산·2025 키움 트레이드 확인(두산/키움 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Raul Alcántara,1992-12-04,statiz,R,Dominican Republic,3.84,172.2,27,4.01,4.02,1.25,5.21,1.41,N,,wiki_provisional
+2019,키움,에릭 요키시,N,Y,"STATIZ 신인지명 2019 넥센과 일치, 2024-08-08 NC 트레이드 확인(NC 2024 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Eric Spenser Jokisch,1989-07-29,statiz,L,United States,4.67,181.1,30,3.13,3.31,1.13,7.0,1.94,N,,wiki_provisional
+2020,두산,크리스 플렉센,N,Y,STATIZ 신인지명 2020 두산과 일치,STATIZ 확인,1,0,Chris Flexen,1994-07-01,statiz,R,United States,3.53,116.2,21,3.01,2.58,1.09,10.18,2.31,N,,wiki_provisional
+2020,삼성,데이비드 뷰캐넌,N,Y,"STATIZ 신인지명 2020 삼성과 일치, 활약연도 2020-2023",STATIZ 확인,1,0,David Andrew Buchanan,1989-05-11,statiz,R,United States,5.98,174.2,27,3.45,4.36,1.27,6.23,2.58,Y,NPB Tokyo Yakult Swallows 2017-2019 (KBO 입단 이전),wiki_provisional
+2020,KIA,애런 브룩스,N,Y,STATIZ 활약연도 2020-2021 KIA와 일치,STATIZ 확인,1,0,Aaron Lee Brooks,1990-04-27,statiz,R,United States,6.48,151.1,23,2.5,2.72,1.02,7.73,1.43,N,,wiki_provisional
+2020,KIA,드류 가뇽,N,Y,STATIZ 신인지명 2020 KIA와 일치,STATIZ 확인,1,0,Andrew M. Drew Gagnon,1990-06-26,statiz,R,United States,3.31,159.2,28,4.34,3.73,1.42,7.95,3.61,N,,wiki_provisional
+2020,롯데,댄 스트레일리,N,Y,STATIZ 활약연도 2020-2023 롯데와 일치,STATIZ 확인,1,0,Dan Straily,1988-12-01,statiz,R,United States,8.12,194.2,31,2.5,2.90,1.02,9.48,2.36,N,,wiki_provisional
+2020,롯데,애드리안 샘슨,N,Y,STATIZ 활약연도 2020 롯데와 일치,STATIZ 확인,1,0,Adrian Sampson,1991-10-07,statiz,R,United States,1.7,130.0,25,5.4,4.61,1.56,6.02,2.49,N,,wiki_provisional
+2020,NC,마이크 라이트,N,Y,STATIZ 활약연도 2020-2021 NC와 일치,STATIZ 확인,1,0,Dennis Michael Mike Wright Jr.,1990-01-03,statiz,R,United States,3.4,157.2,29,4.68,4.35,1.44,7.14,3.6,N,,wiki_provisional
+2020,kt,오드리사머 데스파이네,N,Y,"STATIZ 신인지명 2020 kt와 일치, 활약연도 2020-2022",STATIZ 확인,1,0,Odrisamer Despaigne,1987-04-04,statiz,R,Cuba,4.88,207.2,34,4.33,4.33,1.45,6.59,2.95,N,,wiki_provisional
+2020,SK,닉 킹엄,N,Y,"STATIZ에는 '킹험'으로 등록. 신인지명 2020 SK와 일치, 2021-02-01 한화 이적 확인(한화 2021 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Nick Kingham,1991-11-08,statiz,R,United States,-0.23,10.2,2,6.75,4.87,1.88,5.06,3.38,N,,wiki_provisional
+2020,SK,리카르도 핀토,N,Y,STATIZ 신인지명 2020 SK와 일치,STATIZ 확인,1,0,Ricardo Pinto,1994-01-20,statiz,R,Venezuela,0.43,162.0,30,6.17,5.58,1.78,6.22,5.0,N,,wiki_provisional
+2021,두산,아리엘 미란다,N,Y,STATIZ 신인지명 2021 두산과 일치,STATIZ 확인,1,0,Ariel Miranda,1989-01-10,statiz,L,Cuba,6.73,173.2,28,2.33,2.42,1.14,11.66,3.26,Y,NPB Fukuoka SoftBank Hawks 2018-2019; CPBL Chinatrust Brothers 2020 (모두 KBO 입단 이전),wiki_provisional
+2021,두산,워커 로켓,N,Y,STATIZ 신인지명 2021 두산과 일치,STATIZ 확인,1,0,Andrew Walker Lockett,1994-05-03,statiz,R,United States,3.93,124.0,21,2.98,3.34,1.4,8.13,3.05,N,,wiki_provisional
+2021,LG,앤드류 수아레즈,N,Y,STATIZ 활약연도 2021 LG와 일치,STATIZ 확인,1,0,Andrew Jose Suarez,1992-09-11,statiz,L,United States,4.23,115.1,22,2.18,2.66,1.14,9.83,3.2,N,,wiki_provisional
+2021,KIA,대니얼 멩덴,N,Y,STATIZ 신인지명 2021 KIA와 일치,STATIZ 확인,1,0,Daniel Joseph Mengden,1993-02-19,statiz,R,United States,2.86,120.0,21,3.6,3.90,1.2,7.8,2.62,N,,wiki_provisional
+2021,KIA,보 다카하시,Y,Y,STATIZ 신인지명 2021 KIA와 일치,STATIZ 확인,1,0,Rodrigo Hitoshi Bo Takahashi,1997-01-23,statiz,R,Brazil,0.35,36.2,7,4.91,3.28,1.58,11.29,2.95,N,,wiki_provisional
+2021,롯데,앤더슨 프랑코,N,Y,STATIZ 활약연도 2021 롯데와 일치,STATIZ 확인,1,0,Enderson Daniel Franco,1992-12-29,statiz,R,Venezuela,1.7,150.0,27,5.4,5.25,1.48,7.44,4.5,N,,wiki_provisional
+2021,한화,라이언 카펜터,N,Y,STATIZ 활약연도 2021-2022 한화와 일치,STATIZ 확인,1,0,Ryan Nicholas Carpenter,1990-08-22,statiz,L,United States,2.74,170.0,30,3.97,3.91,1.31,9.48,3.81,Y,CPBL Rakuten Monkeys 2020 (KBO 입단 이전),wiki_provisional
+2021,NC,웨스 파슨스,N,Y,"STATIZ 신인지명 2021 NC와 일치, 활약연도 2021-2022 전부 NC(위키 원문의 '퇴출' 표기는 오류로 최종 확정)",STATIZ 확인,1,0,Wes Parsons,1992-09-06,statiz,R,United States,3.81,133.0,24,3.72,3.51,1.29,10.02,4.26,N,,wiki_provisional
+2021,SSG,윌머 폰트,N,Y,STATIZ 신인지명 2021 SK(→SSG)와 일치,STATIZ 확인,1,0,Wilmer Font Gomez,1990-05-24,statiz,R,Venezuela,3.5,145.2,25,3.46,3.12,1.09,9.7,2.78,N,,wiki_provisional
+2021,SSG,아티 르위키,N,Y,STATIZ 신인지명 2021 SK/SSG와 일치,STATIZ 확인,1,0,Artie Michael Lewicki,1992-04-08,statiz,R,United States,0.4,14.1,4,3.77,4.29,1.19,5.65,1.26,N,,wiki_provisional
+2021,SSG,샘 가빌리오,Y,Y,STATIZ 신인지명 2021 SSG와 일치,STATIZ 확인,1,0,Samuel Joseph Gaviglio,1990-05-22,statiz,R,United States,0.67,81.1,15,5.86,3.97,1.45,7.75,3.32,N,,wiki_provisional
+2021,키움,조시 스미스,N,Y,STATIZ 활약연도 2021 키움과 일치,STATIZ 확인,1,0,Joshua Allen Smith,1987-08-07,statiz,R,United States,0.0,10.0,2,6.3,5.26,1.4,4.5,4.5,N,,wiki_provisional
+2022,두산,로버트 스탁,N,Y,STATIZ 신인지명 2022 두산과 일치,STATIZ 확인,1,0,Robert Anthony Stock,1989-11-21,statiz,R,United States,2.07,165.0,29,3.6,4.09,1.48,7.53,4.53,N,,wiki_provisional
+2022,두산,브랜던 워델,Y,Y,"STATIZ에는 '브랜든'(이름, 성 아님)으로 등록. 활약연도 2022-2024 두산과 일치. 뉴스 확인 결과 2022-07-13 아리엘 미란다 부상 대체 영입이었음 — 대체영입여부 N에서 Y로 정정",STATIZ 확인 + 뉴스,1,0,Brandon David Waddell,1994-06-03,statiz,L,United States,1.29,65.0,11,3.6,4.35,1.23,5.54,3.32,N,,wiki_provisional
+2022,삼성,앨버트 수아레즈,N,Y,STATIZ 활약연도 2022-2023 삼성과 일치,STATIZ 확인,1,0,Albert Joe Suárez,1989-10-08,statiz,R,Venezuela,5.54,173.2,29,2.49,2.94,1.16,8.24,2.59,Y,NPB Tokyo Yakult Swallows 2019-2021 (KBO 입단 이전),wiki_provisional
+2022,KIA,로니 윌리엄스,N,Y,STATIZ에는 '로니'로 등록. 2022 KIA 신인지명과 일치,STATIZ 확인,1,0,Ronnie Ellis Williams,1996-01-06,statiz,R,United States,-0.12,44.1,9,5.89,6.03,1.69,6.5,5.68,N,,wiki_provisional
+2022,KIA,션 놀린,N,Y,"STATIZ 신인지명 2022 KIA와 일치, G=21",STATIZ 확인,1,0,Sean Patrick Nolin,1989-12-26,statiz,L,United States,4.11,124.0,21,2.47,3.05,1.12,7.84,1.74,Y,NPB Saitama Seibu Lions 2020 (KBO 입단 이전),wiki_provisional
+2022,KIA,토마스 파노니,Y,Y,"STATIZ 신인지명 2022 KIA와 일치(대체영입 사유는 STATIZ 미표기, 뉴스로 확인됨)",STATIZ 확인,1,0,Thomas Edward Pannone Jr,1994-04-28,statiz,L,United States,2.44,82.2,14,2.72,3.27,1.23,7.95,2.61,N,,wiki_provisional
+2022,롯데,찰리 반스,N,Y,STATIZ에는 '반즈'로 등록. 활약연도 2022-2025 롯데와 일치,STATIZ 확인,1,0,Charlie Barnes,1995-10-01,statiz,L,United States,4.46,186.1,31,3.62,3.21,1.2,7.73,2.27,N,,wiki_provisional
+2022,롯데,글렌 스파크맨,N,Y,STATIZ 신인지명 2022 롯데와 일치,STATIZ 확인,1,0,Glenn Sparkman,1992-05-11,statiz,R,United States,0.71,84.2,19,5.31,3.68,1.65,9.46,4.57,Y,NPB Orix Buffaloes 2021 (KBO 입단 이전),wiki_provisional
+2022,한화,예프리 라미레즈,Y,Y,STATIZ 활약연도 2022 한화와 일치,STATIZ 확인,1,0,Yefry Ramírez Alcala,1993-11-28,statiz,R,Dominican Republic,1.13,65.1,13,4.13,4.80,1.36,6.47,5.1,N,,wiki_provisional
+2022,한화,펠릭스 페냐,Y,Y,STATIZ 활약연도 2022-2024 한화와 일치,STATIZ 확인,1,0,Félix Ricardo Peña,1990-02-25,statiz,R,Dominican Republic,1.31,67.2,13,3.72,3.39,1.37,9.58,3.99,N,,wiki_provisional
+2022,NC,맷 더모디,Y,Y,STATIZ 신인지명 2022 NC와 일치,STATIZ 확인,1,0,Matt Dermody,1990-07-04,statiz,L,United States,0.13,39.2,8,4.54,3.92,1.39,8.39,2.95,Y,NPB Saitama Seibu Lions 2021 (KBO 입단 이전),wiki_provisional
+2022,kt,웨스 벤자민,N,Y,STATIZ 활약연도 2022 kt 시작으로 일치,STATIZ 확인,1,0,Wes Benjamin,1993-07-26,statiz,L,United States,3.1,96.2,17,2.7,4.04,1.02,7.17,2.23,N,,wiki_provisional
+2022,SSG,이반 노바,N,Y,STATIZ 신인지명 2022 SSG와 일치,STATIZ 확인,1,0,Iván Nova,1987-01-12,statiz,R,Dominican Republic,-0.37,63.2,12,6.5,4.92,1.62,4.52,3.53,N,,wiki_provisional
+2022,SSG,숀 모리만도,Y,Y,STATIZ 신인지명 2022 SSG와 일치,STATIZ 확인,1,0,Shawn Morimando,1992-11-20,statiz,L,United States,3.09,75.1,12,1.67,2.99,1.06,8.0,2.75,Y,CPBL CTBC Brothers 2021-2022 (KBO 입단 이전),wiki_provisional
+2022,키움,타일러 애플러,N,Y,STATIZ 신인지명 2022 키움과 일치(G=33); 타 팀 이력 없음,STATIZ 확인,1,0,Tyler Austin Eppler,1993-01-05,statiz,R,United States,2.14,140.1,25,4.3,4.37,1.51,5.52,2.57,Y,NPB Orix Buffaloes 2019 (KBO 입단 이전),wiki_provisional
+2023,두산,딜런 파일,N,Y,STATIZ에는 '딜런'으로 등록. 신인지명 2023 두산과 일치,STATIZ 확인,1,0,Dylan Michael File,1996-06-04,statiz,R,United States,-0.05,9.0,2,8.0,7.66,1.67,2.0,5.0,N,,wiki_provisional
+2023,NC,테일러 와이드너,N,Y,"STATIZ로 충돌 해결: 신인지명 '23 NC 자유선발', 2023-08-10 NC→삼성 트레이드. NC가 정답 확정(삼성은 시즌 중 이적처일 뿐 별도 신규 아님)",STATIZ 확인,1,0,Taylor Browning Widener,1994-10-24,statiz,R,United States,1.53,115.0,20,4.54,3.66,1.32,7.75,3.13,N,,wiki_provisional
+2023,KIA,아도니스 메디나,N,Y,"STATIZ 신인지명 2023 KIA와 일치, G=12",STATIZ 확인,1,0,Adonis Medina,1996-12-18,statiz,R,Dominican Republic,0.06,58.0,12,6.05,5.56,1.6,5.59,4.5,N,,wiki_provisional
+2023,KIA,숀 앤더슨,N,Y,STATIZ 활약연도 2023 KIA와 일치,STATIZ 확인,1,0,Shaun Anderson,1994-10-29,statiz,R,United States,1.33,79.0,14,3.76,3.83,1.29,7.29,2.96,N,,wiki_provisional
+2023,KIA,마리오 산체스,N,Y,STATIZ 활약연도 2023 KIA와 일치,STATIZ 확인,1,0,Mario Sanchez,1994-10-31,statiz,R,Venezuela,0.13,63.2,11,5.94,3.77,1.48,8.34,2.12,Y,CPBL Uni-President 7-Eleven Lions 2023 (KBO 입단 이전),wiki_provisional
+2023,롯데,애런 윌커슨,N,Y,STATIZ 신인지명 2023 롯데와 일치(계약/팀이동 이력에 2023년 한 건만 존재),STATIZ 확인,1,0,Aaron Wilkerson,1989-05-24,statiz,R,United States,2.6,79.2,13,2.26,2.61,1.09,9.15,2.26,Y,NPB Hanshin Tigers 2022 (KBO 입단 이전),wiki_provisional
+2023,한화,버치 스미스,N,Y,"STATIZ 신인지명 2023 한화와 일치, G=1(2.2이닝)",STATIZ 확인,1,0,Burch Taylor Smith,1990-04-12,statiz,R,United States,0.09,2.2,1,6.75,3.14,1.12,6.75,0.0,Y,NPB Saitama Seibu Lions 2022 (KBO 입단 이전),wiki_provisional
+2023,한화,리카르도 산체스,Y,Y,STATIZ 활약연도 2023-2024 한화와 일치,STATIZ 확인,1,0,Ricardo Jose Sánchez,1997-04-11,statiz,L,Venezuela,2.2,126.0,24,3.79,3.92,1.3,7.07,2.0,N,,wiki_provisional
+2023,NC,에릭 페디,N,Y,STATIZ 신인지명 2023 NC와 일치 (정규시즌 MVP),STATIZ 확인,1,0,Erick James Fedde,1993-02-25,statiz,R,United States,7.63,180.1,30,2.0,2.22,0.95,10.43,1.75,N,,wiki_provisional
+2023,NC,태너 털리,Y,Y,STATIZ에는 '태너'로 등록. 신인지명 2023 NC와 일치,STATIZ 확인,1,0,Tanner Paul Tully,1994-11-30,statiz,L,United States,1.81,64.2,11,2.92,3.81,1.1,6.54,1.81,N,,wiki_provisional
+2023,kt,보 슐서,N,Y,STATIZ 신인지명 2023 kt와 일치,STATIZ 확인,1,0,Beau Grayson Sulser,1994-05-05,statiz,R,United States,0.35,49.2,9,5.62,4.34,1.61,6.34,2.54,N,,wiki_provisional
+2023,SSG,커크 맥카티,N,Y,STATIZ 신인지명 2023 SSG와 일치,STATIZ 확인,1,0,Kirkland Kirk McCarty,1995-10-12,statiz,L,United States,2.87,130.0,24,3.39,3.63,1.3,8.03,3.12,N,,wiki_provisional
+2023,SSG,에니 로메로,N,N,STATIZ 확인: 검색해도 선수 페이지 자체가 없음(동명이인 타자만 검색됨) — 0경기라 STATIZ가 페이지를 아예 안 만든 것으로 추정. WAR은 0이 아니라 데이터 자체가 존재하지 않음,STATIZ 확인(페이지 없음),1,1,Enny Romero,1991-01-24,mlb_stats_api,L,Dominican Republic,,,,,,,,,Y,"NPB Chunichi Dragons 2019-2020, Chiba Lotte Marines 2021-2022 (KBO 입단 이전) — 단 STATIZ 생년월일 부재로 생년월일 교차검증 불가, 팀/연도/부상 스토리 정황 근거만으로 확정",wiki_provisional
+2023,SSG,로에니스 엘리아스,Y,Y,"STATIZ 신인지명 2023 SSG와 일치, 활약연도 2023-2024",STATIZ 확인,1,0,Roenis Elías,1988-08-01,statiz,L,Cuba,2.92,131.1,21,3.7,4.09,1.32,6.37,2.26,N,,wiki_provisional
+2023,키움,아리엘 후라도,N,Y,"STATIZ 신인지명 2023 키움과 일치, 2025-01-01 삼성 트레이드 확인(삼성 2025 항목을 재영입으로 제외한 판단과 일치)",STATIZ 확인,1,0,Ariel Bolívar Jurado Agrazal,1996-01-30,statiz,R,Panama,5.88,183.2,30,2.65,3.15,1.12,7.2,2.01,N,,wiki_provisional
+2023,키움,이안 맥키니,Y,Y,STATIZ 신인지명 2023 키움과 일치,STATIZ 확인,1,0,Ian McKinney,1994-11-18,statiz,L,,-0.27,59.1,12,6.52,6.14,1.63,5.92,5.46,,,
+2024,SSG,시라카와 케이쇼,Y,Y,"STATIZ로 충돌 해결: 신인지명 '24 SSG 부상 대체 선수', 2024-07-10 SSG→두산 트레이드. SSG가 정답 확정(두산 표기는 조사 오류였음)",STATIZ 확인,1,0,Keisho Shirakawa,2001-06-04,statiz,R,Japan,0.6,57.1,12,5.65,5.48,1.6,7.22,5.18,Y,시코쿠 아일랜드리그 플러스(독립리그) Tokushima Indigo Socks 2020 (KBO 입단 이전) — 단 NPB 자체 경력은 없음(위키에 'KBO 일본인 선수 중 유일하게 NPB 미경력자'로 명시),wiki_provisional
+2024,두산,조던 발라조빅,N,Y,STATIZ 신인지명 2024 두산과 일치,STATIZ 확인,1,0,Jordan Balazovic,1998-09-17,statiz,R,Canada,1.25,57.0,11,4.26,3.31,1.44,10.89,4.42,N,,wiki_provisional
+2024,삼성,코너 시볼드,N,Y,STATIZ에는 '코너'로 등록. 신인지명 2024 삼성과 일치,STATIZ 확인,1,0,Connor Seabold,1996-01-24,statiz,R,United States,5.27,160.0,28,3.43,4.50,1.09,8.89,2.25,N,,wiki_provisional
+2024,삼성,데니 레예스,N,Y,"STATIZ 신인지명 2024 삼성과 일치, G=26 (실전출전 확정); 2025년까지 재계약 활동",STATIZ 확인,1,0,Denyi Reyes,1996-11-02,statiz,R,Dominican Republic,4.47,144.0,26,3.81,4.31,1.31,7.12,1.88,N,,wiki_provisional
+2024,LG,디트릭 엔스,N,Y,STATIZ 신인지명 2024 LG와 일치,STATIZ 확인,1,0,Dietrich Arthur Enns,1991-05-16,statiz,L,United States,3.77,167.2,30,4.19,4.10,1.31,8.43,2.68,Y,NPB Saitama Seibu Lions 2022-2023 (KBO 입단 이전),wiki_provisional
+2024,LG,엘리에이저 에르난데스,N,Y,STATIZ 활약연도 2024-2025 LG와 일치,STATIZ 확인,1,0,Elieser Hernández,1995-05-03,statiz,R,Venezuela,1.39,47.0,9,4.02,3.80,1.21,10.53,3.06,N,,wiki_provisional
+2024,KIA,윌 크로우,N,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,William Chandler Crowe,1994-09-09,statiz,R,United States,1.09,40.1,8,3.57,3.11,1.31,9.6,2.68,N,,wiki_provisional
+2024,KIA,캠 알드레드,Y,Y,"STATIZ 신인지명 '24 KIA 부상 대체 외국인선수'로 명시, 일치",STATIZ 확인,1,0,Cam Alldred,1996-07-25,statiz,L,United States,1.2,43.2,9,4.53,3.74,1.26,10.72,3.5,N,,wiki_provisional
+2024,KIA,에릭 스타우트,Y,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,Eric Stout,1993-03-27,statiz,L,United States,0.28,16.0,4,5.06,4.19,1.38,11.25,2.81,Y,CPBL CTBC Brothers 2023 (KBO 입단 이전),wiki_provisional
+2024,KIA,에릭 라우어,N,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,Eric Lauer,1995-06-03,statiz,L,United States,0.76,34.2,7,4.93,3.98,1.36,9.61,3.12,N,,wiki_provisional
+2024,KIA,제임스 네일,N,Y,STATIZ 신인지명 2024 KIA와 일치,STATIZ 확인,1,0,James Aubrey Naile,1993-02-08,statiz,R,United States,4.31,149.1,26,2.53,3.74,1.27,8.32,2.11,N,,wiki_provisional
+2024,NC,다니엘 카스타노,N,Y,STATIZ 신인지명 2024 NC와 일치,STATIZ 확인,1,0,Daniel Alexander Castano,1994-09-17,statiz,L,United States,1.89,111.2,19,4.35,4.33,1.27,7.17,2.01,N,,wiki_provisional
+2024,NC,카일 하트,N,Y,STATIZ 신인지명 2024 NC와 일치,STATIZ 확인,1,0,Kyle Patrick Hart,1992-11-23,statiz,L,United States,6.15,157.0,26,2.69,3.17,1.03,10.43,2.18,N,,wiki_provisional
+2024,한화,라이언 와이스,Y,Y,STATIZ 신인지명 '24 한화 부상 대체 선수'로 일치; 리카르도 산체스 대체 6/17 입단,STATIZ 확인,1,0,Ryan Weiss,1996-12-10,statiz,R,United States,2.57,91.2,16,3.73,3.71,1.16,9.62,2.85,Y,CPBL Fubon Guardians 2023 (KBO 입단 이전),wiki_provisional
+2024,한화,하이메 바리아,N,Y,STATIZ 신인지명 2024 한화와 일치,STATIZ 확인,1,0,Jaime Barria,1996-07-18,statiz,R,Panama,1.41,92.2,19,5.15,3.90,1.42,8.06,1.75,N,,wiki_provisional
+2024,SSG,로버트 더거,N,Y,STATIZ 신인지명 2024 SSG와 일치(G=6 IP=22.2 ERA12.71); 부진으로 시즌 중 교체,STATIZ 확인,1,0,Robert Lee Dugger,1995-07-03,statiz,R,United States,-0.84,22.2,6,12.71,5.13,2.07,7.15,3.97,N,,wiki_provisional
+2024,SSG,드류 앤더슨,Y,Y,STATIZ 활약연도 2024~2025 SSG와 일치; 더거 대체 5/3 입국(STATIZ 계약구분란엔 '자유선발'로만 표기),STATIZ 확인,1,0,Andrew James Anderson,1994-03-22,statiz,R,United States,3.45,115.2,23,3.89,3.64,1.31,12.29,4.12,Y,NPB Hiroshima Toyo Carp 2022-2023 (KBO 입단 이전),wiki_provisional
+2024,키움,엔마누엘 데 헤이수스,N,Y,STATIZ 신인지명 2024 키움과 일치(G=30 IP=171.1),STATIZ 확인,1,0,Enmanuel Jose De Jesus,1996-12-10,statiz,L,Venezuela,4.39,171.1,30,3.68,4.18,1.25,9.35,2.31,N,,wiki_provisional
+2025,두산,콜 어빈,N,Y,STATIZ에는 '콜어빈'으로 등록. 신인지명 2025 두산과 일치,STATIZ 확인,1,0,Cole Irvin,1994-01-31,statiz,L,United States,2.57,144.2,28,4.48,4.59,1.53,7.96,4.91,N,,wiki_provisional
+2025,두산,잭 로그,N,Y,STATIZ에는 '잭로그'로 등록. 신인지명 2025 두산과 일치,STATIZ 확인,1,0,Zach Logue,1996-04-23,statiz,L,United States,5.34,176.0,29,2.81,3.26,1.05,7.98,1.99,N,,wiki_provisional
+2025,삼성,헤르손 가라비토,N,Y,STATIZ 신인지명 2025 삼성과 일치,STATIZ 확인,1,0,Gerson Yeris Garabito,1995-08-19,statiz,R,Dominican Republic,2.54,78.1,15,2.64,3.91,1.19,9.65,4.25,N,,wiki_provisional
+2025,LG,요니 치리노스,N,Y,STATIZ 신인지명 2025 LG와 일치,STATIZ 확인,1,0,Yonny Chirinos,1993-12-26,statiz,R,Venezuela,5.21,177.0,30,3.31,3.13,1.18,6.97,1.83,N,,wiki_provisional
+2025,LG,앤더스 톨허스트,N,Y,STATIZ 신인지명 2025 LG와 일치,STATIZ 확인,1,0,Anders William Tolhurst,1999-09-13,statiz,R,United States,1.31,44.0,8,2.86,3.21,1.25,9.2,3.27,N,,wiki_provisional
+2025,KIA,애덤 올러,N,Y,STATIZ 신인지명 2025 KIA와 일치,STATIZ 확인,1,0,Adam Oller,1994-10-17,statiz,R,United States,3.61,149.0,26,3.62,2.90,1.15,10.21,2.84,N,,wiki_provisional
+2025,롯데,터커 데이비드슨,N,Y,STATIZ에는 '데이비슨'으로 등록. 신인지명 2025 롯데와 일치,STATIZ 확인,1,0,Tucker Davidson,1996-03-25,statiz,L,United States,3.38,123.1,22,3.65,3.85,1.39,8.68,3.5,N,,wiki_provisional
+2025,롯데,빈스 벨라스케즈,Y,Y,STATIZ 신인지명 2025 롯데와 일치,STATIZ 확인,1,0,Vincent John Velasquez,1992-06-07,statiz,R,United States,-0.31,35.0,7,8.23,6.22,1.86,7.2,4.63,N,,wiki_provisional
+2025,롯데,알렉 감보아,Y,Y,STATIZ 신인지명 2025 롯데와 일치,STATIZ 확인,1,0,Alec Gamboa,1997-01-17,statiz,L,United States,2.35,108.0,19,3.58,3.44,1.35,9.75,4.08,N,,wiki_provisional
+2025,한화,코디 폰세,N,Y,STATIZ 신인지명 2025 한화와 일치 (2025 정규시즌 MVP),STATIZ 확인,1,0,Cody Ponce,1994-04-25,statiz,R,United States,8.38,180.2,29,1.89,1.92,0.94,12.55,2.04,Y,"NPB Nippon-Ham Fighters 2022-2023, Rakuten Golden Eagles 2024 (KBO 입단 이전)",wiki_provisional
+2025,NC,로건 앨런,N,Y,"STATIZ 신인지명 2025 NC와 일치, 2026-06-18 kt 트레이드 확인",STATIZ 확인,1,0,Logan Allen,1997-05-23,statiz,L,United States,2.41,173.0,31,4.53,4.39,1.43,7.75,3.49,N,,wiki_provisional
+2025,NC,라일리 톰프슨,N,Y,STATIZ 활약연도 2025-2026 NC와 일치,STATIZ 확인,1,0,Riley Thompson,1996-07-09,statiz,R,United States,4.34,172.0,30,3.45,3.12,1.12,11.3,2.93,N,,wiki_provisional
+2025,kt,패트릭 머피,Y,Y,STATIZ에는 '패트릭'으로 등록. 신인지명 2025 kt와 일치,STATIZ 확인,1,0,Patrick Murphy,1995-06-10,statiz,R,United States,1.33,60.2,9,3.12,3.67,1.38,6.68,3.12,Y,NPB Hokkaido Nippon-Ham Fighters 2024 (KBO 입단 이전),wiki_provisional
+2025,SSG,미치 화이트,N,Y,STATIZ 활약연도 2025-2026 SSG와 일치,STATIZ 확인,1,0,Mitch White,1994-12-28,statiz,R,United States,4.24,134.2,24,2.87,3.38,1.15,9.16,2.94,N,,wiki_provisional
+2025,키움,케니 로젠버그,N,Y,STATIZ 신인지명 2025 키움과 일치,STATIZ 확인,1,0,Kenny Rosenberg,1998-07-09,statiz,L,United States,1.79,75.1,13,3.23,3.29,1.17,9.56,2.99,N,,wiki_provisional
+2025,키움,라클란 웰스,Y,Y,"STATIZ 신인지명 '25 키움 부상 대체 외국인선수'로 명시, 일치",STATIZ 확인,1,0,Lachlan Robert Wells,1997-02-27,statiz,L,Australia,0.38,20.0,4,3.15,3.04,1.2,7.2,2.7,N,,wiki_provisional
+2025,키움,C.C 메르세데스,Y,Y,STATIZ 신인지명 2025 키움과 일치,STATIZ 확인,1,0,Cristopher Crisostomo Mercedes,1994-03-08,statiz,L,Dominican Republic,0.67,46.1,8,4.47,3.61,1.36,7.96,1.75,Y,"NPB Yomiuri Giants 2017-2022, Chiba Lotte Marines 2023-2024; CPBL Uni-President Lions 2025 (모두 KBO 입단 이전)",wiki_provisional
