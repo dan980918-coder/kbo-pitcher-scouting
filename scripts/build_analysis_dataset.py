@@ -27,12 +27,98 @@ season-level source files but did not pin every column to one of them):
   deliberately NOT merged in -- only the two coverage summary fields are,
   per the instruction to keep per-pitch-type detail in a separate
   reference file for case-by-case lookup.
+- Davenport-translated FIP (mlb/aaa_fip_davenport_translated_{last,3yr}):
+  computed from data/raw/davenport_career_stats.csv's translated raw
+  counts (HR, BB, K, IP -- already MLE-translated by Davenport, IP is a
+  genuine decimal there, not baseball out-notation, confirmed by checking
+  that only .0/.3/.7 fractions ever appear). FIP = (13*HR + 3*BB - 2*K)/IP
+  + cFIP[season], using the same per-season FanGraphs cFIP constant as
+  everywhere else in this project, then aggregated to last/3yr with the
+  same IP-weighted-average logic as every other _last/_3yr column here --
+  i.e. per-season FIP is computed first, then averaged, not summed-then-
+  divided, for consistency with how fip_3yr etc are built. This is a
+  distinct column from mlb/aaa_fip_last (FanGraphs' own, not translated
+  across levels) -- see the diagnostic comparison this phase produced for
+  how much the two disagree.
 """
 import csv
 
 ROOT = "/Users/ojaemin/Downloads/kbo-pitcher-scouting"
 RAW = f"{ROOT}/data/raw"
 ROSTERS = f"{ROOT}/data/rosters"
+
+
+def load_fip_constants():
+    with open(f"{ROSTERS}/fangraphs_fip_constants.csv", encoding="utf-8") as f:
+        return {int(r["season"]): float(r["cFIP"]) for r in csv.DictReader(f)}
+
+
+def load_davenport_season_rows():
+    # Davenport's per-player page lists one row per team stint, with no
+    # combined "total" row the way FanGraphs' MLB feed has (type==0) --
+    # a player traded mid-season at the same level (e.g. Kyle Hart, 2023:
+    # 1.0 IP at Lehigh Valley (AAA) + 88.3 IP at Tacoma (AAA)) shows up as
+    # two separate AAA/2023 rows. Picking whichever happened to sort first
+    # as "the season" silently picked the 1-inning stint over the real
+    # 88.3-inning one for Hart, producing a nonsense FIP of 1.25 -- caught
+    # by comparing it against the FanGraphs-based fip_last for the same
+    # player and season. Fixed by summing the RAW counts (HR/BB/K/IP)
+    # across every stint sharing (player, level, season) before computing
+    # one FIP for that season -- valid here (unlike the FanGraphs case,
+    # which only had rate stats to work with) because Davenport's page
+    # gives real per-stint counts, not just rates.
+    constants = load_fip_constants()
+    with open(f"{RAW}/davenport_career_stats.csv", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    combined = {}
+    for r in rows:
+        level = r["level"]
+        if level not in ("MLB", "AAA"):
+            continue
+        try:
+            ip = float(r["IP"])
+            hr, bb, k = float(r["HR"]), float(r["BB"]), float(r["K"])
+            season = int(r["season"])
+        except (ValueError, KeyError):
+            continue
+        if ip <= 0:
+            continue
+        key = (r["선수명"], level, season)
+        c = combined.setdefault(key, {"IP": 0.0, "HR": 0.0, "BB": 0.0, "K": 0.0})
+        c["IP"] += ip
+        c["HR"] += hr
+        c["BB"] += bb
+        c["K"] += k
+
+    by_player_level = {}
+    for (name, level, season), c in combined.items():
+        const = constants.get(season)
+        if const is None:
+            continue
+        fip_dav = (13 * c["HR"] + 3 * c["BB"] - 2 * c["K"]) / c["IP"] + const
+        by_player_level.setdefault((name, level), []).append({
+            "season": float(season), "IP": c["IP"], "FIP_DAV": fip_dav,
+        })
+    for key in by_player_level:
+        by_player_level[key].sort(key=lambda x: x["season"], reverse=True)
+    return by_player_level
+
+
+def last_davenport_fip(seasons):
+    if not seasons:
+        return ""
+    return round(seasons[0]["FIP_DAV"], 3)
+
+
+def weighted_3yr_davenport_fip(seasons):
+    window = seasons[:3]
+    vals = [(s["FIP_DAV"], s["IP"]) for s in window]
+    if not vals:
+        return ""
+    weighted_ip = sum(ip for _, ip in vals)
+    if weighted_ip <= 0:
+        return ""
+    return round(sum(v * ip for v, ip in vals) / weighted_ip, 3)
 
 METRICS = ["IP", "FIP", "K_9", "BB_9", "HR_9", "FIP_minus"]
 OUT_METRIC_NAMES = {"IP": "ip", "FIP": "fip", "K_9": "k9", "BB_9": "bb9", "HR_9": "hr9",
@@ -137,6 +223,7 @@ def main():
         roster = list(reader)
 
     fg_seasons = load_fg_season_rows()
+    dav_seasons = load_davenport_season_rows()
 
     with open(f"{RAW}/fangraphs_mlb_war_summary.csv", encoding="utf-8") as f:
         war_by_player = {r["선수명"]: r for r in csv.DictReader(f)}
@@ -151,6 +238,8 @@ def main():
                 new_cols.append(f"{level_prefix}_{OUT_METRIC_NAMES[m]}_{form}")
         new_cols.append(f"{level_prefix}_career_ip")
         new_cols.append(f"{level_prefix}_fip_minus_career")
+        new_cols.append(f"{level_prefix}_fip_davenport_translated_last")
+        new_cols.append(f"{level_prefix}_fip_davenport_translated_3yr")
     new_cols.append("mlb_career_war")
     new_cols.append("mlb_n_seasons_pre_kbo")
     new_cols.append("statcast_metrics_available")
@@ -169,6 +258,10 @@ def main():
                 r[f"{level_prefix}_{OUT_METRIC_NAMES[m]}_3yr"] = yr3_v[m]
             r[f"{level_prefix}_career_ip"] = career_ip(seasons)
             r[f"{level_prefix}_fip_minus_career"] = career_weighted_fip_minus(seasons)
+
+            dav = dav_seasons.get((name, level_key), [])
+            r[f"{level_prefix}_fip_davenport_translated_last"] = last_davenport_fip(dav)
+            r[f"{level_prefix}_fip_davenport_translated_3yr"] = weighted_3yr_davenport_fip(dav)
 
         war_row = war_by_player.get(name)
         r["mlb_career_war"] = war_row["mlb_war_career_pre_kbo"] if war_row else ""
