@@ -40,6 +40,13 @@ season-level source files but did not pin every column to one of them):
   distinct column from mlb/aaa_fip_last (FanGraphs' own, not translated
   across levels) -- see the diagnostic comparison this phase produced for
   how much the two disagree.
+- kbo_first_year_G (total games, GS+relief) is read from
+  kbo_yearly_stats_all.csv, which already had G from the original STATIZ
+  collection even though it was never carried into this table's
+  kbo_first_year_* columns before now.
+- release_date/outcome_category/resigned_next_year/resigned_as_asia_quota
+  are joined straight from data/rosters/outcome_category.csv (built by
+  scripts/classify_outcome.py) on 선수명.
 """
 import csv
 
@@ -231,6 +238,12 @@ def main():
     with open(f"{RAW}/pitch_arsenal_coverage.csv", encoding="utf-8") as f:
         pitch_by_player = {r["선수명"]: r for r in csv.DictReader(f)}
 
+    with open(f"{ROSTERS}/kbo_yearly_stats_all.csv", encoding="utf-8") as f:
+        kbo_g_by_player_year = {(r["선수명"], int(r["Year"])): r["G"] for r in csv.DictReader(f)}
+
+    with open(f"{ROSTERS}/outcome_category.csv", encoding="utf-8") as f:
+        outcome_by_player = {r["선수명"]: r for r in csv.DictReader(f)}
+
     new_cols = []
     for level_prefix, level_key in (("mlb", "MLB"), ("aaa", "AAA")):
         for form in ("last", "3yr"):
@@ -244,6 +257,8 @@ def main():
     new_cols.append("mlb_n_seasons_pre_kbo")
     new_cols.append("statcast_metrics_available")
     new_cols.append("n_pitch_types_recorded")
+    new_cols.append("kbo_first_year_G")
+    new_cols.extend(["release_date", "outcome_category", "resigned_next_year", "resigned_as_asia_quota"])
 
     out_fieldnames = base_fieldnames + new_cols
 
@@ -270,6 +285,12 @@ def main():
         pitch_row = pitch_by_player.get(name)
         r["statcast_metrics_available"] = pitch_row["statcast_metrics_available"] if pitch_row else ""
         r["n_pitch_types_recorded"] = pitch_row["n_pitch_types_recorded"] if pitch_row else ""
+
+        r["kbo_first_year_G"] = kbo_g_by_player_year.get((name, int(r["연도"])), "")
+
+        outcome_row = outcome_by_player.get(name)
+        for col in ("release_date", "outcome_category", "resigned_next_year", "resigned_as_asia_quota"):
+            r[col] = outcome_row[col] if outcome_row else ""
 
     with open(f"{ROSTERS}/analysis_dataset_v1.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=out_fieldnames)
