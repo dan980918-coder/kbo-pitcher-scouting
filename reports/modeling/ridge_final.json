@@ -1,0 +1,58 @@
+{
+  "alpha": 9.249147277217336,
+  "intercept": 2.2903846153846152,
+  "feature_cols": [
+    "mlb_fip_last",
+    "mlb_fip_minus_career",
+    "aaa_hr9_last",
+    "aaa_bb9_3yr",
+    "age_at_kbo_entry",
+    "n_pitch_types_recorded",
+    "has_mlb_record",
+    "has_aaa_record"
+  ],
+  "coefficients_standardized": {
+    "mlb_fip_last": -0.11182257174054941,
+    "mlb_fip_minus_career": -0.007069465688136698,
+    "aaa_hr9_last": -0.4410971615274458,
+    "aaa_bb9_3yr": -0.219778996980879,
+    "age_at_kbo_entry": 0.06633635999078874,
+    "n_pitch_types_recorded": 0.38288349873674743,
+    "has_mlb_record": 0.21728997771629593,
+    "has_aaa_record": 0.18456563331571182
+  },
+  "scaler_mean": {
+    "mlb_fip_last": 6.1129999999999995,
+    "mlb_fip_minus_career": 129.01874774774774,
+    "aaa_hr9_last": 1.1408412698412698,
+    "aaa_bb9_3yr": 2.917666666666667,
+    "age_at_kbo_entry": 29.13136153846154,
+    "n_pitch_types_recorded": 2.8692307692307693,
+    "has_mlb_record": 0.8538461538461538,
+    "has_aaa_record": 0.9692307692307692
+  },
+  "scaler_scale": {
+    "mlb_fip_last": 3.655857569603987,
+    "mlb_fip_minus_career": 23.47329375480814,
+    "aaa_hr9_last": 1.018795272048907,
+    "aaa_bb9_3yr": 0.8429371452067056,
+    "age_at_kbo_entry": 2.110031406998652,
+    "n_pitch_types_recorded": 2.124539629908855,
+    "has_mlb_record": 0.35326038471400106,
+    "has_aaa_record": 0.1726918793895665
+  },
+  "train_means_for_imputation": {
+    "mlb_fip_last": 6.113000000000001,
+    "mlb_fip_minus_career": 129.01874774774774,
+    "aaa_hr9_last": 1.14084126984127,
+    "aaa_bb9_3yr": 2.9176666666666673
+  },
+  "train_other_means_for_imputation": {
+    "age_at_kbo_entry": 29.13136153846154,
+    "n_pitch_types_recorded": 2.8692307692307693
+  },
+  "target": "kbo_first_year_WAR",
+  "train_years": "2014-2023",
+  "n_train": 130,
+  "note": "prediction = intercept + sum(coef_i * (raw_feature_i - scaler_mean_i) / scaler_scale_i)"
+}

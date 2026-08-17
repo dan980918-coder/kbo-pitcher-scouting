@@ -49,10 +49,28 @@ season-level source files but did not pin every column to one of them):
   scripts/classify_outcome.py) on 선수명.
 """
 import csv
+from datetime import date
 
 ROOT = "/Users/ojaemin/Downloads/kbo-pitcher-scouting"
 RAW = f"{ROOT}/data/raw"
 ROSTERS = f"{ROOT}/data/rosters"
+
+# KBO regular-season start dates, used only to compute age_at_kbo_entry as a
+# fractional age (birth_date to season start), not a coarse year subtraction.
+SEASON_START = {
+    2014: date(2014, 3, 29), 2015: date(2015, 3, 28), 2016: date(2016, 4, 1),
+    2017: date(2017, 3, 31), 2018: date(2018, 3, 24), 2019: date(2019, 3, 23),
+    2020: date(2020, 5, 5), 2021: date(2021, 4, 3), 2022: date(2022, 4, 2),
+    2023: date(2023, 4, 1), 2024: date(2024, 3, 23), 2025: date(2025, 3, 22),
+}
+
+
+def age_at_kbo_entry(birth_date_str, kbo_year):
+    start = SEASON_START.get(kbo_year)
+    if start is None or not birth_date_str:
+        return ""
+    y, m, d = (int(x) for x in birth_date_str.split("-"))
+    return round((start - date(y, m, d)).days / 365.25, 3)
 
 
 def load_fip_constants():
@@ -239,7 +257,18 @@ def main():
         pitch_by_player = {r["선수명"]: r for r in csv.DictReader(f)}
 
     with open(f"{ROSTERS}/kbo_yearly_stats_all.csv", encoding="utf-8") as f:
-        kbo_g_by_player_year = {(r["선수명"], int(r["Year"])): r["G"] for r in csv.DictReader(f)}
+        # A player traded mid-season gets one row per team, with no combined
+        # total row (same structure as davenport_career_stats.csv) -- sum G
+        # across same-player-year rows rather than keying a dict on
+        # (name, year) directly, which would silently keep only the last
+        # team's row. kbo_first_year_GS (built earlier, elsewhere) already
+        # sums correctly across splits; G must match that convention or
+        # GS/G can come out above 1.0 (caught via 3 outliers in EDA-2:
+        # 브록 다익손, 테일러 와이드너, 시라카와 케이쇼 -- all mid-season trades).
+        kbo_g_by_player_year = {}
+        for r in csv.DictReader(f):
+            key = (r["선수명"], int(r["Year"]))
+            kbo_g_by_player_year[key] = kbo_g_by_player_year.get(key, 0) + int(r["G"])
 
     with open(f"{ROSTERS}/outcome_category.csv", encoding="utf-8") as f:
         outcome_by_player = {r["선수명"]: r for r in csv.DictReader(f)}
@@ -253,12 +282,14 @@ def main():
         new_cols.append(f"{level_prefix}_fip_minus_career")
         new_cols.append(f"{level_prefix}_fip_davenport_translated_last")
         new_cols.append(f"{level_prefix}_fip_davenport_translated_3yr")
+    new_cols.append("mlb_ip_share")
     new_cols.append("mlb_career_war")
     new_cols.append("mlb_n_seasons_pre_kbo")
     new_cols.append("statcast_metrics_available")
     new_cols.append("n_pitch_types_recorded")
     new_cols.append("kbo_first_year_G")
     new_cols.extend(["release_date", "outcome_category", "resigned_next_year", "resigned_as_asia_quota"])
+    new_cols.append("age_at_kbo_entry")
 
     out_fieldnames = base_fieldnames + new_cols
 
@@ -278,6 +309,9 @@ def main():
             r[f"{level_prefix}_fip_davenport_translated_last"] = last_davenport_fip(dav)
             r[f"{level_prefix}_fip_davenport_translated_3yr"] = weighted_3yr_davenport_fip(dav)
 
+        mlb_ip, aaa_ip = r["mlb_career_ip"], r["aaa_career_ip"]
+        r["mlb_ip_share"] = round(mlb_ip / (mlb_ip + aaa_ip), 3) if (mlb_ip != "" and aaa_ip != "" and (mlb_ip + aaa_ip) > 0) else ""
+
         war_row = war_by_player.get(name)
         r["mlb_career_war"] = war_row["mlb_war_career_pre_kbo"] if war_row else ""
         r["mlb_n_seasons_pre_kbo"] = war_row["n_mlb_seasons_pre_kbo"] if war_row else ""
@@ -291,6 +325,8 @@ def main():
         outcome_row = outcome_by_player.get(name)
         for col in ("release_date", "outcome_category", "resigned_next_year", "resigned_as_asia_quota"):
             r[col] = outcome_row[col] if outcome_row else ""
+
+        r["age_at_kbo_entry"] = age_at_kbo_entry(r["birth_date"], int(r["연도"]))
 
     with open(f"{ROSTERS}/analysis_dataset_v1.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=out_fieldnames)

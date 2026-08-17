@@ -92,9 +92,15 @@
 4. 결측률과 데이터 커버리지 확인
 5. 결과를 정리해서 보고 — 이후 분석 시작연도, AA 확장 여부, 최종 변수 수, 모델 복잡도를 함께 결정한다
 
+### Phase 2: Baseline 모델링 (완료)
+
+Train(2014-2023)/Validation(2024)/Test(2025, holdout) temporal split. Baseline(단일변수) → Ridge → Random Forest/Gradient Boosting을 비교해 **Ridge(alpha=9.25, 8개 변수)를 최종 채택**했다. 상세 비교 과정, 결측 처리(레벨별 has_record 더미), 다중공선성 처리, 트리 모델이 과적합·CV-Val 불일치로 기각된 근거는 `reports/modeling/model_selection.md` 참고. 모델 아티팩트: `reports/modeling/ridge_final.pkl`(재현 스크립트 `scripts/modeling/06_train_final_ridge.py`).
+
+R²가 0.05~0.07로 낮다는 것 자체가 "해외 기록만으로 KBO 첫 시즌 성과를 설명하는 데 뚜렷한 한계가 있다"는 유의미한 발견이며, §3의 KBO Translation Gap 개념이 필요한 이유를 데이터로 뒷받침한다.
+
 ### 이후 Phase
 
-Phase 1 결과 검토 후 확정한다.
+2025 holdout test 평가, Translation Gap 계산 및 사례분석, 스카우팅 리포트 작성 (다음 세션).
 
 ---
 
