@@ -98,9 +98,11 @@ Train(2014-2023)/Validation(2024)/Test(2025, holdout) temporal split. Baseline(�
 
 R²가 0.05~0.07로 낮다는 것 자체가 "해외 기록만으로 KBO 첫 시즌 성과를 설명하는 데 뚜렷한 한계가 있다"는 유의미한 발견이며, §3의 KBO Translation Gap 개념이 필요한 이유를 데이터로 뒷받침한다.
 
+**2025 holdout test 완료**: Test R²=-0.052(점추정)이지만, 부트스트랩 95% CI가 [-0.822, +0.286]로 사실상 전 구간을 덮어 n=17로는 신뢰할 수 있는 추정이 아님을 확인. 역대급 대박 시즌 3명(코디 폰세·잭 로그·라일리 톰프슨, 167명 전체 중에서도 최상위권)을 제외하면 R²=+0.182로 Val과 비슷하거나 나음 — "평범한 선수를 못 맞힌 게 아니라 이례적 초과 성과를 못 맞혔다"는 뜻이며 이는 Translation Gap 철학과 일관됨. `translation_gap`(실제-예측 WAR) 컬럼을 165명 전원에 대해 계산해 `analysis_dataset_v1.csv`에 추가함. 상세: `reports/modeling/model_selection.md` §7-8.
+
 ### 이후 Phase
 
-2025 holdout test 평가, Translation Gap 계산 및 사례분석, 스카우팅 리포트 작성 (다음 세션).
+Translation Gap 상하위 20명 사례분석, 스카우팅 리포트 작성 (다음 세션).
 
 ---
 
