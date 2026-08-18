@@ -1,0 +1,3 @@
+model,n_train,alpha,cv_R2,Val_R2,Val_MAE,Test_R2,Test_MAE
+기존 8변수(MLB/AAA 분리),130,9.249,0.054,0.068,1.54,-0.052,1.556
+Davenport 통일 8변수,130,36.251,0.017,0.134,1.552,0.078,1.462
