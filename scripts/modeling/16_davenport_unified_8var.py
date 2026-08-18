@@ -80,13 +80,27 @@ def load_davenport_combined():
 
 def unified_features(seasons):
     """seasons: all pre-KBO (MLB+AAA combined) Davenport rows for one player,
-    sorted desc by season. Returns most-recent-league last/3yr features."""
+    sorted desc by season. Returns most-recent-league last/3yr features.
+
+    Primary-level selection is an explicit comparison of each level's max
+    season year (not sort-order-dependent): MLB wins ties (same-year MLB+AAA,
+    e.g. a call-up/option shuttle season), matching the has_mlb_record
+    priority convention used everywhere else in this project's 8-variable
+    model. Previously this relied on stable-sort tie-breaking over the raw
+    CSV row order, which silently favored AAA for the ~92/165 players with
+    a same-year MLB+AAA tie (confirmed empirically, not a deliberate rule).
+    """
     if not seasons:
         return {"fip_dav_last": np.nan, "hr9_dav_last": np.nan, "bb9_dav_3yr": np.nan,
                 "fip_dav_career": np.nan, "primary_level": None, "primary_last_season": np.nan}
 
-    primary_level = seasons[0]["level"]
-    primary_seasons = [s for s in seasons if s["level"] == primary_level]
+    mlb_seasons = [s for s in seasons if s["level"] == "MLB"]
+    aaa_seasons = [s for s in seasons if s["level"] == "AAA"]
+    max_mlb = max((s["season"] for s in mlb_seasons), default=-1)
+    max_aaa = max((s["season"] for s in aaa_seasons), default=-1)
+    primary_level = "MLB" if max_mlb >= max_aaa else "AAA"
+    primary_seasons = sorted([s for s in seasons if s["level"] == primary_level],
+                              key=lambda x: x["season"], reverse=True)
 
     last = primary_seasons[0]
     window3 = primary_seasons[:3]
