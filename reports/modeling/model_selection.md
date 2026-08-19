@@ -312,6 +312,14 @@ Val R²(+0.036)와 Test R²(+0.022) 둘 다 개선을 확인했다 — 그룹별
 
 개선폭은 작지만(Val 사실상 미미, Test는 +0.006로 유의미) 방향이 양쪽 다 일관되게 개선이라 **채택한다** — 순수불펜/스윙맨은 `FIP_shrunk`(IP가중, k=60), 순수선발은 원본 `FIP_in`을 그대로 사용.
 
+**업계 표준 프로젝션 시스템과의 원리적 일치 (사후 검증)**: 오늘 시도한 두 가지(이닝 기반 shrinkage, 30이닝 근방 최소신뢰 경계)가 임의 설계가 아닌지 확인하기 위해, Tom Tango가 만든 Marcel 시스템을 계승한 [Birdland Metrics의 Marcel+Statcast 프로젝션 방법론](https://birdlandmetrics.com/articles/player-projections)과 [안정화·회귀 방법론 문서](https://birdlandmetrics.com/articles/stabilization-regression)를 직접 확인했다(주장을 그대로 인용하지 않고 원문에서 재검증):
+
+- **이닝 기반 가중치**: "Pitcher projections use the same 5/4/3 recency weighting as batters, but instead of plate appearances, each season is weighted by innings pitched" — 최근 시즌에 5/4/3 가중치를 주는 것과 별개로, **이닝 자체를 신뢰도 가중치로 쓴다는 원리**가 우리 `FIP_shrunk = (FIP×IP + 리그평균×k)/(IP+k)`와 동일하다.
+- **최소 표본 기준**: "A season needs at least 20 IP to qualify for inclusion" — 20이닝 미만 시즌은 아예 채택하지 않는다. 우리가 §11.2/추가분석에서 실측한 "30이닝 미만은 FIP-WAR 상관이 사실상 0(r=-0.054, p=0.174)"이라는 경계와 정확히 같은 숫자는 아니지만(20 vs 30), **작은 표본을 배제/축소해야 한다는 원리는 동일**하다.
+- **완전 신뢰 기준**: "most stats requiring 150 IP for full reliability and strikeout/walk rates needing 120 IP"(FanGraphs의 상관계수 0.7 도달 시점 실측 기반) — 우리가 확인한 "100이닝 이상에서 FIP-WAR 상관이 -0.331로, 30~100이닝 구간(-0.190)보다 뚜렷이 강해진다"는 결과와 **방향이 일치**한다(정확한 임계값 자체는 우리 쪽이 더 낮게 잡힌 것으로, 시즌→다음시즌 WAR 예측과 순수 스탯 안정화가 완전히 같은 질문은 아니라는 차이는 있다).
+- **일반 회귀식**: Birdland Metrics 문서가 명시한 공식 "True Estimate = (observed_events + league_avg×stabilization_point) / (sample+stabilization_point)"는 우리가 쓴 shrinkage 공식과 **형태가 동일**하다.
+- **Tom Tango의 Marcel 철학**: Marcel은 "어떤 예측가에게든 기대할 수 있는 최소한의 경쟁력"으로 의도적으로 극도로 단순하게 설계됐고([baseball-reference.com 공식 설명](https://www.baseball-reference.com/about/marcels.shtml)), 정교한 시스템들이 넘어서야 할 기준선 역할을 하며 실제로 그 기준선을 넘기가 생각보다 어렵다는 게 세이버메트릭스 커뮤니티에서 널리 알려진 사실이다. 이는 오늘 우리가 겪은 패턴 — 그리드서치로 정교하게 튜닝한 RF/GB가 오히려 과적합 설정을 고르고 CV/Val 방향이 어긋난 반면, 단순한 Ridge+shrinkage가 안정적으로 이겼던 것 — 과 결이 같다.
+
 ### §11 최종 판단
 
 - **국내 KBO 연속성 모델 자체는 견고하다**: 5개 walk-forward fold 전부 R²=0.35~0.46(우연 아님), 1yr 입력이 3yr보다 실제로 나은 설계. 실측 분포 기반 3분류(§11.4)로 역할별 워크로드 지표를 매칭하면 전체 성능이 한 번 더 개선된다(Val R² 0.358→0.394, Test R² 0.352→0.374) — 순수선발에서 특히 강한 신호(Val R²=0.328), 순수불펜도 지표를 IP→G로 바꾸면 뚜렷이 개선(Val R² 0.036→0.063).
